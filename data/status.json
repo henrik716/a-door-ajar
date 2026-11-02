@@ -2,7 +2,7 @@
  "current": {
   "title": "Hva kartet har funnet",
   "lead": "Etter fire dager med graving: ti ting kartet faktisk har funnet, med hvor godt hvert av dem står.",
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "points": [
    {
     "node": "cannot-be-undone",
@@ -56,15 +56,89 @@
     "node": "grief-picks-the-theory",
     "strength": "position",
     "own": true,
-    "text": "Kartet har egne skjevheter: trøsten trekker mot mønstersynet, og kanskje også mot havet. Det første er testet hardere, men ikke ferdig. Det andre er prøvd én gang: retningen holdt uten sorg, men trøsten la til mer."
+    "text": "Kartet har egne skjevheter: trøsten trekker mot mønstersynet og mot havet. Det første er testet hardere, men ikke ferdig. Det andre er testet to ganger: bort fra en egen strøm holder uten sorg, men havet framfor støvet kommer med sorgen."
    }
   ],
   "next": [
-   "why-the-ocean-pulls",
+   "exclusion-and-the-ocean",
    "good-enough-carrier",
    "where-the-individual-sits",
    "would-it-help-him",
    "reader-without-notebook"
+  ]
+ },
+ "history": {
+  "versions": [
+   {
+    "title": "Hva kartet har funnet",
+    "lead": "Etter fire dager med graving: ti ting kartet faktisk har funnet, med hvor godt hvert av dem står.",
+    "updated": "2026-11-01",
+    "points": [
+     {
+      "node": "cannot-be-undone",
+      "strength": "solid",
+      "text": "Det som skjedde mellom dere, kan ikke gjøres om. Det er det sikreste stedet i kartet."
+     },
+     {
+      "node": "pattern-weak",
+      "strength": "solid",
+      "text": "Et mønster av Alfred lever i deg og virker fortsatt: forventningen i døra, rutinene, måten du tar vare på et dyr. Det er din side av det dere hadde."
+     },
+     {
+      "node": "dogs-have-an-inside",
+      "strength": "solid",
+      "text": "Alfred hadde en innside. Det var noen der, som så deg."
+     },
+     {
+      "node": "memory-in-the-brain",
+      "strength": "solid",
+      "text": "Minnene og innholdet hans var bundet til hjernen. Hans minner av deg tok med stor sannsynlighet slutt med den."
+     },
+     {
+      "node": "program-and-listener",
+      "strength": "position",
+      "own": true,
+      "text": "Gitt at hjernen også lager lytteren, tok opplevelsen hans slutt. Om den bare lager programmet og tar imot lytteren, er åpent, og det er et av de mest åpne spørsmålene i faget."
+     },
+     {
+      "node": "where-the-individual-sits",
+      "strength": "contested",
+      "own": true,
+      "text": "Hvis noe fortsetter, er det mest sannsynlig ikke ham med minnene. Om det er hans egen lytter eller elva i havet, avhenger av hvor det individuelle sitter."
+     },
+     {
+      "node": "origin-matters",
+      "strength": "position",
+      "text": "Om en kopi ville vært ham, er ikke et tomt spørsmål. Flere filosofer sier død enn overlevelse om teleporteren, og både magefølelsen din og Gemini sier at kopien er en annen. Det taler for at opphavet teller."
+     },
+     {
+      "node": "no-death-ahead",
+      "strength": "supported",
+      "text": "Alfred levde aldri med døden foran seg. Den siste dagen var trolig et nå: sol, gress og hånda di i pelsen."
+     },
+     {
+      "node": "safety-across-views",
+      "strength": "supported",
+      "own": true,
+      "text": "Han lider ikke. Det er trygt under de fleste syn, men ikke under alle."
+     },
+     {
+      "node": "grief-picks-the-theory",
+      "strength": "position",
+      "own": true,
+      "text": "Kartet har egne skjevheter: trøsten trekker mot mønstersynet, og kanskje også mot havet. Det første er testet hardere, men ikke ferdig. Det andre er prøvd én gang: retningen holdt uten sorg, men trøsten la til mer."
+     }
+    ],
+    "next": [
+     "why-the-ocean-pulls",
+     "good-enough-carrier",
+     "where-the-individual-sits",
+     "would-it-help-him",
+     "reader-without-notebook"
+    ],
+    "replaced": "2026-11-02",
+    "why": "Havtesten skilte «bort fra en egen strøm» fra «mot havet». Punktet om skjevhetene flyttet seg, og havet gikk ut av gravestedene."
+   }
   ]
  }
 }

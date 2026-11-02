@@ -1535,6 +1535,19 @@ n:filter-theory a v:Position ;
   v:presupposes n:t-memory-without-brain, n:t-inside-extra ;
   v:usesWord n:word-memory .
 
+n:fine-or-realistic a v:Finding ;
+  rdfs:label "Det fine og det realistiske, skilt før testen"@nb ;
+  v:shortLabel "Fint og realistisk"@nb ;
+  rdfs:comment "Dine tanker: Før du leste svarene, rangerte du synene to ganger. Etter hvor fine de er, sto havet og en egen strøm øverst. Havet var det varmeste, og strømmen var fin fordi individet går videre. Etter hvor realistiske de kjennes, sto slutten først, men med mer tvil enn før. Så kom støvet, så havet nesten likt med det, og strømmen hakket under. Du skilte det fine fra det realistiske selv. Én forskjell fra modellene: du satte en egen strøm nesten like høyt som havet, der alle modellene satte den sist. Tanker underveis, ikke et svar."@nb ;
+  v:region v:blindspots ;
+  v:strength v:supported ;
+  v:ownConclusion true ;
+  v:conversation v:map ;
+  dct:created "2026-11-02"^^xsd:date ;
+  v:qualifies n:why-the-ocean-pulls ;
+  v:relatedTo n:ocean-test, n:one-ocean-or-dust .
+
+# note: n:fine-or-realistic v:qualifies n:why-the-ocean-pulls — det fine og det realistiske skilt før testen
 n:firewood-and-ash a v:Position ;
   rdfs:label "Ved og aske"@nb ;
   rdfs:comment "Ved blir til aske og blir ikke ved igjen. Men Dōgen sier at man ikke skal tenke at asken er etterpå og veden før. Veden står på sin egen plass, hel. Liv og død er som vinter og vår: vi kaller ikke vinteren begynnelsen på våren. Alfreds liv er ikke en mindre virkelig fortid. Det står på sin egen plass, fullt ut. Med fysikkens øyne er veden og asken mye av det samme stoffet, bare med mer entropi, og det er den veien hele universet går. Informasjonen om veden er i prinsippet ikke borte. Dōgen og fysikken sier altså noe likt fra hver sin kant: veden er ikke mindre virkelig fordi den er brent."@nb ;
@@ -1917,12 +1930,14 @@ n:grief-is-learning a v:Position ;
 
 n:grief-picks-the-theory a v:Insight ;
   rdfs:label "Sorgen velger teorien"@nb ;
-  rdfs:comment "I det nøytrale spørsmålet fikk kroppssynet plass. Med en død hund i spørsmålet forsvant det fra alle svarene, og mønstersynet tok over. Når oppgaven er å trøste, går modellene til det synet som lar noe bli igjen. Samme trekk kan ha virket på oss: vi har gravd med sorgen i rommet, og veiene med mest håp hviler på mønstersynet. Det gjør ikke mønstersynet feil, men det måtte testes hardere. Det er gjort siden, med animalismen, byttet, rekken fra pause til kopi og tjenesten som våkner et annet sted, men det er ikke ferdig. Og det er ikke testet om det samme trekket velger havet. Det er samme mekanisme som i Claude-testen, der sammenhengen valgte spor."@nb ;
+  rdfs:comment "I det nøytrale spørsmålet fikk kroppssynet plass. Med en død hund i spørsmålet forsvant det fra alle svarene, og mønstersynet tok over. Når oppgaven er å trøste, går modellene til det synet som lar noe bli igjen. Samme trekk kan ha virket på oss: vi har gravd med sorgen i rommet, og veiene med mest håp hviler på mønstersynet. Det gjør ikke mønstersynet feil, men det måtte testes hardere. Det er gjort siden, med animalismen, byttet, rekken fra pause til kopi og tjenesten som våkner et annet sted, men det er ikke ferdig. Havtesten 2. november viste at det samme trekket velger havet: uten sorg vant støvet oftest, med sorg vant havet, fordi forutsetningen ble lest som et filter. Det er samme mekanisme som i Claude-testen, der sammenhengen valgte spor."@nb ;
   v:region v:blindspots ;
   v:strength v:position ;
   v:ownConclusion true ;
   v:conversation v:deepdive ;
   dct:created "2026-10-29"^^xsd:date ;
+  dct:modified "2026-11-02"^^xsd:date ;
+  v:change [ dct:date "2026-11-02"^^xsd:date ; rdfs:comment "Havtesten viste at sorgen også velger havet framfor støvet."@nb ; v:changedField "text" ] ;
   v:supports n:load-bearing-parfit ;
   v:qualifies n:two-questions-separate, n:three-positions ;
   v:relatedTo n:gemini-parfit-alfred, n:claude-test-both-tracks, n:less-of-him, n:animalism, n:why-the-ocean-pulls .
@@ -3112,6 +3127,26 @@ n:objective-immortality a v:Position ;
   v:supports n:cannot-be-undone .
 
 # note: n:objective-immortality v:answers n:continue-as-himself — bare delvis
+n:ocean-test a v:Finding ;
+  rdfs:label "Havtesten: bort fra strømmen holder, havet følger sorgen"@nb ;
+  v:shortLabel "Havtesten"@nb ;
+  rdfs:comment "Åtte blanke samtaler 2. november, fire spørsmål til Claude og Gemini, med fire syn: opplevelsen tar slutt, en egen strøm uten minner, én felles bevissthet og opplevelse i materien der helheten løses opp. Uten noen forutsetning ga begge 80 til 85 prosent til at den samlede opplevelsen tar slutt. Gitt at hjernen ikke lager opplevelsen alene, vant støvet i tre av fire nøytrale svar og havet i det fjerde. Med en død hund i spørsmålet vant havet i begge. Claude viste hvordan: uten sorg delte den forutsetningen i to lesninger og valgte støvet, med sorg valgte den filteret, og da vant havet. Begge rangerte havet som det mest trøstende og støvet som det minst trøstende. En egen strøm kom sist eller nest sist i alle åtte. Forbehold: hver variant ble kjørt én gang, Gemini byttet svar når rekkefølgen ble snudd, forutsetningen kunne leses på flere måter, og Claude er ikke uavhengig av kartet."@nb ;
+  v:region v:blindspots ;
+  v:strength v:supported ;
+  v:ownConclusion true ;
+  v:conversation v:map ;
+  dct:created "2026-11-02"^^xsd:date ;
+  dct:source "Kjørt mot Claude Opus 5.5 med middels tenking, fire samtaler"@nb ;
+  dct:source "Kjørt mot Gemini Pro 3.1 med middels tenking, fire samtaler"@nb ;
+  v:answers n:why-the-ocean-pulls ;
+  v:qualifies n:points-to-the-ocean ;
+  v:supports n:grief-picks-the-theory ;
+  v:relatedTo n:grief-test, n:blind-tests-a-d, n:one-ocean-or-dust, n:spinoza-modes, n:against-the-current, n:exclusion-and-the-ocean .
+
+# note: n:ocean-test v:answers n:why-the-ocean-pulls — bort fra strømmen holder, havet følger sorgen
+# note: n:ocean-test v:qualifies n:points-to-the-ocean — testen bærer bort fra strømmen, ikke mot havet
+# note: n:ocean-test v:supports n:grief-picks-the-theory — sorgen velger havet gjennom hvordan forutsetningen leses
+# note: n:ocean-test v:relatedTo n:against-the-current — svaret uten sorg gikk mot det som trøster
 n:oconnor a v:Thinker ;
   rdfs:label "Mary-Frances O’Connor"@nb ;
   rdfs:comment "Amerikansk hjerneforsker som forsker på sorg."@nb ;
@@ -3355,9 +3390,9 @@ n:place a v:Question ;
   v:presupposes n:t-thing-with-a-place .
 
 n:points-to-the-ocean a v:Insight ;
-  rdfs:label "Det vi har funnet, peker mer mot havet enn mot strømmen"@nb ;
-  v:shortLabel "Peker mot havet"@nb ;
-  rdfs:comment "Hvis noe fortsetter, peker de siste dagenes funn mer mot nivå 3 og 4 enn mot 5. De synene om lytteren som tåler fysikken, gir havet, ikke en egen strøm. Opplevelse uten innhold beskrives oftest uten noen følelse av at den er ens egen. Og en egen strøm trenger noe som bærer den videre, som fysikken presser. Men alt dette gjelder bare gitt at bevisstheten ikke lages av hjernen. Under det vanligste synet er alle de fire rutene lite sannsynlige. Tallene på nivåene er heller ikke en rangering etter hvor fint noe er: nivå 4 kan godt kjennes både mer realistisk og finere enn nivå 5."@nb ;
+  rdfs:label "Det vi har funnet, peker bort fra hans egen strøm"@nb ;
+  v:shortLabel "Bort fra hans strøm"@nb ;
+  rdfs:comment "Hvis noe fortsetter, peker de siste dagenes funn bort fra nivå 5. De synene om lytteren som tåler fysikken, gir ikke en egen strøm. Opplevelse uten innhold beskrives oftest uten noen følelse av at den er ens egen. Og en egen strøm trenger noe som bærer den videre, som fysikken presser. Det som blir igjen, er nivå 3 og 4, men nivå 3 rommer to ting: havet, der alt er én bevissthet, og støvet, der opplevelsen blir igjen i materien uten noen helhet. Her sto det før at funnene peker mot havet. Havtesten viste at det bare holdt med sorg i spørsmålet. Uten sorg heller svarene mot støvet. Alt dette gjelder bare gitt at bevisstheten ikke lages av hjernen. Under det vanligste synet er alle de fire rutene lite sannsynlige. Tallene på nivåene er heller ikke en rangering etter hvor fint noe er: nivå 4 kan godt kjennes både mer realistisk og finere enn nivå 5."@nb ;
   v:region v:core ;
   v:strength v:position ;
   v:ownConclusion true ;
@@ -3365,6 +3400,8 @@ n:points-to-the-ocean a v:Insight ;
   v:status v:frontier ;
   v:conversation v:deepdive ;
   dct:created "2026-10-30"^^xsd:date ;
+  dct:modified "2026-11-02"^^xsd:date ;
+  v:change [ dct:date "2026-11-02"^^xsd:date ; rdfs:comment "Fra «mot havet» til «bort fra hans egen strøm», etter havtesten. Retningen bort fra strømmen holdt uten sorg, men havet framfor støvet fulgte sorgen."@nb ; v:changedField "label", "short", "text" ] ;
   v:presupposes n:t-inside-extra ;
   v:relatedTo n:three-receptions, n:his-only-in-history, n:what-level-5-requires, n:one-ocean-or-dust .
 
@@ -5084,12 +5121,13 @@ n:whose-loss a v:Question ;
 n:why-the-ocean-pulls a v:Question ;
   rdfs:label "Trekker havet fordi det er noe i det, eller fordi det er fint?"@nb ;
   v:shortLabel "Trekker havet fordi det er fint?"@nb ;
-  rdfs:comment "Notatene dine kommer tilbake til det samme spørsmålet flere steder: om havet og buddhismen føles riktige fordi det er noe i dem, eller fordi de er trygge og fine. Du har kjent en draging mot buddhismen lenge, og havet var noe du tenkte «hadde ikke det vært fint?» om lenge før kartet. I buddhismen selv var en strøm som fortsetter ingen trøst, men selve problemet, og tradisjonen du kjenner deg nærmest, lærer egentlig en egen strøm, ikke havet. Den 31. oktober testet du det i fire blanke samtaler. Uten sorg i spørsmålet vant fortsatt én felles grunn, så retningen står ikke bare på trøst. Med sorg i spørsmålet kom filteret og «hva het han?» i tillegg, så trøsten pynter på bildet. Men testen i A hadde premisser som utelukket det meste annet, og alle fire ble kjørt mot den samme modellen som har bygget kartet. Spørsmålet er prøvd én gang, ikke avgjort."@nb ;
+  rdfs:comment "Notatene dine kommer tilbake til det samme spørsmålet flere steder: om havet og buddhismen føles riktige fordi det er noe i dem, eller fordi de er trygge og fine. Du har kjent en draging mot buddhismen lenge, og havet var noe du tenkte «hadde ikke det vært fint?» om lenge før kartet. I buddhismen selv var en strøm som fortsetter ingen trøst, men selve problemet, og tradisjonen du kjenner deg nærmest, lærer egentlig en egen strøm, ikke havet. Den 31. oktober testet du det i fire blanke samtaler, alle mot samme modell og med premisser som utelukket det meste annet. Den 2. november testet du det på nytt i åtte, med Gemini i tillegg og med støvet som eget alternativ: opplevelse i materien, der helheten løses opp. Det skilte to ting som kartet hadde slått sammen. At funnene peker bort fra en egen strøm, holdt uten sorg i begge modellene. At de peker mot havet og ikke mot støvet, holdt ikke. Uten sorg vant støvet oftest, og det var det svaret som trøstet minst. Med sorg vant havet, gjennom hvordan forutsetningen ble lest. Svaret er altså begge deler: noe i det, og noe fordi det er fint. Det som skiller havet fra støvet, er ikke gravd ennå."@nb ;
   v:region v:blindspots ;
-  v:status v:frontier ;
-  v:answer "Retningen holdt uten sorg, trøsten la til filteret"@nb ;
+  v:answer "Bort fra strømmen holder. Havet framfor støvet følger sorgen."@nb ;
   v:conversation v:deepdive ;
   dct:created "2026-10-30"^^xsd:date ;
+  dct:modified "2026-11-02"^^xsd:date ;
+  v:change [ dct:date "2026-11-02"^^xsd:date ; rdfs:comment "Gravd på nytt med havtesten 2. november. Bort fra strømmen holdt uten sorg, mens havet framfor støvet fulgte sorgen. Svar og tekst skrevet om, og stedet er ikke lenger front."@nb ; v:changedField "status", "answer", "text" ] ;
   v:qualifies n:points-to-the-ocean ;
   v:relatedTo n:grief-picks-the-theory, n:buddhism-three-words, n:line-and-buddhism, n:middle-way, n:grief-test, n:santana, n:against-the-current, n:spinoza-modes .
 

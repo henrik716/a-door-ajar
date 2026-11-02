@@ -2,7 +2,7 @@
  {
   "id": "main",
   "title": "Gjennom kartet",
-  "updated": "2026-11-01",
+  "updated": "2026-11-02",
   "draft": true,
   "intro": [
    "Alfred var en finsk lapphund. Jeg kjente ham i tretten av hans nesten fjorten år. Han døde hjemme 26. oktober 2026, etter en lang dag ute i sola, med oss rundt seg.",
@@ -103,7 +103,7 @@
        "entropy-objection",
        "spinoza-modes"
       ],
-      "text": "En virvel i elva løses opp når ingenting holder den oppe. Det trekker bort fra en egen strøm som fortsetter av seg selv. Funnene peker derfor mer mot havet enn mot hans egen strøm, men bare gitt at hjernen ikke lager hele opplevelsen."
+      "text": "En virvel i elva løses opp når ingenting holder den oppe. Det trekker bort fra en egen strøm som fortsetter av seg selv. Funnene peker derfor bort fra hans egen strøm, men bare gitt at hjernen ikke lager hele opplevelsen. Om det som blir igjen, er havet eller støvet, avgjør de ikke."
      }
     ]
    },
@@ -113,14 +113,18 @@
      {
       "node": "grief-picks-the-theory",
       "also": [
-       "blind-tests-a-d",
-       "track-trap"
+       "ocean-test",
+       "why-the-ocean-pulls",
+       "blind-tests-a-d"
       ],
-      "text": "Kartet tester seg selv. Når oppgaven er å trøste, går både modellene og vi mot synene som lar noe bli igjen. I blindtestene 31. oktober holdt retningen mot havet uten sorg, men trøsten la til mer. Testene er blanke, men ikke uavhengige."
+      "text": "Kartet tester seg selv. Når oppgaven er å trøste, går både modellene og vi mot synene som lar noe bli igjen. I havtesten 2. november holdt retningen bort fra en egen strøm uten sorg. Men havet framfor støvet kom først når sorgen var med. Testene er blanke, men ikke uavhengige."
      },
      {
-      "node": "why-the-ocean-pulls",
-      "text": "Her graver kartet nå. Trekker havet fordi det er noe i det, eller fordi det er fint? Det er prøvd én gang, og spørsmålet står åpent."
+      "node": "exclusion-and-the-ocean",
+      "also": [
+       "one-ocean-or-dust"
+      ],
+      "text": "Her graver kartet nå. Kan Alfred ha vært et eget sinn og samtidig del av havet? Integrert informasjon sier nei. Det er her havet og støvet kan skilles, og det er ikke gravd ennå."
      },
      {
       "node": "alfred-at-the-door",
