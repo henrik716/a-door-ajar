@@ -97,7 +97,7 @@ function addEdgeHTML(id) {
 function aboutHTML() {
   return `<details class="about"${S.aboutOpen ? ' open' : ''}><summary>Om kartet</summary>
     <div class="about-body">
-      <p>Alfred var en finsk lapphund. Jeg hadde ham i tretten av hans nesten fjorten år. Han døde hjemme 26. oktober 2026, etter en lang dag ute i sola, med oss rundt seg.</p>
+      <p>Alfred var en finsk lapphund. Jeg kjente ham i tretten av hans nesten fjorten år. Han døde hjemme 26. oktober 2026, etter en lang dag ute i sola, med oss rundt seg.</p>
       <p>Dagene etter satt jeg igjen med ett spørsmål: Hvor er Alfred nå? Dette kartet er et forsøk på å se ordentlig på det spørsmålet, med fysikk, filosofi, religion, hjerneforskning og sorg side om side.</p>
       <p>Navnet kommer fra ham. I tretten år gikk jeg ut døra uten at han visste hvor jeg ble av, men han visste at jeg fantes, og han ventet. Og han trengte aldri en åpen dør. En glipe var alltid nok.</p>
       <p>Ingen vet hva som er på den andre siden. Kartet gir ikke et svar. Det viser hva vi vet, hva vi ikke vet, og hvor døra står.</p>
