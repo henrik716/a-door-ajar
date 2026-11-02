@@ -1,44 +1,29 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <!-- a round door ajar in a hill under the night sky, a nebula of coral and violet in the gap -->
+  <!-- a round door ajar in a hill under the night sky; the coral light in the gap is the brightest thing in it -->
   <defs>
-    <radialGradient id="sky" cx=".45" cy=".2" r=".9">
+    <radialGradient id="sky" cx=".45" cy=".15" r=".9">
       <stop offset="0" stop-color="#2A2150"/>
       <stop offset="1" stop-color="#0B0914"/>
     </radialGradient>
-    <radialGradient id="nebula" cx=".82" cy=".45" r=".6">
-      <stop offset="0" stop-color="#FFD9C2"/>
-      <stop offset=".3" stop-color="#F08467"/>
-      <stop offset=".65" stop-color="#B0459A"/>
-      <stop offset="1" stop-color="#3A2E70"/>
+    <radialGradient id="nebula" cx=".86" cy=".45" r=".5">
+      <stop offset="0" stop-color="#FFE6D6"/>
+      <stop offset=".35" stop-color="#FFA27F"/>
+      <stop offset=".75" stop-color="#F08467"/>
+      <stop offset="1" stop-color="#B0459A"/>
     </radialGradient>
-    <linearGradient id="spill" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#F08467" stop-opacity=".5"/>
-      <stop offset="1" stop-color="#F08467" stop-opacity="0"/>
-    </linearGradient>
     <clipPath id="tile"><rect width="32" height="32" rx="7"/></clipPath>
-    <clipPath id="round"><circle cx="16" cy="19.5" r="7.8"/></clipPath>
+    <clipPath id="round"><circle cx="16" cy="18" r="10"/></clipPath>
   </defs>
   <g clip-path="url(#tile)">
     <rect width="32" height="32" fill="url(#sky)"/>
-    <g fill="#ECE8F7">
-      <circle cx="4.5" cy="5" r=".5" opacity=".7"/>
-      <circle cx="27" cy="3" r=".6" opacity=".8"/>
-      <circle cx="10" cy="2.4" r=".35" opacity=".5"/>
-    </g>
-    <path d="M-1 32V13C4 3 28 3 33 13V32Z" fill="#1A1430"/>
-    <path d="M-1 13C4 3 28 3 33 13" fill="none" stroke="#6B3FB8" stroke-width=".8" opacity=".45"/>
-    <polygon points="18,29.6 22.5,29.6 27,33 19,33" fill="url(#spill)"/>
+    <circle cx="4.5" cy="4.5" r=".7" fill="#ECE8F7" opacity=".8"/>
+    <circle cx="27.5" cy="3.5" r=".8" fill="#ECE8F7" opacity=".9"/>
+    <path d="M-1 32V17C4 8 28 8 33 17V32Z" fill="#17122B"/>
   </g>
   <g clip-path="url(#round)">
-    <rect x="8" y="11" width="16" height="17" fill="url(#nebula)"/>
-    <circle cx="22" cy="16.5" r=".5" fill="#fff"/>
-    <ellipse cx="14.7" cy="19.5" rx="6.5" ry="7.8" fill="#18122E"/>
-    <g stroke="#6B3FB8" stroke-width=".6" opacity=".55">
-      <path d="M11.6 11V28M14.7 11V28M17.8 11V28"/>
-    </g>
-    <ellipse cx="14.7" cy="19.5" rx="6.5" ry="7.8" fill="none" stroke="#6B3FB8" stroke-width=".8" opacity=".8"/>
+    <rect x="6" y="8" width="20" height="20" fill="url(#nebula)"/>
+    <ellipse cx="13.6" cy="18" rx="7.6" ry="10" fill="#1A1430"/>
   </g>
-  <circle cx="14.7" cy="19.5" r="1" fill="#E4D0B4"/>
-  <circle cx="16" cy="19.5" r="8.5" fill="none" stroke="#B497F3" stroke-width="1.3" opacity=".9"/>
-  <rect x="9.5" y="28.3" width="13" height="1.3" rx=".65" fill="#8A6CC9"/>
+  <circle cx="13.6" cy="18" r="1.4" fill="#E4D0B4"/>
+  <circle cx="16" cy="18" r="10.6" fill="none" stroke="#B497F3" stroke-width="2"/>
 </svg>
