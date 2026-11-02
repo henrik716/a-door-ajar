@@ -284,7 +284,16 @@ button { cursor: pointer; }
   padding-left: var(--gut-l); padding-right: var(--gut-r);
   overscroll-behavior: contain;
 }
-.grab { width: 38px; height: 4px; border-radius: 2px; background: var(--line); margin: 2px auto 10px; }
+.grab { display: block; width: 100%; border: 0; background: none; padding: 4px 0 12px; margin: -4px 0 0; cursor: grab; touch-action: none; }
+.grab::before { content: ''; display: block; width: 38px; height: 4px; border-radius: 2px; background: var(--line); margin: 0 auto; }
+@media (max-width: 959.98px) {
+  .panel { box-sizing: border-box; transition: max-height .28s ease; }
+  .panel.dragging { transition: none; }
+  .panel .phead { touch-action: none; }
+  /* low: just the name and tags, so the lines in the map can be seen above it */
+  .panel.low { max-height: var(--sheet-low, 220px); overflow: hidden; touch-action: none; cursor: pointer; }
+  .panel.low::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 64px; background: linear-gradient(to bottom, transparent, var(--paper-2) 80%); pointer-events: none; }
+}
 @media (min-width: 960px) {
   .body { grid-template-columns: minmax(0, 1fr) 390px; }
   .panel {

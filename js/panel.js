@@ -107,8 +107,7 @@ function aboutHTML() {
       <p>Ingen vet hva som er på den andre siden. Kartet gir ikke et svar. Det viser hva vi vet, hva vi ikke vet, og hvor døra står.</p>
     </div></details>`;
 }
-// The map's own words. Draft: the texts are Henrik's to write or approve.
-const GLOSSARY_DRAFT = true;
+// The map's own words. The texts are Henrik's to write or approve.
 const GLOSSARY = [
   { w: 'Elva og virvlene', go: ['river-eddies', 'entropy-objection'],
     t: 'Du og Alfred som to virvler i samme vann. Når en virvel legger seg, går den tilbake til vannet. Bildet er mer håp enn argument, men mye av språket i kartet kommer fra det.' },
@@ -138,7 +137,7 @@ function glossaryHTML() {
   }).join('');
   return `<details class="about gloss"${S.glossOpen ? ' open' : ''}><summary>Ordene kartet bruker</summary>
     <div class="about-body">
-      <p class="glead">Ord kartet har laget for å tenke med. Der et ord har flyttet seg underveis, står det når. Ord som kanskje stiller spørsmålet feil, er noe annet og står under linsen Feil ord. Håpsnivåene er forklart under linsen Håp.${GLOSSARY_DRAFT ? ' <i>Utkast.</i>' : ''}</p>
+      <p class="glead">Ord kartet har laget for å tenke med. Der et ord har flyttet seg underveis, står det når. Ord som kanskje stiller spørsmålet feil, er noe annet og står under linsen Feil ord. Håpsnivåene er forklart under linsen Håp.</p>
       <dl>${items}</dl>
     </div></details>`;
 }
@@ -168,16 +167,17 @@ function statusHTML() {
 }
 function renderPanel() {
   const P = $('#panel');
+  applySheet();
   if (!S.sel && S.step === -1 && hasIntro()) {
     P.hidden = false;
-    P.innerHTML = `${isDesk() ? '' : '<div class="grab" aria-hidden="true"></div>'}${tourIntroHTML()}`;
+    P.innerHTML = `${isDesk() ? '' : '<button type="button" class="grab" aria-label="Vis mer eller mindre"></button>'}${tourIntroHTML()}`;
     return;
   }
   if (!S.sel) {
     const show = isDesk() || S.intro;
     P.hidden = !show;
     if (!show) { P.innerHTML = ''; return; }
-    P.innerHTML = `${isDesk() ? '' : '<div class="grab" aria-hidden="true"></div><div class="phead"><div class="eyebrow">Dør på gløtt</div><button type="button" class="xbtn" data-close aria-label="Lukk">✕</button></div>'}${aboutHTML()}${glossaryHTML()}${loaded() ? tourStartHTML() : ''}${statusHTML()}<div class="intro">
+    P.innerHTML = `${isDesk() ? '' : '<button type="button" class="grab" aria-label="Vis mer eller mindre"></button><div class="phead"><div class="eyebrow">Dør på gløtt</div><button type="button" class="xbtn" data-close aria-label="Lukk">✕</button></div>'}${aboutHTML()}${glossaryHTML()}${loaded() ? tourStartHTML() : ''}${statusHTML()}<div class="intro">
       <div class="eyebrow">Slik leser du kartet</div>
       <h2>Hvor er Alfred nå?</h2>
       <p>Spørsmålet står i midten, delt i de fire delene vi fant. Rundt dem ligger våre egne slutninger, og ytterst områdene vi har gravd i.</p>
@@ -192,7 +192,7 @@ function renderPanel() {
   if (!n) { S.sel = null; renderPanel(); return; }
   P.hidden = false;
   const sources = n.sources.filter(x => x && x.title).map(x => `<li>${x.url ? `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(tx(x.title))}</a>` : esc(tx(x.title))}</li>`).join('');
-  P.innerHTML = `<div class="grab" aria-hidden="true"></div>${tourBoxHTML()}
+  P.innerHTML = `<button type="button" class="grab" aria-label="Vis mer eller mindre"></button>${tourBoxHTML()}
     <div class="phead"><div class="eyebrow">${esc(TYPE[n.type])} · ${esc(REGION[n.region].label)}</div>
     <button type="button" class="xbtn" data-close aria-label="Lukk">✕</button></div>
     <h2>${miniSym(n).replace('class="mini"', 'class="mini sym-inline"')}${esc(n.label)}</h2>
@@ -210,6 +210,64 @@ function renderPanel() {
     <datalist id="nodenames">${[...S.nodes.values()].map(x => `<option value="${esc(x.label)}"></option>`).join('')}</datalist>`;
 }
 const loaded = () => S.loaded && S.nodes.size > 0;
+
+/* The sheet on mobile. A place picked in the map opens it low, with just the name and tags, so the lines in the map can be seen.
+   Drag it up, or tap it, to read; drag it down, or tap the handle, to make it low again; drag the low sheet down to close it. */
+const sheetLowPx = () => Math.round(Math.max(190, Math.min(250, innerHeight * .32)));
+function applySheet() {
+  const P = $('#panel');
+  const low = !isDesk() && !!S.sel && S.sheet === 'low';
+  P.classList.toggle('low', low);
+  P.style.setProperty('--sheet-low', sheetLowPx() + 'px');
+}
+function setSheet(state) {
+  S.sheet = state;
+  const P = $('#panel'); P.scrollTop = 0;
+  applySheet();
+  if (state === 'low' && S.sel) frameNeighbourhood(S.sel);
+}
+{
+  const P = $('#panel');
+  const control = 'a, input, textarea, select, summary, label, button';
+  let drag = null, dragEnd = 0;
+  P.addEventListener('pointerdown', ev => {
+    if (isDesk() || !S.sel || ev.button > 0) return;
+    const low = P.classList.contains('low');
+    if (ev.target.closest(control) && !ev.target.closest('.grab')) return;
+    if (!low && !ev.target.closest('.grab, .phead')) return;
+    drag = { id: ev.pointerId, y0: ev.clientY, h0: P.getBoundingClientRect().height, low, moved: false };
+  });
+  // follow the pointer on the whole window: a drag upwards leaves the low sheet at once
+  addEventListener('pointermove', ev => {
+    if (!drag || ev.pointerId !== drag.id) return;
+    const dy = ev.clientY - drag.y0;
+    if (!drag.moved) {
+      if (Math.abs(dy) < 6) return;
+      drag.moved = true; P.classList.add('dragging');
+    }
+    P.style.maxHeight = Math.max(60, Math.min(innerHeight * .88, drag.h0 - dy)) + 'px';
+  });
+  const end = ev => {
+    if (!drag || ev.pointerId !== drag.id) return;
+    const d = drag; drag = null;
+    if (!d.moved) return;
+    dragEnd = Date.now();
+    P.classList.remove('dragging'); P.style.maxHeight = '';
+    const dy = ev.clientY - d.y0;
+    if (d.low && dy > 70) { clearSel(); return; }
+    setSheet(dy < 0 ? 'high' : 'low');
+  };
+  addEventListener('pointerup', end);
+  addEventListener('pointercancel', end);
+  // A drag ends in a click; ignore it. A tap on the handle toggles, and a tap anywhere else on the low sheet opens it.
+  P.addEventListener('click', ev => {
+    if (Date.now() - dragEnd < 400) { ev.stopImmediatePropagation(); return; }
+    if (isDesk() || !S.sel) return;
+    const low = P.classList.contains('low');
+    if (ev.target.closest('.grab')) { ev.stopImmediatePropagation(); setSheet(low ? 'high' : 'low'); return; }
+    if (low && !ev.target.closest(control)) { ev.stopImmediatePropagation(); setSheet('high'); }
+  }, true);
+}
 
 $('#panel').addEventListener('click', ev => {
   const go = ev.target.closest('[data-go]'); if (go) { select(go.dataset.go, { pan: true }); return; }

@@ -6,7 +6,7 @@ const S = {
   pos: new Map(), sel: null, view: 'map', lens: 'type', hope: 0,
   showDerived: false, showThinkers: false,
   db: null, writer: null, loaded: false, t: d3.zoomIdentity, firstFit: false, status: null, statusHistory: [], intro: false,
-  tour: null, step: null,
+  tour: null, step: null, sheet: 'high',
 };
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));

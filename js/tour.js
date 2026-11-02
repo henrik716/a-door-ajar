@@ -26,8 +26,9 @@ function goStep(i, { fromHash = false } = {}) {
   if (S.view !== 'map') setView('map', { fromHash: true });
   if (i === -1) { // the introduction: no place selected, the whole map in view
     S.sel = null; S.intro = false;
-    if (S.autoDock) { S.autoDock = false; setDock(false); }
-    renderDerivedEdges(); applyFocus(); renderPanel(); fit(true);
+    showPanel();
+    renderDerivedEdges(); applyFocus(); renderPanel();
+    requestAnimationFrame(() => fit(true)); // after the panel has taken its width
   } else select(steps[i].node, { pan: true, fromHash: true });
   const h = 'tour/' + (i + 1);
   if (!fromHash && decodeURIComponent(location.hash.slice(1)) !== h) location.hash = h;
@@ -109,7 +110,7 @@ $('#panel').addEventListener('click', ev => {
   else if (a === 'next') goStep(S.step + 1);
   else if (a === 'prev') goStep(S.step - 1);
   else if (a === 'back') goStep(S.step);
-  else if (a === 'end' || a === 'explore') { endTour(); if (S.sel) clearSel(); else renderPanel(); }
+  else if (a === 'end' || a === 'explore') { endTour(); if (S.sel) clearSel(); else { hideAutoPanel(); renderPanel(); } }
 }, true);
 $('#tourbtn').onclick = () => goStep(S.step == null ? firstStep() : S.step);
 document.addEventListener('keydown', ev => {

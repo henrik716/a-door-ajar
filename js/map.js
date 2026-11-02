@@ -121,8 +121,11 @@ function renderGraph() {
   S.sf = null;
   nodeSel.on('click', (ev, d) => {
     ev.stopPropagation();
-    const covered = !isDesk() && S.t.applyY(d.y) > stageSize().h * 0.36;
-    select(d.id, { pan: covered, minK: 0.9 });
+    if (isDesk()) { select(d.id); return; }
+    // on mobile the sheet comes up low, and the map shows the place with all its neighbours above it
+    S.sheet = 'low';
+    select(d.id);
+    frameNeighbourhood(d.id);
   })
     .on('keydown', (ev, d) => { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); select(d.id, { pan: true }); } });
 

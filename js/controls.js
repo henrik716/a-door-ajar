@@ -72,7 +72,7 @@ $('#themebtn').onclick = () => {
 if (darkMq.addEventListener) darkMq.addEventListener('change', paintThemeBtn);
 paintThemeBtn();
 $('#panel').addEventListener('toggle', ev => { const c = ev.target.classList; if (!c) return; if (c.contains('gloss')) S.glossOpen = ev.target.open; else if (c.contains('about')) S.aboutOpen = ev.target.open; }, true);
-$('#statusbtn').onclick =() => { S.intro = true; if (S.sel) { S.sel = null; renderDerivedEdges(); applyFocus(); } renderPanel(); $('#panel').scrollTop = 0; };
+$('#statusbtn').onclick = () => { S.intro = true; showPanel(); if (S.sel) { S.sel = null; renderDerivedEdges(); applyFocus(); } renderPanel(); $('#panel').scrollTop = 0; };
 
 /* ───────── Lens controls ───────── */
 $('#lensrow').addEventListener('click', ev => {
