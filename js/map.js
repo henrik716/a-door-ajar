@@ -8,7 +8,7 @@ let regionInfo = [];
 
 const zoom = d3.zoom().scaleExtent([0.2, 4.5])
   // When the zoom level changes, new labels appear; sort them out in the same frame so they do not flash on top of each other.
-  .on('zoom', ev => { S.t = ev.transform; updateScreen(); if (setZoomClass()) { clearTimeout(declTimer); runDeclutter(); } })
+  .on('zoom', ev => { S.t = ev.transform; svg.classed('placed', true); updateScreen(); if (setZoomClass()) { clearTimeout(declTimer); runDeclutter(); } })
   .on('end', () => declutter());
 svg.call(zoom).on('dblclick.zoom', null);
 svg.on('click', ev => { if (S.step != null) return; if (ev.target === svg.node() || ev.target.closest('.terrain')) clearSel(); });
