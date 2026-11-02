@@ -18,8 +18,8 @@ function renderLegend() {
   L.innerHTML = `${lens}
     <h3>Hva et punkt er</h3><div class="lg">${TYPE_ORDER.map(t => `${lgSym(t, t === 'question' ? null : 'solid')}<span>${TYPE[t]}</span>`).join('')}</div>
     <h3>Hvor godt det står</h3><div class="lg">${Object.keys(STRENGTH).map(s => `${lgSym('position', s, 'var(--ink-2)')}<span>${STRENGTH[s]}</span>`).join('')}
-      <svg viewBox="-11 -8 22 16" aria-hidden="true"><circle r="6.5" fill="none" stroke="var(--ctr)" stroke-dasharray="2 2"/></svg><span>Front, åpent å grave</span>
-      <svg viewBox="-11 -8 22 16" aria-hidden="true"><circle r="6.5" fill="none" stroke="var(--ink-3)" stroke-dasharray="1 2"/></svg><span>Neste gravested</span>
+      <svg viewBox="-11 -8 22 16" aria-hidden="true"><circle r="6.5" fill="none" stroke="var(--ctr)" stroke-dasharray="2 2"/></svg><span>Fronten: gravd i, fortsatt åpent</span>
+      <svg viewBox="-11 -8 22 16" aria-hidden="true"><circle r="6.5" fill="none" stroke="var(--ink-3)" stroke-dasharray="1 2"/></svg><span>Ikke gravd ennå</span>
       <svg viewBox="-11 -8 22 16" aria-hidden="true"><circle r="4" fill="var(--e-own)" stroke="var(--paper)" stroke-width="1.2"/></svg><span>Egen slutning eller eget forsøk</span></div>
     <h3>Koblinger</h3><div class="lg">
       ${lgLine('e p-supports')}<span>Støtter, henger sammen</span>
@@ -71,7 +71,7 @@ $('#themebtn').onclick = () => {
 };
 if (darkMq.addEventListener) darkMq.addEventListener('change', paintThemeBtn);
 paintThemeBtn();
-$('#panel').addEventListener('toggle', ev => { if (ev.target.classList && ev.target.classList.contains('about')) S.aboutOpen = ev.target.open; }, true);
+$('#panel').addEventListener('toggle', ev => { const c = ev.target.classList; if (!c) return; if (c.contains('gloss')) S.glossOpen = ev.target.open; else if (c.contains('about')) S.aboutOpen = ev.target.open; }, true);
 $('#statusbtn').onclick =() => { S.intro = true; if (S.sel) { S.sel = null; renderDerivedEdges(); applyFocus(); } renderPanel(); $('#panel').scrollTop = 0; };
 
 /* ───────── Lens controls ───────── */

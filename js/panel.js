@@ -41,8 +41,8 @@ function tagsHTML(n) {
   if (n.own) t.push(`<span class="tag own"><span class="dot"></span>${n.type === 'finding' ? 'Eget forsøk' : 'Egen slutning'}</span>`);
   if (n.strength) t.push(`<span class="tag" style="--sw: var(--e-${n.strength})"><span class="dot"></span>${n.own && n.type !== 'finding' ? BASIS[n.strength] : STRENGTH[n.strength]}</span>`);
   for (const h of n.hope) t.push(`<span class="tag" style="--sw: var(--h${h})"><span class="dot"></span>Håp ${h}: ${HOPE[h].k}</span>`);
-  if (n.status === 'frontier') t.push(`<span class="tag frontier">Front, åpent å grave</span>`);
-  if (n.status === 'planned') t.push(`<span class="tag plan">Neste gravested</span>`);
+  if (n.status === 'frontier') t.push(`<span class="tag frontier">Fronten: gravd i, fortsatt åpent</span>`);
+  if (n.status === 'planned') t.push(`<span class="tag plan">Ikke gravd ennå</span>`);
   if (n.conversation === 'alfred') t.push(`<span class="tag plan">Fra «Min kjære Alfred»</span>`);
   if (n.conversation === 'map') t.push(`<span class="tag plan">Lagt til i kartet</span>`);
   return t.length ? `<div class="tags">${t.join('')}</div>` : '';
@@ -70,7 +70,7 @@ function fieldValue(k, v) {
   if (k === 'strength') return (STRENGTH[v] || v).toLowerCase();
   if (k === 'type') return (TYPE[v] || v).toLowerCase();
   if (k === 'region') return REGION[v] ? REGION[v].label : v;
-  if (k === 'status') return v === 'frontier' ? 'front' : v === 'planned' ? 'neste gravested' : v;
+  if (k === 'status') return v === 'frontier' ? 'front' : v === 'planned' ? 'ikke gravd ennå' : v;
   if (k === 'own') return v ? 'egen slutning' : 'ikke egen';
   if (k === 'hope') return Array.isArray(v) ? v.join(', ') : String(v);
   return String(v);
@@ -105,6 +105,41 @@ function aboutHTML() {
       <p>Dagene etter satt jeg igjen med ett spørsmål: Hvor er Alfred nå? Dette kartet er et forsøk på å se ordentlig på det spørsmålet, med fysikk, filosofi, religion, hjerneforskning og sorg side om side.</p>
       <p>Navnet kommer fra ham. I tretten år gikk jeg ut døra uten at han visste hvor jeg ble av, men han visste at jeg fantes, og han ventet. Og han trengte aldri en åpen dør. En glipe var alltid nok.</p>
       <p>Ingen vet hva som er på den andre siden. Kartet gir ikke et svar. Det viser hva vi vet, hva vi ikke vet, og hvor døra står.</p>
+    </div></details>`;
+}
+// The map's own words. Draft: the texts are Henrik's to write or approve.
+const GLOSSARY_DRAFT = true;
+const GLOSSARY = [
+  { w: 'Elva og virvlene', go: ['river-eddies', 'entropy-objection'],
+    t: 'Du og Alfred som to virvler i samme vann. Når en virvel legger seg, går den tilbake til vannet. Bildet er mer håp enn argument, men mye av språket i kartet kommer fra det.' },
+  { w: 'Havet', go: ['one-ocean-or-dust', 'is-there-a-whole', 'cosmopsychism', 'exclusion-and-the-ocean'],
+    t: 'Én bevissthet som alt er en del av, slik elva renner ut i havet. Vannet er ikke borte, men det kan ikke lenger skilles fra resten. Kastrups idealisme, Advaita og kosmopsykismen har et hav i denne forstand.',
+    moved: 'Fram til 2. november brukte kartet havet om hele nivå 3. Etter havtesten betyr det bare dette, og støvet er den andre halvdelen av nivå 3.' },
+  { w: 'Støvet', go: ['one-ocean-or-dust', 'is-there-a-whole', 'combination-problem', 'iit-points-to-dust'],
+    t: 'Opplevelse som blir igjen i materien, uten noen helhet å møtes i. I den vanlige panpsykismen har de minste delene av materien en bitte liten innside. Hvis det stemmer, fortsetter opplevelse etter døden bare som støv av opplevelse i atomene.',
+    moved: 'Fikk eget navn i havtesten 2. november. Før det lå det skjult inne i havet.' },
+  { w: 'En egen strøm', go: ['points-to-the-ocean', 'listener-without-archive'],
+    t: 'Nivå 5: en opplevelse som fortsetter fra ham, med hans perspektiv, men uten minnene. Virvelen som holder seg samlet etter at elva er borte. Den trenger noe som holder den oppe, og det er der fysikken presser hardest.' },
+  { w: 'Programmet og lytteren', go: ['program-and-listener', 'his-own-listener'],
+    t: 'Programmet er innholdet hjernen lager: det han så, husket, kjente og ventet på. Lytteren er at det i det hele tatt er noen der, at det kjennes som noe. At hjernen lager programmet, er godt vist. Om den også lager lytteren, er et av de mest åpne spørsmålene i faget.' },
+  { w: 'Bæreren og innholdet', go: ['carrier-not-content', 'carrier-view', 'good-enough-carrier'],
+    t: 'Innholdet er minnene, vanene, lukten av deg, alt han bar på. Bæreren er det som bærer det, for eksempel hjernen. Tanken er at en person er bæreren og ikke innholdet, slik en med demens fortsatt er seg selv.' },
+  { w: 'Opphav', go: ['lit-by-him', 'measured-by-content'],
+    t: 'At noe kommer fra ham selv, tent av ham, og ikke er laget etter en beskrivelse av ham. Hjernen hans i en ny kropp har opphav i ham. En kopi med alle minnene har det ikke. Opphavet er den andre målestokken ved siden av innholdet.' },
+  { w: 'Notatboka og leseren', go: ['extended-mind', 'reader-without-notebook', 'word-reader'],
+    t: 'Fra Ottos notatbok: minner og spor kan ligge utenfor hjernen, i en bok, i videoer, i det du tok vare på. Men notatboka husker ingenting selv. Den trenger en leser. Leser er også et mulig feil ord, for kanskje er leseren bare lesingen.' }
+];
+function glossaryHTML() {
+  const refs = ids => ids.filter(id => S.nodes.has(id))
+    .map(id => `<button type="button" class="glink" data-go="${esc(id)}">${esc(S.nodes.get(id).label)}</button>`).join('');
+  const items = GLOSSARY.map(g => {
+    const r = loaded() ? refs(g.go) : '';
+    return `<dt>${esc(g.w)}</dt><dd><p>${esc(g.t)}</p>${g.moved ? `<p class="gmoved">${esc(g.moved)}</p>` : ''}${r ? `<div class="glinks">${r}</div>` : ''}</dd>`;
+  }).join('');
+  return `<details class="about gloss"${S.glossOpen ? ' open' : ''}><summary>Ordene kartet bruker</summary>
+    <div class="about-body">
+      <p class="glead">Ord kartet har laget for å tenke med. Der et ord har flyttet seg underveis, står det når. Ord som kanskje stiller spørsmålet feil, er noe annet og står under linsen Feil ord. Håpsnivåene er forklart under linsen Håp.${GLOSSARY_DRAFT ? ' <i>Utkast.</i>' : ''}</p>
+      <dl>${items}</dl>
     </div></details>`;
 }
 function statusHTML() {
@@ -142,9 +177,7 @@ function renderPanel() {
     const show = isDesk() || S.intro;
     P.hidden = !show;
     if (!show) { P.innerHTML = ''; return; }
-    const fronts = [...S.nodes.values()].filter(n => n.status === 'frontier');
-    const plan = [...S.nodes.values()].filter(n => n.status === 'planned');
-    P.innerHTML = `${isDesk() ? '' : '<div class="grab" aria-hidden="true"></div><div class="phead"><div class="eyebrow">Dør på gløtt</div><button type="button" class="xbtn" data-close aria-label="Lukk">✕</button></div>'}${aboutHTML()}${loaded() ? tourStartHTML() : ''}${statusHTML()}<div class="intro">
+    P.innerHTML = `${isDesk() ? '' : '<div class="grab" aria-hidden="true"></div><div class="phead"><div class="eyebrow">Dør på gløtt</div><button type="button" class="xbtn" data-close aria-label="Lukk">✕</button></div>'}${aboutHTML()}${glossaryHTML()}${loaded() ? tourStartHTML() : ''}${statusHTML()}<div class="intro">
       <div class="eyebrow">Slik leser du kartet</div>
       <h2>Hvor er Alfred nå?</h2>
       <p>Spørsmålet står i midten, delt i de fire delene vi fant. Rundt dem ligger våre egne slutninger, og ytterst områdene vi har gravd i.</p>
@@ -152,8 +185,7 @@ function renderPanel() {
       <p>Trykk på et punkt for å se hva det henger sammen med. Linsene øverst farger kartet etter håp, evidens eller feil ord. Håpet har to nivåer for det som er igjen i verden og i deg, og fire ruter for hva som eventuelt fortsetter: om perspektivet er hans, og om innholdet blir med. Utledede koblinger er sammenhenger reglene fant, ikke vi. Tenkerne er skjult til du slår dem på.</p>
       ${S.db && S.writer === true ? '<p>Kartet er levende. Nye steder kan legges inn fra begge samtalene, og du kan skrive notater selv.</p>' : ''}
     </div>
-    ${loaded() ? `<div class="divider"></div><div class="rel"><h4>Fronten</h4><div class="rlist">${fronts.map(n => nref(n.id)).join('')}</div></div>
-    <div class="rel"><h4>Neste gravesteder</h4><div class="rlist">${plan.map(n => nref(n.id)).join('')}</div></div>` : ''}`;
+    ${loaded() ? `<div class="divider"></div><div class="rel"><h4>Alle åpne steder</h4><p class="sub">Fronten, der vi har gravd og det fortsatt er åpent, og spørsmål vi ikke har gravd i ennå, står samlet i Mønstre.</p><button type="button" class="btn ghost" data-open-places>Se alle åpne steder</button></div>` : ''}`;
     return;
   }
   const n = S.nodes.get(S.sel);
@@ -182,6 +214,7 @@ const loaded = () => S.loaded && S.nodes.size > 0;
 $('#panel').addEventListener('click', ev => {
   const go = ev.target.closest('[data-go]'); if (go) { select(go.dataset.go, { pan: true }); return; }
   if (ev.target.closest('[data-close]')) { endTour(); if (S.sel) clearSel(); else { S.intro = false; renderPanel(); } return; }
+  if (ev.target.closest('[data-open-places]')) { if (!isDesk()) S.intro = false; setView('patterns'); const t = $('#open-places'); if (t) t.scrollIntoView({ block: 'start' }); return; }
   if (ev.target.closest('[data-showmap]')) { const id = S.sel; setView('map'); setTimeout(() => select(id, { pan: true }), 30); }
 });
 $('#panel').addEventListener('submit', async ev => {

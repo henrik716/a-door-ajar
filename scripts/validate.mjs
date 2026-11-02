@@ -145,6 +145,7 @@ export function validate({ nodes, notes, status, tours = [] }) {
     for (const id of s.next || []) {
       if (!ids.has(id)) err(`status.${key}`, `next has missing id ${id}`);
       else if (retired.has(id)) err(`status.${key}`, `next has retired place ${id}`);
+      else if (key === 'current' && !STATUSES.includes((nodes.find(n => n.id === id) || {}).status)) err('status.current', `next has ${id}, which is not open (frontier or planned)`);
     }
   }
   // status.history.versions: earlier versions of "Hva kartet har funnet", oldest first, each kept

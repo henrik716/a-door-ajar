@@ -35,7 +35,7 @@ Structure (file names, field names, codes and ids) is in English. Content (label
 | `strength` | no | How well it stands, see below. Questions and thinkers have none. |
 | `hope` | no | Which hope levels the place is about, numbers from 1 to 6. |
 | `own` | no | `true` when it is the map's own conclusion, our own experiment, or Henrik's thoughts, and not taken from a source. |
-| `status` | no | `frontier` (open to dig) or `planned` (a dig site not yet dug). |
+| `status` | no | Whether the place is still open. `frontier` («Fronten»): dug into, and still open. `planned` («Ikke gravd ennå»): a question raised but not dug into yet. Leave it out when the place is not open. |
 | `answer` | no | Short answer to a question, shown under the title. |
 | `text` | yes | The text itself. |
 | `sources` | no | List of `{ title, url }`, where `url` is optional. |
@@ -139,7 +139,7 @@ On the map's own places, strength is shown as grounding: «Bygger på solide fun
 |---|---|---|
 | 1 | Varig | What happened is lasting. |
 | 2 | Mønster | The pattern lives on in you. |
-| 3 | Havet | Experience goes on, but not as his. |
+| 3 | Havet eller støvet | Experience goes on, but not as his: either one consciousness (the ocean) or experience left in matter with no whole (the dust). |
 | 4 | Havet med vannet | His perspective ends, but what he carried joins the whole. |
 | 5 | Hans strøm | His own stream goes on, without the memories. |
 | 6 | Han selv | He goes on as himself, with the memories. |
@@ -148,7 +148,7 @@ Levels 3 to 6 are not a ladder but four cells built from two questions:
 
 |  | The content is lost | The content comes along |
 |---|---|---|
-| **Not his perspective** | 3 Havet | 4 Havet med vannet |
+| **Not his perspective** | 3 Havet eller støvet | 4 Havet med vannet |
 | **His perspective** | 5 Hans strøm | 6 Han selv |
 
 3 and 4 differ in what comes along. 3 and 5 differ in who experiences. The numbers do not rank how beautiful something is.
@@ -191,7 +191,7 @@ Each derivation appears once, even when several paths lead to it.
 
 The notes are kept outside `data/` because they are not part of the published map. They are in the repo, but the map only loads them in write mode (`npm run write`).
 
-`data/status.json` holds the summary in the side panel, under the key `current`: `title`, `lead`, `updated`, `points` (each with `node`, `strength`, `text` and optionally `own`) and `next` (ids of the next dig sites).
+`data/status.json` holds the summary in the side panel, under the key `current`: `title`, `lead`, `updated`, `points` (each with `node`, `strength`, `text` and optionally `own`) and `next` («Der vi graver videre»): the open places chosen to dig in now. This is a choice made at a point in time, taken from the open places (`frontier` or `planned`), not a list of all of them. `npm run check` refuses a `next` in `current` that points to a place which is not open. All open places are listed under «Åpne steder» in Mønstre.
 
 What the map has found is its most important history. When `current` is replaced, the version before is kept, unchanged, in `history.versions`, oldest first, with two fields added: `replaced` (the date it was replaced) and `why` (a text saying what moved). `current.updated` is then set to the new date.
 

@@ -2117,6 +2117,42 @@
       ]
     },
     {
+      "@id": "n:combination-problem",
+      "@type": "v:Question",
+      "label": {
+        "nb": "Kombinasjonsproblemet"
+      },
+      "text": {
+        "nb": "Hvordan blir små biter av opplevelse til ett sinn? Det er støvets store problem. William James stilte det i 1890 og kalte bitene sinnsstøv: gi tolv menn hvert sitt ord i en setning, og ingen steder finnes en bevissthet om hele setningen. Chalmers delte problemet i tre: hvordan små subjekter blir ett subjekt, hvordan små kvaliteter blir de kvalitetene vi kjenner, og hvordan strukturen henger sammen. Det finnes forsøk på svar. Seager tenker seg at delene smelter sammen og går opp i helheten, slik at de mister seg selv. Den norske filosofen Hedda Hassel Mørch ser sammensmeltingen som en årsaksprosess. James selv ga opp sin egen innvending i 1909. Havet har det speilvendte problemet: hvordan én bevissthet deler seg i mange som ikke merker hverandre. Albahari kalte det avkombineringsproblemet. Ingen av dem er løst."
+      },
+      "region": "v:consciousness",
+      "hopeLevel": [
+        3
+      ],
+      "shortLabel": {
+        "nb": "Kombinasjonsproblemet"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-02",
+      "sources": [
+        "https://psychclassics.yorku.ca/James/Principles/prin6.htm",
+        "https://www.gutenberg.org/ebooks/11984",
+        "https://consc.net/papers/combination.pdf",
+        "https://philarchive.org/rec/SEAPAA",
+        "https://philarchive.org/rec/HASPAC-2",
+        "https://plato.stanford.edu/entries/panpsychism/supplement.html"
+      ],
+      "relatedTo": [
+        "n:panpsychism",
+        "n:cosmopsychism",
+        "n:one-ocean-or-dust",
+        "n:is-there-a-whole"
+      ],
+      "notes": [
+        "v:relatedTo n:cosmopsychism: har det speilvendte problemet"
+      ]
+    },
+    {
       "@id": "n:comfort-and-grief-diverge",
       "@type": "v:Insight",
       "label": {
@@ -3967,6 +4003,37 @@
       ]
     },
     {
+      "@id": "n:fused-parts-do-not-return",
+      "@type": "v:Insight",
+      "label": {
+        "nb": "Det som smeltet sammen, kommer kanskje ikke tilbake som det var"
+      },
+      "text": {
+        "nb": "Hvis Seager har rett i at delene går opp i helheten og mister seg selv når et sinn blir til, hva skjer når helheten løses opp igjen ved døden? Seager skriver ikke om det. Men hvis delene ble borte i ham, kan de ikke komme tilbake som de var. Det som blir igjen, er da verken Alfred eller de gamle bitene, men nytt støv som har vært gjennom ham. Det er en mellomform mellom havet og støvet: ingen helhet å møtes i, men heller ikke bare likegyldig materie. Om det å ha vært gjennom ham betyr noe, er det samme spørsmålet som opphavet. Tanker underveis, bygget på en modell som selv er spekulativ."
+      },
+      "region": "v:consciousness",
+      "strength": "v:position",
+      "ownConclusion": true,
+      "hopeLevel": [
+        3
+      ],
+      "shortLabel": {
+        "nb": "Støvet etter helheten"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-02",
+      "leadsTo": [
+        "n:combination-problem"
+      ],
+      "qualifies": [
+        "n:one-ocean-or-dust"
+      ],
+      "relatedTo": [
+        "n:lit-by-him",
+        "n:is-there-a-whole"
+      ]
+    },
+    {
       "@id": "n:future-bias",
       "@type": "v:Position",
       "label": {
@@ -4952,7 +5019,7 @@
         "nb": "Uten innhold kan hans strøm være hans bare i historien"
       },
       "text": {
-        "nb": "De fleste som beskriver opplevelse uten innhold, beskriver den uten noen følelse av at den er deres. Hvis det gjelder også etter døden, ville en strøm som fortsatte fra Alfred uten minnene, ikke kjennes som hans fra innsiden. Den ville være hans fordi den kom fra ham, ikke fordi noe i den var ham. Da skiller nivå 5 seg fra havet uten vannet, nivå 3, bare i opphav, ikke i opplevelse. Etter linjen din teller opphavet. Etter Metzinger er det ingen forskjell som merkes. Det er en elv som er hans fordi kilden var hans, mens vannet ser ut som alt annet vann. Men opphav er kanskje mer enn historie: en drøm du har glemt, var likevel din, fordi den kom fra deg. Da ligger nivå 5 et lite stykke over havet, ikke bare i navnet."
+        "nb": "De fleste som beskriver opplevelse uten innhold, beskriver den uten noen følelse av at den er deres. Hvis det gjelder også etter døden, ville en strøm som fortsatte fra Alfred uten minnene, ikke kjennes som hans fra innsiden. Den ville være hans fordi den kom fra ham, ikke fordi noe i den var ham. Da skiller nivå 5 seg fra havet uten vannet bare i opphav, ikke i opplevelse. Fra støvet, den andre halvdelen av nivå 3, skiller den seg også ved at opplevelsen er samlet. Etter linjen din teller opphavet. Etter Metzinger er det ingen forskjell som merkes. Det er en elv som er hans fordi kilden var hans, mens vannet ser ut som alt annet vann. Men opphav er kanskje mer enn historie: en drøm du har glemt, var likevel din, fordi den kom fra deg. Da ligger nivå 5 et lite stykke over havet, ikke bare i navnet."
       },
       "region": "v:core",
       "strength": "v:position",
@@ -4965,6 +5032,18 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-30",
+      "modified": "2026-11-02",
+      "changes": [
+        {
+          "date": "2026-11-02",
+          "text": {
+            "nb": "Nivå 3 er ikke bare havet. Etter havtesten 2. november rommer det også støvet, og fra det skiller nivå 5 seg i mer enn opphav."
+          },
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "qualifies": [
         "n:what-level-5-requires"
       ],
@@ -5227,6 +5306,38 @@
       "notes": [
         "v:qualifies n:claude-angle: ifølge teorien har vanlige datamaskiner nesten ingen bevissthet, uansett hva de gjør",
         "v:relatedTo n:one-ocean-or-dust: under utelukkelsen kan ikke dråpen og havet være bevisste samtidig"
+      ]
+    },
+    {
+      "@id": "n:iit-points-to-dust",
+      "@type": "v:Insight",
+      "label": {
+        "nb": "Integrert informasjon peker mot støvet, ikke mot havet"
+      },
+      "text": {
+        "nb": "Tononi og Koch skriver at teorien deler noe med panpsykismen: bevissthet er gradert og kan finnes i svært enkle systemer. Men ikke alt er bevisst. Ansamlinger og grupper er det ikke, bare det som er mest samlet. Leser man det på døden, forsvinner helheten når hjernen slutter å samle informasjonen. Det som eventuelt blir igjen, er små systemer med litt samlet informasjon hver for seg, og ingenting som samler dem. Det ligner støvet. Utelukkelsen sier samtidig at et hav ikke kan være bevisst mens dråpene er det. Teorien trekker altså bort fra havet og mot støvet, hvis noe blir igjen i det hele tatt. To forbehold: Tononi og Koch skriver ikke om hva som skjer etter døden, så dette er vår lesning. Og teorien er sterkt omstridt."
+      },
+      "region": "v:limits",
+      "strength": "v:position",
+      "ownConclusion": true,
+      "hopeLevel": [
+        3
+      ],
+      "shortLabel": {
+        "nb": "Teorien peker mot støvet"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-02",
+      "sources": [
+        "https://doi.org/10.1098/rstb.2014.0167"
+      ],
+      "relatedTo": [
+        "n:iit",
+        "n:exclusion-and-the-ocean",
+        "n:is-there-a-whole"
+      ],
+      "supports": [
+        "n:one-ocean-or-dust"
       ]
     },
     {
@@ -5654,6 +5765,32 @@
       ]
     },
     {
+      "@id": "n:is-there-a-whole",
+      "@type": "v:Question",
+      "label": {
+        "nb": "Finnes det en helhet?"
+      },
+      "text": {
+        "nb": "Spørsmålet bak havet og støvet. Hvis opplevelse fortsetter uten å være hans, er det da noe som holder den samlet? Havet sier ja: helheten er der fra før, og hvert sinn er et utsnitt av den. Støvet sier nei: helheter oppstår der en hjerne samler opplevelsen, og løses opp igjen når den slutter. Nivå 4 krever ja, for det han bar, kan bare bli med inn i en helhet. Tre ting kan avgjøre det: om småbiter kan bli til ett sinn, om ett sinn kan dele seg i mange, og om et hav kan være bevisst samtidig med dråpene. Ingen av dem er løst. Så langt peker integrert informasjon, den eneste teorien fra hjerneforskningen i kartet som sier noe om det, bort fra havet. Det svaret som trøster minst, står altså ikke svakere."
+      },
+      "region": "v:core",
+      "hopeLevel": [
+        3,
+        4
+      ],
+      "status": "v:frontier",
+      "conversation": "v:map",
+      "created": "2026-11-02",
+      "relatedTo": [
+        "n:one-ocean-or-dust",
+        "n:exclusion-and-the-ocean",
+        "n:combination-problem",
+        "n:cosmopsychism",
+        "n:panpsychism",
+        "n:why-the-ocean-pulls"
+      ]
+    },
+    {
       "@id": "n:jainism",
       "@type": "v:Position",
       "label": {
@@ -5691,12 +5828,25 @@
       "region": "v:borderland",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-02",
+      "changes": [
+        {
+          "date": "2026-11-02",
+          "text": {
+            "nb": "Står også bak kombinasjonsproblemet, som han stilte i 1890 og ga opp i 1909."
+          },
+          "fields": [
+            "links"
+          ]
+        }
+      ],
       "sources": [
         "Human Immortality (1898)"
       ],
       "behind": [
         "n:filter-theory",
-        "n:now-made-by-brain"
+        "n:now-made-by-brain",
+        "n:combination-problem"
       ]
     },
     {
@@ -7709,7 +7859,7 @@
         "nb": "Panpsykisme"
       },
       "text": {
-        "nb": "Bevissthet er grunnleggende og finnes overalt. Gir lite for Alfred som Alfred: de fleste panpsykister vil si at det som var ham, løser seg opp i noe som ikke lenger er noen."
+        "nb": "Bevissthet er grunnleggende og finnes overalt. Gir lite for Alfred som Alfred: de fleste panpsykister vil si at det som var ham, løser seg opp i noe som ikke lenger er noen. Det er det kartet kaller støvet: opplevelsen blir igjen i materien, men uten noen helhet å møtes i. Havet, én bevissthet som alt er en del av, hører til kosmopsykismen og idealismen."
       },
       "region": "v:consciousness",
       "strength": "v:position",
@@ -7718,6 +7868,18 @@
       ],
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-02",
+      "changes": [
+        {
+          "date": "2026-11-02",
+          "text": {
+            "nb": "Navngir støvet og skiller det fra havet, etter havtesten 2. november."
+          },
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "sources": [
         "https://plato.stanford.edu/entries/panpsychism/"
       ],

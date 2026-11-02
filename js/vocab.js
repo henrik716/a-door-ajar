@@ -33,7 +33,7 @@ const BASIS = { solid: 'Bygger på solide funn', supported: 'Bygger på støtted
 const HOPE = [null,
   { k: 'Varig', l: 'Det som skjedde er varig' },
   { k: 'Mønster', l: 'Mønsteret lever i deg' },
-  { k: 'Havet', l: 'Opplevelsen fortsetter, men ikke som hans' },
+  { k: 'Havet eller støvet', l: 'Opplevelsen fortsetter, men ikke som hans' },
   { k: 'Havet med vannet', l: 'Perspektivet hans tar slutt, men det han bar, blir med i helheten' },
   { k: 'Hans strøm', l: 'Hans egen strøm fortsetter, uten minnene' },
   { k: 'Han selv', l: 'Han fortsetter som seg selv, med minnene' },
@@ -50,7 +50,7 @@ function hopeGridHTML(active) {
 let HF_OPEN = false;
 function hopeExplainHTML(active, open) {
   const T = {
-    3: 'Det er ikke lenger han som opplever, og det han bar på, er borte. Noe opplever fortsatt, men ingenting i det er Alfred. Elva har rent ut i havet, og vannet kan ikke skilles fra resten.',
+    3: 'Det er ikke lenger han som opplever, og det han bar på, er borte. Noe opplever fortsatt, men ingenting i det er Alfred. Det kan være havet: elva har rent ut i én bevissthet, og vannet kan ikke skilles fra resten. Eller det kan være støvet: opplevelse som blir igjen i materien, uten noen helhet å møtes i.',
     4: 'Det er ikke lenger han som opplever, men det han bar på, blir med inn i helheten. Ingen «Alfred» ser lenger ut fra et sted, men tretten år med deg er en del av det større. Et øye lukkes, men det det så, blir værende.',
     5: 'Det er fortsatt han som opplever, men uten minnene. En egen strøm som fortsetter fra ham, men som ikke husker deg. Litt som en drøm du har glemt: den var din, men innholdet er borte.',
     6: 'Både perspektivet og minnene. Alfred som Alfred, som kjenner deg igjen.'

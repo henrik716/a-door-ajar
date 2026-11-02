@@ -67,6 +67,8 @@ function renderPatterns() {
   const crossHTML = cross.map(x => `<li>${lnk(x.n.id)} <span class="sty">${esc(REGION[x.n.region].label)}</span> kobler til ${x.regs.size} andre områder: <span class="rtags">${[...x.regs].map(r => `<span>${esc(REGION[r].label)}</span>`).join('')}</span></li>`).join('');
 
   const fronts = nodes.filter(n => n.status === 'frontier'), plan = nodes.filter(n => n.status === 'planned');
+  const chosen = new Set(S.status && Array.isArray(S.status.next) ? S.status.next : []);
+  const openRef = n => nref(n.id, chosen.has(n.id) ? 'Der vi graver videre' : '');
 
   V.innerHTML = `<div class="page">
     <h2>Mønstre</h2>
@@ -93,9 +95,9 @@ function renderPatterns() {
     <div class="msect"><h3>Våre egne slutninger</h3><p>Det vi har kommet fram til selv i samtalene, sortert etter hva det bygger på. Ingen fagfolk har vurdert dette, så det er her det er mest å etterprøve.</p></div>
     <div class="cards">${['solid', 'supported', 'position', 'contested'].map(s => { const g = nodes.filter(n => n.own && n.strength === s); return g.length ? `<div class="card"><h4>${BASIS[s]}</h4><p class="sub">${g.length} steder</p><div class="rlist">${g.map(n => nref(n.id)).join('')}</div></div>` : ''; }).join('')}</div>
 
-    <div class="msect"><h3>Fronten og neste gravesteder</h3><p>Åpne spørsmål der det er mer å grave, og steder vi har sagt at vi skal innom.</p></div>
-    <div class="cards"><div class="card"><h4>Fronten</h4><div class="rlist">${fronts.map(n => nref(n.id)).join('')}</div></div>
-    <div class="card"><h4>Neste gravesteder</h4><div class="rlist">${plan.map(n => nref(n.id)).join('')}</div></div></div>
+    <div class="msect" id="open-places"><h3>Åpne steder</h3><p>Alt kartet ikke er ferdig med. Fronten er der vi har gravd og funnet at det fortsatt er åpent. Resten er spørsmål vi har reist, men ikke gravd i ennå. De som er merket «Der vi graver videre», er dem vi har valgt å gå videre med nå.</p></div>
+    <div class="cards"><div class="card"><h4>Fronten</h4><p class="sub">Gravd i, fortsatt åpent · ${fronts.length} steder</p><div class="rlist">${fronts.map(openRef).join('')}</div></div>
+    <div class="card"><h4>Ikke gravd ennå</h4><p class="sub">${plan.length} steder</p><div class="rlist">${plan.map(openRef).join('')}</div></div></div>
   </div>`;
 }
 $('#v-patterns').addEventListener('click', ev => { const go = ev.target.closest('[data-go]'); if (go) select(go.dataset.go); });

@@ -7,7 +7,8 @@ let nodeSel = gN.selectAll('g.n'), edgeSel = gE.selectAll('line'), dedgeSel = gD
 let regionInfo = [];
 
 const zoom = d3.zoom().scaleExtent([0.2, 4.5])
-  .on('zoom', ev => { S.t = ev.transform; updateScreen(); setZoomClass(); })
+  // When the zoom level changes, new labels appear; sort them out in the same frame so they do not flash on top of each other.
+  .on('zoom', ev => { S.t = ev.transform; updateScreen(); if (setZoomClass()) { clearTimeout(declTimer); runDeclutter(); } })
   .on('end', () => declutter());
 svg.call(zoom).on('dblclick.zoom', null);
 svg.on('click', ev => { if (S.step != null) return; if (ev.target === svg.node() || ev.target.closest('.terrain')) clearSel(); });
@@ -17,32 +18,36 @@ const LPRI = { question: 50, word: 45, insight: 40, finding: 30, position: 25, i
 let declTimer = null;
 function declutter() {
   clearTimeout(declTimer);
-  declTimer = setTimeout(() => {
-    if (!nodeSel) return;
-    const items = [];
-    nodeSel.each(function (d) {
-      const t = this.querySelector('.lbl'); if (!t) return;
-      t.classList.remove('lbl-x');
-      if (getComputedStyle(t).display === 'none') return;
-      const r = t.getBoundingClientRect(); if (!r.width) return;
-      const c = this.classList;
-      const pri = (c.contains('sel') ? 200 : c.contains('k-core') ? 150 : c.contains('k-sub') ? 140 : c.contains('nb') ? 120 : 0) + (c.contains('frontier') ? 15 : 0) + (LPRI[d.type] || 0);
-      items.push({ t, r, pri });
-    });
-    items.sort((a, b) => b.pri - a.pri);
-    const kept = [];
-    for (const it of items) {
-      const r = it.r, pad = 2;
-      const hit = kept.some(k => r.left < k.right + pad && r.right > k.left - pad && r.top < k.bottom + pad && r.bottom > k.top - pad);
-      if (hit) it.t.classList.add('lbl-x'); else kept.push(r);
-    }
-  }, 90);
+  declTimer = setTimeout(runDeclutter, 90);
 }
+function runDeclutter() {
+  if (!nodeSel) return;
+  const items = [];
+  nodeSel.each(function (d) {
+    const t = this.querySelector('.lbl'); if (!t) return;
+    t.classList.remove('lbl-x');
+    if (getComputedStyle(t).display === 'none') return;
+    const r = t.getBoundingClientRect(); if (!r.width) return;
+    const c = this.classList;
+    const pri = (c.contains('sel') ? 200 : c.contains('k-core') ? 150 : c.contains('k-sub') ? 140 : c.contains('nb') ? 120 : 0) + (c.contains('frontier') ? 15 : 0) + (LPRI[d.type] || 0);
+    items.push({ t, r, pri });
+  });
+  items.sort((a, b) => b.pri - a.pri);
+  const kept = [];
+  for (const it of items) {
+    const r = it.r, pad = 2;
+    const hit = kept.some(k => r.left < k.right + pad && r.right > k.left - pad && r.top < k.bottom + pad && r.bottom > k.top - pad);
+    if (hit) it.t.classList.add('lbl-x'); else kept.push(r);
+  }
+}
+// Returns true when the zoom level changed.
 function setZoomClass() {
   const k = S.t.k;
   const z = k < .62 ? 'z0' : k < 1.05 ? 'z1' : k < 1.7 ? 'z2' : 'z3';
   const el = svg.node();
+  if (el.classList.contains(z)) return false;
   for (const c of ['z0', 'z1', 'z2', 'z3']) el.classList.toggle(c, c === z);
+  return true;
 }
 
 function renderGraph() {
