@@ -8,7 +8,7 @@ The map itself is in Norwegian. The code, schema and documentation are in Englis
 
 ## Om kartet
 
-Alfred var en finsk lapphund. Jeg hadde ham i tretten av hans nesten fjorten år. Han døde hjemme 26. oktober 2026, etter en lang dag ute i sola, med oss rundt seg.
+Alfred var en finsk lapphund. Jeg kjente ham i tretten av hans nesten fjorten år. Han døde hjemme 26. oktober 2026, etter en lang dag ute i sola, med oss rundt seg.
 
 Dagene etter satt jeg igjen med ett spørsmål: Hvor er Alfred nå? Dette kartet er et forsøk på å se ordentlig på det spørsmålet, med fysikk, filosofi, religion, hjerneforskning og sorg side om side.
 
