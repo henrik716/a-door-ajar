@@ -10,7 +10,7 @@ function setView(v, { fromHash = false } = {}) {
   if (v === 'register') renderRegister();
   if (v === 'patterns') renderPatterns();
   if (v === 'export') renderExport();
-  if (v === 'map') setTimeout(() => { if (!S.firstFit && loaded()) { S.firstFit = true; fit(false); } else updateScreen(); }, 0);
+  if (v === 'map') setTimeout(() => { if (!S.firstFit && loaded()) firstFit(); else updateScreen(); }, 0);
   renderPanel();
   if (!fromHash && decodeURIComponent(location.hash.slice(1)) !== v) location.hash = v;
 }

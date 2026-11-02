@@ -131,7 +131,7 @@ function renderGraph() {
   applyFocus();
   updateScreen();
   setZoomClass();
-  if (!S.firstFit && S.view === 'map') { S.firstFit = true; fit(false); }
+  if (!S.firstFit && S.view === 'map') firstFit();
 }
 
 // Region names go where the region has the most room, as seen in the overview.
@@ -207,11 +207,35 @@ function updateScreen() {
   updateEdgePositions(dedgeSel);
   gTerrain.attr('transform', t.toString());
   svg.select('.topo').attr('transform', t.toString());
-  svg.select('.glow').attr('transform', t.toString());
+  placeGlow(t);
   svg.select('.trail').attr('transform', t.toString());
   rlSel.attr('x', d => t.applyX(d.lx)).attr('y', d => t.applyY(d.ly));
   const eo = (.3 + .42 * (1 - Math.exp(-.9 * t.k))) * (innerWidth < 640 ? .88 : 1);
   svg.node().style.setProperty('--eo', eo.toFixed(3));
+}
+
+// The door ajar. Until the map is placed, the glow stands alone in the middle of the stage.
+// When the map arrives it glides the short way to Alfred, and the map opens round it.
+function placeGlow(t) {
+  const glow = svg.select('.glow');
+  if (!svg.classed('placed')) { const { w, h } = stageSize(); glow.attr('transform', `translate(${w / 2},${h / 2})`); svg.classed('lit', true); return; }
+  if (glow.classed('settled')) { glow.interrupt().attr('transform', t.toString()); return; }
+  glow.classed('settled', true);
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  glow.transition().duration(still ? 0 : 1100).ease(d3.easeCubicInOut).attr('transform', t.toString());
+}
+placeGlow(S.t);
+
+// Let the door stand alone for a moment, also when the map loads fast.
+const DOOR_MS = 1000;
+function firstFit() {
+  S.firstFit = true;
+  const wait = DOOR_MS - performance.now();
+  if (wait <= 0) return fit(false);
+  setTimeout(() => {
+    if (svg.classed('placed')) return;
+    if (S.view === 'map') fit(false); else S.firstFit = false;
+  }, wait);
 }
 
 function stageSize() { const r = svg.node().getBoundingClientRect(); return { w: r.width || 800, h: r.height || 600 }; }

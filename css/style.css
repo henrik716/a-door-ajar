@@ -109,7 +109,7 @@ button { cursor: pointer; }
   position: absolute; inset: 0; display: grid; place-items: center; text-align: center;
   padding-left: var(--gut-l); padding-right: var(--gut-r); pointer-events: none;
 }
-.status-msg div { max-width: 34ch; color: var(--ink-2); }
+.status-msg div { max-width: 34ch; color: var(--ink-2); translate: 0 200px; } /* below the door glow */
 .status-msg strong { display: block; font-family: var(--f-display); font-weight: 500; font-size: 20px; color: var(--ink); margin-bottom: 4px; }
 
 /* ── Lenses ── */
@@ -174,9 +174,13 @@ button { cursor: pointer; }
 .topo path.inner { stroke: var(--alf-warm); stroke-opacity: .4; }
 .glow, .topo { pointer-events: none; }
 #map.focus .glow, #map.focus .topo { opacity: .45; }
-/* Before the first fit the transform is the identity, so the glow round Alfred would sit in the top left corner. Keep it hidden until the map is placed, then let the door open slowly. */
-.glow, .topo { transition: opacity .9s ease; }
-#map:not(.placed) .glow, #map:not(.placed) .topo { opacity: 0; transition: none; }
+/* The door ajar: the glow is hidden until the script has put it in the middle of the stage (.lit), then it lights slowly.
+   The rest of the map is hidden until it is placed (.placed), then it opens round the glow. */
+#map:not(.lit) .glow, #map:not(.placed) > g:not(.glow) { visibility: hidden; }
+#map.lit .glow { animation: door-in 1.4s ease; }
+#map.placed > g:not(.glow) { animation: door-in 1.1s ease; }
+@keyframes door-in { from { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { #map.lit .glow, #map.placed > g:not(.glow) { animation: none; } }
 #map .n.k-core .sym { fill: var(--alf-cream); fill-opacity: 1; stroke: var(--alf-brown); stroke-width: 6; stroke-dasharray: none; }
 #map .n.k-core .core2 { stroke: var(--alf-grey); stroke-width: 5.5; }
 .rlabel {
