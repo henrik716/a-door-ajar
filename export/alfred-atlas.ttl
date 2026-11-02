@@ -356,6 +356,25 @@ n:bartlett a v:Thinker ;
   dct:created "2026-10-28"^^xsd:date ;
   v:behind n:memory-is-reconstruction .
 
+n:beast-machine a v:Position ;
+  rdfs:label "Bevissthet er å holde seg i live"@nb ;
+  v:shortLabel "Dyremaskinen"@nb ;
+  rdfs:comment "Seth mener at hjernen ikke ser verden direkte. Den gjetter hele tiden på hva som er der ute og inne i kroppen, og sansene melder bare tilbake hvor gjetningen bommet. Det vi opplever, er den beste gjetningen, en styrt hallusinasjon. Det dypeste laget er kroppen selv: hjerterytme, pust, sult og varme, som hjernen må holde i balanse for at dyret skal leve. Derfor knytter han bevisstheten til det å være levende, ikke til det å være smart. Under det synet hadde Alfred en innside av samme grunn som deg: han var et levende dyr med en kropp å passe på. Verden hans var hjernens beste gjetning, bygget mest av lukt. Men synet trekker også den andre veien. Hvis lytteren er kroppens arbeid med å holde seg i live, slutter lytteren når kroppen gjør det. Da finnes det ingen lytter som kan tas imot et annet sted. Seth vil heller forklare egenskapene ved opplevelsen én etter én, det han kaller det virkelige problemet, enn å løse det harde problemet i ett grep."@nb ;
+  v:region v:consciousness ;
+  v:strength v:position ;
+  v:hopeLevel 1, 2 ;
+  v:conversation v:map ;
+  dct:created "2026-11-02"^^xsd:date ;
+  dct:source "Anil Seth, Being You: A New Science of Consciousness (2021)"@nb ;
+  v:supports n:materialism, n:dogs-have-an-inside ;
+  v:contradicts n:filter-theory ;
+  v:relatedTo n:program-and-listener, n:umwelt, n:now-made-by-brain, n:hard-problem, n:where-the-individual-sits ;
+  v:qualifies n:claude-angle .
+
+# note: n:beast-machine v:supports n:dogs-have-an-inside — bevisstheten følger livet, ikke språket
+# note: n:beast-machine v:contradicts n:filter-theory — lytteren er kroppens eget arbeid, ikke noe som tas imot
+# note: n:beast-machine v:relatedTo n:program-and-listener — Seth ville si at hjernen lager lytteren også
+# note: n:beast-machine v:qualifies n:claude-angle — hvis bevisstheten følger livet, er det mindre grunn til å tro at en språkmodell har en innside
 n:being-a-bat a v:Image ;
   rdfs:label "Hvordan er det å være en flaggermus?"@nb ;
   v:shortLabel "Å være en flaggermus"@nb ;
@@ -1280,6 +1299,17 @@ n:everett a v:Thinker ;
   dct:source "Everett (1957), Reviews of Modern Physics"@nb ;
   v:behind n:many-worlds .
 
+n:exclusion-and-the-ocean a v:Question ;
+  rdfs:label "Kan et sinn være seg selv og samtidig del av havet?"@nb ;
+  v:shortLabel "Dråpen og havet"@nb ;
+  rdfs:comment "Havsynene sier at hvert sinn er en del av én større bevissthet, og at begge er bevisste på en gang: Alfred var en virvel i elva, og elva var der også. Integrert informasjon sier det motsatte. Bare det mest samlede systemet er bevisst. Er helheten bevisst, er ikke delene det, og omvendt. Det er derfor teorien spår at to hjerner koblet tett nok blir én, og slutter å være to. Hvis regelen holder, kan ikke Alfred ha vært et eget sinn og en del av havet på samme tid. Da må havsynene enten forklare hvorfor regelen ikke gjelder for dem, eller godta at havet bare er bevisst der det ikke finnes dråper. Men regelen er laget for fysiske systemer, og teorien er selv omstridt. Ikke gravd ennå: hva sier Kastrup og kosmopsykistene til utelukkelsen, og er den et argument mot havet, eller bare mot et hav bygget av hjerner?"@nb ;
+  v:region v:limits ;
+  v:hopeLevel 3, 4 ;
+  v:status v:planned ;
+  v:conversation v:map ;
+  dct:created "2026-11-02"^^xsd:date ;
+  v:relatedTo n:iit, n:analytic-idealism, n:cosmopsychism, n:one-ocean-or-dust, n:points-to-the-ocean, n:river-eddies, n:why-the-ocean-pulls .
+
 n:exp-before-birth a v:Finding ;
   rdfs:label "Ingen følelser før fødselen"@nb ;
   v:shortLabel "Før fødselen"@nb ;
@@ -1673,7 +1703,9 @@ n:gazzaniga a v:Thinker ;
   v:region v:limits ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
-  v:behind n:split-brains .
+  dct:modified "2026-11-02"^^xsd:date ;
+  v:change [ dct:date "2026-11-02"^^xsd:date ; rdfs:comment "La til koblingen til tolkeren."@nb ; v:changedField "links" ] ;
+  v:behind n:split-brains, n:the-interpreter .
 
 n:gemini-bet a v:Finding ;
   rdfs:label "Geminis veddemål: ingen kjerne, men heller ingen kopi"@nb ;
@@ -2160,15 +2192,24 @@ n:identical-atoms a v:Finding ;
 # note: n:identical-atoms v:qualifies n:pause-or-copy — «de samme atomene» er ikke et fysisk faktum
 n:iit a v:Position ;
   rdfs:label "Integrert informasjon"@nb ;
-  rdfs:comment "Bevisstheten finnes der informasjonen i et system er mest samlet, og veggen går der samlingen faller av. Dristig forutsigelse: to hjerner koblet stadig tettere ville på et bestemt punkt bli én bevissthet."@nb ;
+  rdfs:comment "Tononi mener at bevisstheten finnes der informasjonen i et system er mest samlet, og at veggen går der samlingen faller av. Bare det mest samlede systemet er bevisst. Delene inni det er ikke bevisste hver for seg samtidig, og et større system rundt det er det heller ikke. Det kalles utelukkelse. Dristig forutsigelse: to hjerner koblet stadig tettere ville på et bestemt punkt bli én bevissthet, og de to ville slutte å være to. Lillehjernen viser hva teorien mener med samlet. Den har rundt fire ganger så mange nerveceller som hjernebarken, men de er koblet i parallelle baner som virker lite på hverandre, og en kvinne født helt uten lillehjerne var våken og bevisst og levde et ganske vanlig liv. Det er hvordan delene virker på hverandre som teller, ikke hvor mange de er. Teorien er sterkt omstridt. I 2023 kalte 124 forskere den pseudovitenskap, blant annet fordi den gir bevissthet til mye vi ikke regner som bevisst, og fordi den som helhet kanskje ikke kan testes. Andre mente at anklagen gikk for langt."@nb ;
   v:region v:limits ;
   v:strength v:position ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
+  dct:modified "2026-11-02"^^xsd:date ;
+  v:change [ dct:date "2026-11-02"^^xsd:date ; rdfs:comment "La til utelukkelsen, lillehjernen og kritikken fra 2023, og kildene som manglet."@nb ; v:changedField "text", "sources", "links" ] ;
+  dct:source "Tononi, Boly, Massimini og Koch, Integrated information theory: from consciousness to its physical substrate, Nature Reviews Neuroscience (2016)"@nb ;
+  dct:source "Albantakis mfl., Integrated information theory (IIT) 4.0, PLoS Computational Biology (2023)"@nb ;
+  dct:source "Herculano-Houzel, The human brain in numbers, Frontiers in Human Neuroscience (2009)"@nb ;
+  dct:source "Yu mfl., A new case of complete primary cerebellar agenesis, Brain (2015)"@nb ;
+  dct:source "Fleming mfl., The Integrated Information Theory of Consciousness as Pseudoscience, PsyArXiv (2023)"@nb ;
   v:answers n:boundary-problem ;
-  v:qualifies n:claude-angle .
+  v:qualifies n:claude-angle ;
+  v:relatedTo n:one-ocean-or-dust, n:cosmopsychism .
 
 # note: n:iit v:qualifies n:claude-angle — ifølge teorien har vanlige datamaskiner nesten ingen bevissthet, uansett hva de gjør
+# note: n:iit v:relatedTo n:one-ocean-or-dust — under utelukkelsen kan ikke dråpen og havet være bevisste samtidig
 n:illusionism a v:Position ;
   rdfs:label "Illusjonisme"@nb ;
   rdfs:comment "Innsiden som noe ekstra er noe hjernen fremstiller for seg selv, en slags brukerflate. De sier ikke at Alfred ikke kjente glede eller smerte, bare at det ikke fantes noe i tillegg til det som skjedde i ham. Et mindretall, men et seriøst et."@nb ;
@@ -2534,6 +2575,16 @@ n:line-closes-third-way a v:Insight ;
   v:presupposes n:lit-by-him ;
   v:relatedTo n:reassembly ;
   v:leadsTo n:pause-or-copy .
+
+n:listener-tied-to-life a v:Question ;
+  rdfs:label "Er lytteren knyttet til livet?"@nb ;
+  v:shortLabel "Lytteren og livet"@nb ;
+  rdfs:comment "Hvor sitter det som gjør lytteren til hans? Kartet har så langt to svar: i selve lytteren, eller i innholdet og selvbildet. Seth gir et tredje: i kroppen som holder seg i live. Da var lytteren hans helt inn, for den var arbeidet til hans egen kropp, og det hadde Alfred fullt ut. Selvet hans var ikke tynnere enn ditt på den måten, bare i det som forteller og husker. Men det samme svaret gjør at lytteren slutter med kroppen. Ikke gravd ennå: holder Seths syn mot dem som mener at ren våkenhet er noe som tas imot, og finnes det funn som skiller dem? Tukdam, skjult bevissthet og narkose er steder å begynne."@nb ;
+  v:region v:consciousness ;
+  v:status v:planned ;
+  v:conversation v:map ;
+  dct:created "2026-11-02"^^xsd:date ;
+  v:relatedTo n:where-the-individual-sits, n:beast-machine, n:program-and-listener, n:mineness, n:brain-wakefulness, n:awareness-as-ground, n:tukdam, n:covert-consciousness .
 
 n:listener-without-archive a v:Insight ;
   rdfs:label "En lytter fra ham, uten minnene"@nb ;
@@ -3837,6 +3888,14 @@ n:sensing-presence a v:Finding ;
   dct:source "Packman mfl. (2012), Omega"@nb ;
   v:relatedTo n:grief-is-learning, n:inner-outer-bonds, n:lasting-bonds .
 
+n:seth a v:Thinker ;
+  rdfs:label "Anil Seth"@nb ;
+  rdfs:comment "Britisk hjerneforsker ved University of Sussex."@nb ;
+  v:region v:consciousness ;
+  v:conversation v:map ;
+  dct:created "2026-11-02"^^xsd:date ;
+  v:behind n:beast-machine .
+
 n:shared-border a v:Image ;
   rdfs:label "Felles grense mellom to flater"@nb ;
   v:shortLabel "Felles grense"@nb ;
@@ -4326,6 +4385,21 @@ n:the-east-divides a v:Insight ;
   v:relatedTo n:santana, n:upanishads, n:lamp-lit-by-lamp .
 
 # note: n:the-east-divides v:answers n:his-own-listener — to motsatte svar
+n:the-interpreter a v:Finding ;
+  rdfs:label "Tolkeren som forklarer etterpå"@nb ;
+  v:shortLabel "Tolkeren"@nb ;
+  rdfs:comment "På 1970-tallet viste Gazzaniga og LeDoux en pasient med kuttet hjernebjelke to bilder samtidig: en hønsefot til den talende venstre halvdelen og et snølandskap til den høyre. Hendene valgte hvert sitt kort, en høne og en snøskuffe. Spurt om hvorfor venstre hånd valgte skuffa, svarte han uten å nøle at man trenger en skuffe for å måke ut av hønsehuset. Den talende halvdelen hadde aldri sett snøen. Den fant opp en grunn. Gazzaniga kalte dette tolkeren: en del av hjernen som syr det vi gjør sammen til en historie etterpå. Det støtter at selvet er mer en fortelling enn en kjerne. Det gjelder også dette kartet. Et kart over sorg er en historie som blir fortalt i etterkant, og den kan føles riktig uten å være det."@nb ;
+  v:region v:self ;
+  v:strength v:supported ;
+  v:conversation v:map ;
+  dct:created "2026-11-02"^^xsd:date ;
+  dct:source "Michael Gazzaniga og Joseph LeDoux, The Integrated Mind (1978)"@nb ;
+  dct:source <https://www.scientificamerican.com/article/the-split-brain-revisited/> ;
+  v:contradicts n:t-deep-self ;
+  v:supports n:bundle-self ;
+  v:relatedTo n:introspection-unreliable, n:split-brains, n:grief-picks-the-theory, n:track-trap .
+
+# note: n:the-interpreter v:relatedTo n:grief-picks-the-theory — også kartet kan være en tolker
 n:the-open a v:Image ;
   rdfs:label "«Frei von Tod. Ihn sehen nur wir»"@nb ;
   v:shortLabel "Fri fra døden"@nb ;
@@ -5471,6 +5545,7 @@ n:anuradha v:challengesDerived n:soul-continues .
 n:bundle-self v:challengesDerived n:soul-continues .
 n:reductionism v:challengesDerived n:soul-continues .
 n:sunyata v:challengesDerived n:soul-continues .
+n:the-interpreter v:challengesDerived n:soul-continues .
 n:soul-continues v:sharesPremiseWith n:swinburne-soul .
 n:engrams v:challengesDerived n:soul-continues .
 n:materialism v:challengesDerived n:soul-continues .
@@ -5487,6 +5562,7 @@ n:anuradha v:challengesDerived n:swinburne-soul .
 n:bundle-self v:challengesDerived n:swinburne-soul .
 n:reductionism v:challengesDerived n:swinburne-soul .
 n:sunyata v:challengesDerived n:swinburne-soul .
+n:the-interpreter v:challengesDerived n:swinburne-soul .
 n:man-and-person v:challengesDerived n:two-questions-separate .
 n:origin-matters v:challengesDerived n:two-questions-separate .
 n:two-questions-separate v:sharesPremiseWith n:what-was-the-carrier .
@@ -5524,6 +5600,7 @@ n:your-thoughts-on-carrier v:strengthensDerived n:line-closes-third-way .
 n:philpapers-2020 v:strengthensDerived n:listener-without-archive .
 n:origin-matters v:strengthensDerived n:listener-without-archive .
 n:your-thoughts-on-carrier v:strengthensDerived n:listener-without-archive .
+n:beast-machine v:strengthensDerived n:middle-way-on-the-map .
 n:brain-wakefulness v:strengthensDerived n:middle-way-on-the-map .
 n:dying-brain-gamma v:strengthensDerived n:middle-way-on-the-map .
 n:global-workspace v:strengthensDerived n:middle-way-on-the-map .
@@ -5533,6 +5610,7 @@ n:stimulation-makes-content v:strengthensDerived n:middle-way-on-the-map .
 n:bewitchment v:strengthensDerived n:middle-way-on-the-map .
 n:map-not-territory v:strengthensDerived n:middle-way-on-the-map .
 n:tetralemma v:strengthensDerived n:middle-way-on-the-map .
+n:beast-machine v:strengthensDerived n:not-ruled-out-has-content .
 n:brain-wakefulness v:strengthensDerived n:not-ruled-out-has-content .
 n:dying-brain-gamma v:strengthensDerived n:not-ruled-out-has-content .
 n:global-workspace v:strengthensDerived n:not-ruled-out-has-content .

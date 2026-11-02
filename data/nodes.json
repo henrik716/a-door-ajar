@@ -783,6 +783,68 @@
   "conversation": "deepdive"
  },
  {
+  "id": "beast-machine",
+  "type": "position",
+  "region": "consciousness",
+  "label": "Bevissthet er å holde seg i live",
+  "short": "Dyremaskinen",
+  "strength": "position",
+  "hope": [
+   1,
+   2
+  ],
+  "text": "Seth mener at hjernen ikke ser verden direkte. Den gjetter hele tiden på hva som er der ute og inne i kroppen, og sansene melder bare tilbake hvor gjetningen bommet. Det vi opplever, er den beste gjetningen, en styrt hallusinasjon. Det dypeste laget er kroppen selv: hjerterytme, pust, sult og varme, som hjernen må holde i balanse for at dyret skal leve. Derfor knytter han bevisstheten til det å være levende, ikke til det å være smart. Under det synet hadde Alfred en innside av samme grunn som deg: han var et levende dyr med en kropp å passe på. Verden hans var hjernens beste gjetning, bygget mest av lukt. Men synet trekker også den andre veien. Hvis lytteren er kroppens arbeid med å holde seg i live, slutter lytteren når kroppen gjør det. Da finnes det ingen lytter som kan tas imot et annet sted. Seth vil heller forklare egenskapene ved opplevelsen én etter én, det han kaller det virkelige problemet, enn å løse det harde problemet i ett grep.",
+  "sources": [
+   {
+    "title": "Anil Seth, Being You: A New Science of Consciousness (2021)"
+   }
+  ],
+  "links": [
+   {
+    "rel": "supports",
+    "to": "materialism"
+   },
+   {
+    "rel": "supports",
+    "to": "dogs-have-an-inside",
+    "note": "bevisstheten følger livet, ikke språket"
+   },
+   {
+    "rel": "contradicts",
+    "to": "filter-theory",
+    "note": "lytteren er kroppens eget arbeid, ikke noe som tas imot"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "program-and-listener",
+    "note": "Seth ville si at hjernen lager lytteren også"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "umwelt"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "now-made-by-brain"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "hard-problem"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "where-the-individual-sits"
+   },
+   {
+    "rel": "qualifies",
+    "to": "claude-angle",
+    "note": "hvis bevisstheten følger livet, er det mindre grunn til å tro at en språkmodell har en innside"
+   }
+  ],
+  "added": "2026-11-02",
+  "conversation": "map"
+ },
+ {
   "id": "being-a-bat",
   "type": "image",
   "region": "consciousness",
@@ -3103,6 +3165,51 @@
   "conversation": "deepdive"
  },
  {
+  "id": "exclusion-and-the-ocean",
+  "type": "question",
+  "region": "limits",
+  "label": "Kan et sinn være seg selv og samtidig del av havet?",
+  "short": "Dråpen og havet",
+  "hope": [
+   3,
+   4
+  ],
+  "status": "planned",
+  "text": "Havsynene sier at hvert sinn er en del av én større bevissthet, og at begge er bevisste på en gang: Alfred var en virvel i elva, og elva var der også. Integrert informasjon sier det motsatte. Bare det mest samlede systemet er bevisst. Er helheten bevisst, er ikke delene det, og omvendt. Det er derfor teorien spår at to hjerner koblet tett nok blir én, og slutter å være to. Hvis regelen holder, kan ikke Alfred ha vært et eget sinn og en del av havet på samme tid. Da må havsynene enten forklare hvorfor regelen ikke gjelder for dem, eller godta at havet bare er bevisst der det ikke finnes dråper. Men regelen er laget for fysiske systemer, og teorien er selv omstridt. Ikke gravd ennå: hva sier Kastrup og kosmopsykistene til utelukkelsen, og er den et argument mot havet, eller bare mot et hav bygget av hjerner?",
+  "links": [
+   {
+    "rel": "relatedTo",
+    "to": "iit"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "analytic-idealism"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "cosmopsychism"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "one-ocean-or-dust"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "points-to-the-ocean"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "river-eddies"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "why-the-ocean-pulls"
+   }
+  ],
+  "added": "2026-11-02",
+  "conversation": "map"
+ },
+ {
   "id": "exp-before-birth",
   "type": "finding",
   "region": "blindspots",
@@ -4023,10 +4130,23 @@
    {
     "rel": "behind",
     "to": "split-brains"
+   },
+   {
+    "rel": "behind",
+    "to": "the-interpreter"
    }
   ],
   "added": "2026-10-28",
-  "conversation": "deepdive"
+  "conversation": "deepdive",
+  "changes": [
+   {
+    "date": "2026-11-02",
+    "text": "La til koblingen til tolkeren.",
+    "fields": [
+     "links"
+    ]
+   }
+  ]
  },
  {
   "id": "gemini-bet",
@@ -5252,7 +5372,24 @@
   "region": "limits",
   "label": "Integrert informasjon",
   "strength": "position",
-  "text": "Bevisstheten finnes der informasjonen i et system er mest samlet, og veggen går der samlingen faller av. Dristig forutsigelse: to hjerner koblet stadig tettere ville på et bestemt punkt bli én bevissthet.",
+  "text": "Tononi mener at bevisstheten finnes der informasjonen i et system er mest samlet, og at veggen går der samlingen faller av. Bare det mest samlede systemet er bevisst. Delene inni det er ikke bevisste hver for seg samtidig, og et større system rundt det er det heller ikke. Det kalles utelukkelse. Dristig forutsigelse: to hjerner koblet stadig tettere ville på et bestemt punkt bli én bevissthet, og de to ville slutte å være to. Lillehjernen viser hva teorien mener med samlet. Den har rundt fire ganger så mange nerveceller som hjernebarken, men de er koblet i parallelle baner som virker lite på hverandre, og en kvinne født helt uten lillehjerne var våken og bevisst og levde et ganske vanlig liv. Det er hvordan delene virker på hverandre som teller, ikke hvor mange de er. Teorien er sterkt omstridt. I 2023 kalte 124 forskere den pseudovitenskap, blant annet fordi den gir bevissthet til mye vi ikke regner som bevisst, og fordi den som helhet kanskje ikke kan testes. Andre mente at anklagen gikk for langt.",
+  "sources": [
+   {
+    "title": "Tononi, Boly, Massimini og Koch, Integrated information theory: from consciousness to its physical substrate, Nature Reviews Neuroscience (2016)"
+   },
+   {
+    "title": "Albantakis mfl., Integrated information theory (IIT) 4.0, PLoS Computational Biology (2023)"
+   },
+   {
+    "title": "Herculano-Houzel, The human brain in numbers, Frontiers in Human Neuroscience (2009)"
+   },
+   {
+    "title": "Yu mfl., A new case of complete primary cerebellar agenesis, Brain (2015)"
+   },
+   {
+    "title": "Fleming mfl., The Integrated Information Theory of Consciousness as Pseudoscience, PsyArXiv (2023)"
+   }
+  ],
   "links": [
    {
     "rel": "answers",
@@ -5262,10 +5399,30 @@
     "rel": "qualifies",
     "to": "claude-angle",
     "note": "ifølge teorien har vanlige datamaskiner nesten ingen bevissthet, uansett hva de gjør"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "one-ocean-or-dust",
+    "note": "under utelukkelsen kan ikke dråpen og havet være bevisste samtidig"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "cosmopsychism"
    }
   ],
   "added": "2026-10-28",
-  "conversation": "deepdive"
+  "conversation": "deepdive",
+  "changes": [
+   {
+    "date": "2026-11-02",
+    "text": "La til utelukkelsen, lillehjernen og kritikken fra 2023, og kildene som manglet.",
+    "fields": [
+     "text",
+     "sources",
+     "links"
+    ]
+   }
+  ]
  },
  {
   "id": "illusionism",
@@ -6168,6 +6325,51 @@
   ],
   "added": "2026-10-29",
   "conversation": "deepdive"
+ },
+ {
+  "id": "listener-tied-to-life",
+  "type": "question",
+  "region": "consciousness",
+  "label": "Er lytteren knyttet til livet?",
+  "short": "Lytteren og livet",
+  "status": "planned",
+  "text": "Hvor sitter det som gjør lytteren til hans? Kartet har så langt to svar: i selve lytteren, eller i innholdet og selvbildet. Seth gir et tredje: i kroppen som holder seg i live. Da var lytteren hans helt inn, for den var arbeidet til hans egen kropp, og det hadde Alfred fullt ut. Selvet hans var ikke tynnere enn ditt på den måten, bare i det som forteller og husker. Men det samme svaret gjør at lytteren slutter med kroppen. Ikke gravd ennå: holder Seths syn mot dem som mener at ren våkenhet er noe som tas imot, og finnes det funn som skiller dem? Tukdam, skjult bevissthet og narkose er steder å begynne.",
+  "links": [
+   {
+    "rel": "relatedTo",
+    "to": "where-the-individual-sits"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "beast-machine"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "program-and-listener"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "mineness"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "brain-wakefulness"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "awareness-as-ground"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "tukdam"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "covert-consciousness"
+   }
+  ],
+  "added": "2026-11-02",
+  "conversation": "map"
  },
  {
   "id": "listener-without-archive",
@@ -9396,6 +9598,21 @@
   "conversation": "deepdive"
  },
  {
+  "id": "seth",
+  "type": "thinker",
+  "region": "consciousness",
+  "label": "Anil Seth",
+  "text": "Britisk hjerneforsker ved University of Sussex.",
+  "links": [
+   {
+    "rel": "behind",
+    "to": "beast-machine"
+   }
+  ],
+  "added": "2026-11-02",
+  "conversation": "map"
+ },
+ {
   "id": "shared-border",
   "type": "image",
   "region": "grief",
@@ -10492,6 +10709,53 @@
   ],
   "added": "2026-10-29",
   "conversation": "deepdive"
+ },
+ {
+  "id": "the-interpreter",
+  "type": "finding",
+  "region": "self",
+  "label": "Tolkeren som forklarer etterpå",
+  "short": "Tolkeren",
+  "strength": "supported",
+  "text": "På 1970-tallet viste Gazzaniga og LeDoux en pasient med kuttet hjernebjelke to bilder samtidig: en hønsefot til den talende venstre halvdelen og et snølandskap til den høyre. Hendene valgte hvert sitt kort, en høne og en snøskuffe. Spurt om hvorfor venstre hånd valgte skuffa, svarte han uten å nøle at man trenger en skuffe for å måke ut av hønsehuset. Den talende halvdelen hadde aldri sett snøen. Den fant opp en grunn. Gazzaniga kalte dette tolkeren: en del av hjernen som syr det vi gjør sammen til en historie etterpå. Det støtter at selvet er mer en fortelling enn en kjerne. Det gjelder også dette kartet. Et kart over sorg er en historie som blir fortalt i etterkant, og den kan føles riktig uten å være det.",
+  "sources": [
+   {
+    "title": "Michael Gazzaniga og Joseph LeDoux, The Integrated Mind (1978)"
+   },
+   {
+    "title": "Michael Gazzaniga, The Split Brain Revisited, Scientific American (1998)",
+    "url": "https://www.scientificamerican.com/article/the-split-brain-revisited/"
+   }
+  ],
+  "links": [
+   {
+    "rel": "contradicts",
+    "to": "t-deep-self"
+   },
+   {
+    "rel": "supports",
+    "to": "bundle-self"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "introspection-unreliable"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "split-brains"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "grief-picks-the-theory",
+    "note": "også kartet kan være en tolker"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "track-trap"
+   }
+  ],
+  "added": "2026-11-02",
+  "conversation": "map"
  },
  {
   "id": "the-open",

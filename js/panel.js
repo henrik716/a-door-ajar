@@ -10,11 +10,15 @@ function lnk(id, cls = '') {
   return `<button type="button" class="lnk ${cls}" data-go="${esc(id)}">${esc(n.short || n.label)}</button>`;
 }
 function relationsHTML(id) {
-  const groups = new Map();
-  const push = (label, html, order) => { if (!groups.has(label)) groups.set(label, { order, items: [] }); groups.get(label).items.push(html); };
+  const groups = new Map(), seen = new Set();
+  // a symmetric link (relatedTo) entered from both ends has the same label both ways: show it once
+  const push = (label, other, note, order) => {
+    const key = `${label}\u0000${other}\u0000${note}`; if (seen.has(key)) return; seen.add(key);
+    if (!groups.has(label)) groups.set(label, { order, items: [] }); groups.get(label).items.push(nref(other, esc(note)));
+  };
   for (const e of S.edges) {
-    if (e.s === id) push(PRED[e.p][0], nref(e.o, esc(e.m)), PRED_ORDER.indexOf(e.p) * 2);
-    if (e.o === id) push(PRED[e.p][1], nref(e.s, esc(e.m)), PRED_ORDER.indexOf(e.p) * 2 + 1);
+    if (e.s === id) push(PRED[e.p][0], e.o, e.m, PRED_ORDER.indexOf(e.p) * 2);
+    if (e.o === id) push(PRED[e.p][1], e.s, e.m, PRED_ORDER.indexOf(e.p) * 2 + 1);
   }
   let html = [...groups.entries()].sort((a, b) => a[1].order - b[1].order)
     .map(([l, g]) => `<div class="rel"><h4>${esc(l)}</h4><div class="rlist">${g.items.join('')}</div></div>`).join('');
