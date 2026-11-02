@@ -1,0 +1,115 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Dør på gløtt</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=Schibsted+Grotesk:wght@400;500;600&family=Spectral:ital,wght@0,400;0,500;1,400;1,500&display=swap">
+<link rel="stylesheet" href="css/style.css">
+
+<script>
+  // dark mode is the default; a choice made with the button is remembered
+  (function () {
+    var t = 'dark', root = document.documentElement;
+    try { var s = localStorage.getItem('dpg-theme'); if (s === 'light' || s === 'dark') t = s; } catch (e) {}
+    window.__theme = t;
+    root.setAttribute('data-theme', t);
+    // the host may set its own theme after the page has loaded; the map's choice wins
+    new MutationObserver(function () {
+      if (root.getAttribute('data-theme') !== window.__theme) root.setAttribute('data-theme', window.__theme);
+    }).observe(root, { attributes: true, attributeFilter: ['data-theme'] });
+  })();
+</script>
+<div class="app">
+  <header class="top">
+    <div class="brand">
+      <h1>Dør på <em>gløtt</em></h1>
+      <div class="sub">Alfreds atlas over det vi ikke vet</div>
+      <div class="meta" id="meta">Henter kartet …</div>
+    </div>
+    <nav class="tabs" aria-label="Visninger">
+      <button type="button" data-view="map" aria-pressed="true">Kart</button>
+      <button type="button" data-view="register" aria-pressed="false">Register</button>
+      <button type="button" data-view="patterns" aria-pressed="false">Mønstre</button>
+      <button type="button" data-view="export" aria-pressed="false">Eksport</button>
+    </nav>
+    <button type="button" class="themebtn dockbtn" id="dockbtn" aria-label="Skjul sidepanelet" title="Skjul sidepanelet"></button>
+    <button type="button" class="themebtn" id="themebtn" aria-label="Bytt mellom lys og mørk modus"></button>
+  </header>
+
+  <div class="body">
+    <main class="stage">
+      <section class="view" id="v-map" aria-label="Kart">
+        <svg id="map" role="img" aria-label="Kart over posisjoner, funn og spørsmål">
+          <defs>
+            <radialGradient id="glow-grad"><stop offset="0" style="stop-color: var(--glow); stop-opacity: var(--glow-a)"/><stop offset=".5" style="stop-color: var(--glow); stop-opacity: var(--glow-a2)"/><stop offset="1" style="stop-color: var(--glow); stop-opacity: 0"/></radialGradient>
+            <radialGradient id="gap-grad"><stop offset="0" style="stop-color: var(--gap-c); stop-opacity: var(--gap-a)"/><stop offset=".55" style="stop-color: var(--gap-c); stop-opacity: var(--gap-a2)"/><stop offset="1" style="stop-color: var(--gap-c); stop-opacity: 0"/></radialGradient>
+            <radialGradient id="fur"><stop offset="0" style="stop-color: var(--fur-in); stop-opacity: var(--fur-a)"/><stop offset=".5" style="stop-color: var(--fur-mid); stop-opacity: var(--fur-am)"/><stop offset="1" style="stop-color: var(--fur-out); stop-opacity: var(--fur-a2)"/></radialGradient>
+            <filter id="soft" filterUnits="userSpaceOnUse" x="-3000" y="-3000" width="6000" height="6000"><feGaussianBlur stdDeviation="3"/></filter>
+          </defs>
+          <g class="topo"></g>
+          <g class="glow"><ellipse rx="160" ry="150" fill="url(#glow-grad)"/><ellipse rx="16" ry="175" fill="url(#gap-grad)"/></g>
+          <g class="terrain"></g>
+          <g class="trail"></g>
+          <g class="rlabels"></g>
+          <g class="edges"></g>
+          <g class="dedges"></g>
+          <g class="nodes"></g>
+        </svg>
+        <div class="status-msg" id="status"><div><strong>Henter kartet</strong>Kartet ligger i sin egen database og lastes inn nå.</div></div>
+        <div class="lensbar">
+          <div class="lensrow" id="lensrow">
+            <button type="button" class="chip" data-lens="type" aria-pressed="true">Type</button>
+            <button type="button" class="chip" data-lens="hope" aria-pressed="false">Håp</button>
+            <button type="button" class="chip" data-lens="evidence" aria-pressed="false">Evidens</button>
+            <button type="button" class="chip" data-lens="words" aria-pressed="false">Feil ord</button>
+            <span class="sep" aria-hidden="true"></span>
+            <button type="button" class="chip tog" id="tog-derived" aria-pressed="false">Utledet</button>
+            <button type="button" class="chip tog" id="tog-thinkers" aria-pressed="false">Tenkere</button>
+          </div>
+          <div class="lensrow" id="hoperow" hidden>
+            <button type="button" class="chip" data-hope="0" aria-pressed="true">Alle nivåer</button>
+            <button type="button" class="chip" data-hope="1" aria-pressed="false" style="--sw: var(--h1)"><span class="sw"></span>1 Varig</button>
+            <button type="button" class="chip" data-hope="2" aria-pressed="false" style="--sw: var(--h2)"><span class="sw"></span>2 Mønster</button>
+            <button type="button" class="chip" data-hope="3" aria-pressed="false" style="--sw: var(--h3)"><span class="sw"></span>3 Havet</button>
+            <button type="button" class="chip" data-hope="4" aria-pressed="false" style="--sw: var(--h4)"><span class="sw"></span>4 Havet med vannet</button>
+            <button type="button" class="chip" data-hope="5" aria-pressed="false" style="--sw: var(--h5)"><span class="sw"></span>5 Hans strøm</button>
+            <button type="button" class="chip" data-hope="6" aria-pressed="false" style="--sw: var(--h6)"><span class="sw"></span>6 Han selv</button>
+          </div>
+        </div>
+        <div class="mapbtns"><button type="button" class="legendbtn tourbtn" id="tourbtn" hidden>Vandring</button><button type="button" class="legendbtn" id="statusbtn">Hvor vi står</button><button type="button" class="legendbtn" id="legendbtn" aria-expanded="false" aria-controls="legend">Tegnforklaring</button></div>
+        <div class="legend" id="legend" hidden></div>
+        <div class="mapctl">
+          <button type="button" class="ctl" id="zin" aria-label="Zoom inn">+</button>
+          <button type="button" class="ctl" id="zout" aria-label="Zoom ut">−</button>
+          <button type="button" class="ctl" id="zfit" aria-label="Vis hele kartet"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M2 6V2h4M10 2h4v4M14 10v4h-4M6 14H2v-4"/></svg></button>
+        </div>
+      </section>
+      <section class="view" id="v-register" hidden aria-label="Register"></section>
+      <section class="view" id="v-patterns" hidden aria-label="Mønstre"></section>
+      <section class="view" id="v-export" hidden aria-label="Eksport"></section>
+    </main>
+    <aside class="panel" id="panel" aria-live="polite"></aside>
+  </div>
+</div>
+
+<script src="static-db.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="js/vocab.js"></script>
+<script src="js/state.js"></script>
+<script src="js/symbols.js"></script>
+<script src="js/data.js"></script>
+<script src="js/layout.js"></script>
+<script src="js/map.js"></script>
+<script src="js/lenses.js"></script>
+<script src="js/selection.js"></script>
+<script src="js/panel.js"></script>
+<script src="js/tour.js"></script>
+<script src="js/controls.js"></script>
+<script src="js/register.js"></script>
+<script src="js/patterns.js"></script>
+<script src="js/export.js"></script>
+<script src="js/views.js"></script>
+<script src="js/main.js"></script>
+
+</body></html>

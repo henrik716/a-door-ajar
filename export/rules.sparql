@@ -1,0 +1,33 @@
+PREFIX v: <urn:x-alfred-atlas:schema#>
+
+# R1  B challenges A when A presupposes X and B contradicts X
+CONSTRUCT { ?b v:challengesDerived ?a }
+WHERE { ?a v:presupposes ?x . ?b v:contradicts ?x .
+        FILTER(?a != ?b) FILTER NOT EXISTS { ?b v:contradicts ?a } }
+
+# R2  B strengthens A when A presupposes X and B supports X,
+#     unless B also contradicts another premise of A
+CONSTRUCT { ?b v:strengthensDerived ?a }
+WHERE { ?a v:presupposes ?x . ?b v:supports ?x .
+        FILTER(?a != ?b) FILTER NOT EXISTS { ?b v:supports ?a }
+        FILTER NOT EXISTS { ?b v:contradicts ?a }
+        FILTER NOT EXISTS { ?a v:presupposes ?y . ?b v:contradicts ?y } }
+
+# R3  A and B share a premise when both presuppose X
+CONSTRUCT { ?a v:sharesPremiseWith ?b }
+WHERE { ?a v:presupposes ?x . ?b v:presupposes ?x .
+        FILTER(STR(?a) < STR(?b)) }
+#     The relation is symmetric. In JSON-LD it is listed on both nodes.
+
+# R4  P may dissolve question Q when Q uses a word that P challenges
+CONSTRUCT { ?p v:mayDissolveDerived ?q }
+WHERE { ?q a v:Question ; v:usesWord ?w . ?p v:challengesWord ?w .
+        FILTER(?p != ?q) FILTER NOT EXISTS { ?p v:dissolves ?q } }
+
+# R5  B qualifies A when A presupposes X and B qualifies X
+CONSTRUCT { ?b v:qualifiesDerived ?a }
+WHERE { ?a v:presupposes ?x . ?b v:qualifies ?x .
+        FILTER(?a != ?b) FILTER NOT EXISTS { ?b v:qualifies ?a }
+        FILTER NOT EXISTS { ?b v:contradicts ?a } }
+
+# CONSTRUCT returns a set, so each derivation appears once even when several paths lead to it.

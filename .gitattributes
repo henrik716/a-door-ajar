@@ -1,0 +1,3 @@
+# Keep LF everywhere: the files are written with LF, and the map is served as is.
+* text=auto eol=lf
+*.png binary

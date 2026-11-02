@@ -1,0 +1,16 @@
+{
+  "name": "alfred-atlas",
+  "private": true,
+  "type": "module",
+  "description": "Dør på gløtt – Alfreds atlas over det vi ikke vet",
+  "scripts": {
+    "start": "python3 -m http.server 8000",
+    "write": "node scripts/write-server.mjs",
+    "export": "node scripts/export.mjs",
+    "screenshots": "node scripts/export.mjs --screenshots",
+    "check": "node scripts/check.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.47.0"
+  }
+}

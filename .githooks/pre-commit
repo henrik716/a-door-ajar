@@ -1,0 +1,7 @@
+#!/bin/sh
+# Runs npm run check before every commit: the schema, and that no history is lost since the
+# last commit. Turn it on once per clone:  git config core.hooksPath .githooks
+#
+# The check reads the files in the working tree, so stage everything you have changed in
+# data/ and work/ before you commit.
+exec node scripts/check.mjs

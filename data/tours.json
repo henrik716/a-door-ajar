@@ -1,0 +1,133 @@
+[
+ {
+  "id": "main",
+  "title": "Gjennom kartet",
+  "updated": "2026-11-01",
+  "draft": true,
+  "intro": [
+   "Alfred var en finsk lapphund. Jeg hadde ham i tretten av hans nesten fjorten år. Han døde hjemme 26. oktober 2026, etter en lang dag ute i sola, med oss rundt seg.",
+   "Dagene etter satt jeg igjen med ett spørsmål: Hvor er Alfred nå? Kartet ble til i samtaler med Claude den uka, med innspill fra Gemini underveis. Det ble et dypdykk i noen av de største spørsmålene vi har: hva bevissthet er, hva som gjør noen til seg selv, hva tid er, og hva som eventuelt fortsetter. Fysikk, filosofi, religion, hjerneforskning og sorg står side om side.",
+   "Kartet gir ikke et svar, og det er ikke ferdig. Det vokser når jeg leser og tenker videre, og noe av det som står her nå, vil flytte seg. Hvert sted sier hvor godt det står, og antakelsene står som egne steder, så det synes hva som faller hvis en av dem faller. Noen steder er mine egne tanker underveis. De er merket, og de er ikke mer enn det. Når kartet sier «du», er det meg, Henrik.",
+   "Vandringen går fra det som står fast, gjennom det som er vanskelig, til der kartet fortsatt graver."
+  ],
+  "stages": [
+   {
+    "title": "Døra",
+    "steps": [
+     {
+      "node": "alfred-at-the-door",
+      "text": "Alfred visste at Henrik fantes, men ikke hvor han ble av. Han ventet likevel, og han trengte aldri mer enn en glipe i døra. Kartet står i samme stilling overfor døden: ingen vet hva som er på den andre siden."
+     },
+     {
+      "node": "alfred-now",
+      "text": "Spørsmålet hele kartet er tegnet rundt. Det viste seg å være fire spørsmål i ett: om det som skjedde, skjedde, om mønsteret hans lever videre, om innsiden hans finnes, og om han er et sted. De har ulike svar, og de må holdes fra hverandre."
+     }
+    ]
+   },
+   {
+    "title": "Det som står fast",
+    "steps": [
+     {
+      "node": "cannot-be-undone",
+      "also": [
+       "happened"
+      ],
+      "text": "Det sikreste stedet i kartet. Uansett hva tid er, kan det som skjedde mellom dem ikke gjøres om."
+     },
+     {
+      "node": "your-half-goes-on",
+      "also": [
+       "pattern-weak",
+       "the-between"
+      ],
+      "text": "Det som fantes mellom dem, hadde to sider. Hans side opphørte. Henriks side går fortsatt, og det er den som venter ham i døra. Mellomrommet spør om det Henrik bærer, er mer enn en kopi av Alfred: en del av det de besto av sammen. Men Alfred hadde også sin egen side."
+     },
+     {
+      "node": "dogs-have-an-inside",
+      "also": [
+       "umwelt"
+      ],
+      "text": "Forskere er stort sett enige om at hunder har bevisste opplevelser. Det var noen der, i en verden av lukt vi knapt kan forestille oss."
+     },
+     {
+      "node": "no-death-ahead",
+      "text": "Ingenting tyder på at Alfred levde med døden foran seg. Den siste dagen var trolig et nå: sol, gress og en hånd i pelsen."
+     }
+    ]
+   },
+   {
+    "title": "Der det blir vanskelig",
+    "steps": [
+     {
+      "node": "memory-in-the-brain",
+      "text": "Her slutter det trøstende å være sikkert. Minnene hans var bundet til hjernen, og funnene står solid. Hans minner av Henrik tok med stor sannsynlighet slutt med den."
+     },
+     {
+      "node": "less-of-him",
+      "also": [
+       "presence-and-archive",
+       "measured-by-content"
+      ],
+      "text": "Et mønster gjennom hele kartet: det som står best, bærer minst av ham. Men kanskje har kartet målt Alfred med en menneskemålestokk, i album og ikke i nærvær. Henrik bar albumet, Alfred bar nærværet. Nærværet var også formet i hjernen, så tanken flytter tapet, men løser det ikke."
+     },
+     {
+      "node": "simply-gone",
+      "text": "Det vanlige moderne svaret. Det står her som et ærlig alternativ, ikke som noe kartet har avfeid. Det holdt ikke helt, men det falt heller ikke."
+     }
+    ]
+   },
+   {
+    "title": "Lytteren",
+    "steps": [
+     {
+      "node": "program-and-listener",
+      "also": [
+       "hard-problem"
+      ],
+      "text": "Ingen vet hvorfor noe av det hjernen gjør, kjennes som noe. Hjernen lager programmet: det han så, husket og ventet på. Om den også er lytteren, er et av de mest åpne spørsmålene i faget."
+     },
+     {
+      "node": "inside-not-radio",
+      "text": "Bildet av en radio som tar imot et signal, kolliderer med fysikken. Men hos Russell og Kastrup er det ikke to ting som møtes: prosessen i hjernen er slik opplevelsen ser ut utenfra. Det åpner en dør, men det betyr ikke at noe fortsetter."
+     },
+     {
+      "node": "where-the-individual-sits",
+      "also": [
+       "three-receptions"
+      ],
+      "text": "Hvis noe fortsetter, er spørsmålet om det er hans. Det avhenger av hvor det individuelle sitter: i selve lytteren, eller i innholdet og selvmodellen. Det er omstridt."
+     },
+     {
+      "node": "points-to-the-ocean",
+      "also": [
+       "entropy-objection",
+       "spinoza-modes"
+      ],
+      "text": "En virvel i elva løses opp når ingenting holder den oppe. Det trekker bort fra en egen strøm som fortsetter av seg selv. Funnene peker derfor mer mot havet enn mot hans egen strøm, men bare gitt at hjernen ikke lager hele opplevelsen."
+     }
+    ]
+   },
+   {
+    "title": "Fronten",
+    "steps": [
+     {
+      "node": "grief-picks-the-theory",
+      "also": [
+       "blind-tests-a-d",
+       "track-trap"
+      ],
+      "text": "Kartet tester seg selv. Når oppgaven er å trøste, går både modellene og vi mot synene som lar noe bli igjen. I blindtestene 31. oktober holdt retningen mot havet uten sorg, men trøsten la til mer. Testene er blanke, men ikke uavhengige."
+     },
+     {
+      "node": "why-the-ocean-pulls",
+      "text": "Her graver kartet nå. Trekker havet fordi det er noe i det, eller fordi det er fint? Det er prøvd én gang, og spørsmålet står åpent."
+     },
+     {
+      "node": "alfred-at-the-door",
+      "text": "Kartet gir ikke et svar. Det viser hva vi vet, hva vi ikke vet, og hvor døra står. Herfra kan du gå videre på egen hånd."
+     }
+    ]
+   }
+  ]
+ }
+]
