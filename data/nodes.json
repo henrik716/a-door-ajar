@@ -1259,6 +1259,37 @@
   "conversation": "deepdive"
  },
  {
+  "id": "body-as-obstacle",
+  "type": "finding",
+  "region": "dog",
+  "label": "Hunder forstår at kroppen deres står i veien",
+  "short": "Kroppen som hinder",
+  "strength": "supported",
+  "text": "Hunder sto på en liten matte og ble bedt om å løfte en leke og gi den til eieren. Når leken var festet til matta, gikk de oftere og raskere av matta enn når leken var festet til bakken, der det ikke hjalp å flytte seg. I første forsøk gikk 27 av 32 hunder av matta når leken satt fast i den, mot 14 av 32 når den satt fast i bakken. Forskerne tolker det som at hundene forsto at det var deres egen kropp som holdt leken fast. Hunder klarer ikke speiltesten, og forskerne skriver at evnen til å se kroppen som et hinder kan finnes uavhengig av å kjenne seg igjen i speilet. Sammen med luktspeilet peker det mot at Alfred hadde et selv i kroppen og i lukten, selv om han ikke kjente seg igjen i speilet.",
+  "sources": [
+   {
+    "title": "Lenkei, Faragó, Zsilák og Pongrácz, Dogs (Canis familiaris) recognize their own body as a physical obstacle, Scientific Reports 11 (2021)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7893002"
+   }
+  ],
+  "links": [
+   {
+    "rel": "supports",
+    "to": "thinner-self-is-narrative"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "scent-mirror"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "dogs-have-an-inside"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map"
+ },
+ {
   "id": "bonanno",
   "type": "thinker",
   "region": "grief",
@@ -7324,10 +7355,60 @@
    {
     "rel": "behind",
     "to": "man-and-person"
+   },
+   {
+    "rel": "behind",
+    "to": "locke-on-animals"
    }
   ],
   "added": "2026-10-29",
-  "conversation": "deepdive"
+  "conversation": "deepdive",
+  "changes": [
+   {
+    "date": "2026-11-03",
+    "text": "Lenke til «Locke: for et dyr er det det samme livet som teller».",
+    "fields": [
+     "links"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "locke-on-animals",
+  "type": "position",
+  "region": "self",
+  "label": "Locke: for et dyr er det det samme livet som teller",
+  "short": "Locke om dyr",
+  "strength": "position",
+  "text": "Locke er kilden til minnekriteriet: personen strekker seg så langt minnene når. Men han ga det bare til personer, og en person er etter ham et tenkende vesen med fornuft og refleksjon, som kan tenke på seg selv som seg selv til ulike tider og steder. For dyr gir han et annet svar i det samme kapitlet: et dyr er det samme så lenge det samme livet fortsetter i én organisert kropp, mens stoffet i den skiftes ut. Om en hund er en person i hans forstand, drøfter han ikke, men kravet om refleksjon gjør det tvilsomt. Da er Locke i sin egen bok animalist om Alfred. Minnekriteriet, som kartet har knyttet til ham, var ikke ment for en hund.",
+  "sources": [
+   {
+    "title": "John Locke, An Essay Concerning Human Understanding, 2. utgave (1694), bok II, kapittel 27, avsnitt 5, 6 og 9",
+    "url": "https://humanum.arts.cuhk.edu.hk/Philosophy/Locke/echu/lok0037.htm"
+   }
+  ],
+  "links": [
+   {
+    "rel": "answers",
+    "to": "self-questions-for-a-dog"
+   },
+   {
+    "rel": "supports",
+    "to": "animalism",
+    "note": "for et dyr som ikke er en person"
+   },
+   {
+    "rel": "qualifies",
+    "to": "t-content",
+    "note": "Locke ga minnekriteriet bare til personer"
+   },
+   {
+    "rel": "qualifies",
+    "to": "man-and-person"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map"
  },
  {
   "id": "love-goes-last",
@@ -7559,6 +7640,49 @@
   ],
   "added": "2026-10-28",
   "conversation": "deepdive"
+ },
+ {
+  "id": "mcmahan-time-relative",
+  "type": "position",
+  "region": "self",
+  "label": "Hvor mye han mistet, kan avhenge av hvor bundet han var til framtiden",
+  "short": "Tidsrelative interesser",
+  "strength": "position",
+  "text": "McMahan skiller mellom hvem vi er og hva som betyr noe. Om hvem vi er, mener han at vi er sinnet som hjernen bærer. Om hvor ille døden er for den som dør, mener han at det avhenger av hvor sterkt den som dør, er psykologisk bundet til sin egen framtid: minner, planer og ønsker som peker framover. Han kaller det tidsrelative interesser. Det er Nagels tap av det gode som ellers ville kommet, men veid etter hvor mye den som dør, hang sammen med det som ville kommet. Et dyr som lever mer i nået, mister etter dette synet mindre ved å dø enn et voksent menneske. McMahan godtar at det samme da gjelder for spedbarn, og kaller det selv sterkt mot intuisjonen. Nagels eget syn veier ikke slik: der er tapet alt det gode som ville kommet. For kartet betyr det at spørsmålet om selvet hos en hund ikke bare handler om hvem som eventuelt fortsetter, men også om hva han mistet. Det er et omstridt syn, og det er ikke kartets.",
+  "sources": [
+   {
+    "title": "Jeff McMahan, The Ethics of Killing: Problems at the Margins of Life (2002)"
+   }
+  ],
+  "links": [
+   {
+    "rel": "answers",
+    "to": "self-questions-for-a-dog"
+   },
+   {
+    "rel": "qualifies",
+    "to": "deprivation",
+    "note": "veid etter hvor bundet han var til framtiden"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "would-it-help-him"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "mental-time-travel"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "relation-r"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "carrier-view"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map"
  },
  {
   "id": "mctaggart",
@@ -10576,8 +10700,8 @@
   "region": "dog",
   "label": "Gjelder spørsmålene om selvet for en hund?",
   "short": "Selvet hos en hund",
-  "status": "planned",
-  "text": "Mye av gravingen om hvem som eventuelt fortsetter, bygger på tilfeller tenkt ut for mennesker: Locke og minnene, Parfit og teleporteren, kopien og opphavet. Antakelsen under, som ikke står skrevet noe sted, er at de samme spørsmålene gjelder for en hund på samme måte. Det er ikke sikkert. Alfred husket hendelser, men levde mest i et bredt nå, trolig uten en fortelling om seg selv, og verden hans var mest lukt og kropp. Var selvet hans tynnere eller bygget annerledes, kan svarene flytte seg: kanskje veier kroppen og opphavet mer for ham, og minnene og selvmodellen mindre. Kartet har funnet at modellene gir et menneske mer rom for tro enn en hund. Det samme kan gjelde for hvor kartet selv har gravd: få lenker fra Selvet, Bevisstheten, Kjernen og Grensene går til Alfreds verden. Ikke gravd ennå.",
+  "status": "frontier",
+  "text": "Mye av gravingen om hvem som eventuelt fortsetter, bygger på tilfeller tenkt ut for mennesker: Locke og minnene, Parfit og teleporteren, kopien og opphavet. Antakelsen under, som ikke står skrevet noe sted, er at de samme spørsmålene gjelder for en hund på samme måte. Det er ikke sikkert. Alfred husket hendelser, men levde mest i et bredt nå, trolig uten en fortelling om seg selv, og verden hans var mest lukt og kropp. Var selvet hans tynnere eller bygget annerledes, kan svarene flytte seg: kanskje veier kroppen og opphavet mer for ham, og minnene og selvmodellen mindre. Kartet har funnet at modellene gir et menneske mer rom for tro enn en hund. Det samme kan gjelde for hvor kartet selv har gravd: få lenker fra Selvet, Bevisstheten, Kjernen og Grensene går til Alfreds verden. Gravd første gang 3. november. Locke ga selv minnekriteriet bare til personer, og for dyr sa han at det er det samme livet som teller. Skillet mellom et minimalt og et fortellende selv viser at det som var tynt hos Alfred, trolig var fortellingen, ikke selvet. Tankeforsøkene om minner og sammenhenger treffer ham derfor svakere, mens de om opphavet og den ubrutte veien gjelder fullt ut. McMahan viser at spørsmålet også handler om hva han mistet, ikke bare om hvem som eventuelt fortsetter. Åpent: hva dette flytter i svarene om bæreren og om havet.",
   "links": [
    {
     "rel": "relatedTo",
@@ -10617,7 +10741,22 @@
    }
   ],
   "added": "2026-11-03",
-  "conversation": "map"
+  "conversation": "map",
+  "answer": "Delvis: minnene treffer ham svakere, opphavet like sterkt",
+  "changes": [
+   {
+    "date": "2026-11-03",
+    "text": "Gravd første gang: Locke om dyr, de to lagene i selvet, kroppen som hinder og McMahans tidsrelative interesser. Fra ikke gravd til fronten.",
+    "fields": [
+     "status",
+     "answer",
+     "text"
+    ],
+    "from": {
+     "status": "planned"
+    }
+   }
+  ]
  },
  {
   "id": "sensing-presence",
@@ -12211,6 +12350,75 @@
   ],
   "added": "2026-10-28",
   "conversation": "deepdive"
+ },
+ {
+  "id": "thinner-self-is-narrative",
+  "type": "insight",
+  "region": "dog",
+  "label": "Det tynne hos Alfred var trolig fortellingen, ikke selvet",
+  "short": "Fortellingen, ikke selvet",
+  "strength": "position",
+  "own": true,
+  "text": "Kartet har sagt flere ganger at Alfred hadde et tynnere selv enn oss. Gallagher skiller mellom to lag. Det minimale selvet er å være den som opplever, her og nå, i en kropp som er ens egen. Det fortellende selvet er historien om seg selv, satt sammen av minner og av tolkeren som forklarer etterpå. Det fortellende laget hadde Alfred trolig lite av: sporene etter at hunder ser for seg en fjern framtid, er svake. Det minimale laget hadde han trolig. Han kjente igjen sin egen lukt, og hunder forstår at deres egen kropp står i veien. Det tynne var altså trolig fortellingen, ikke selvet. Det flytter tre ting. Det første: tankeforsøkene som prøver fortellingen, treffer ham svakere. Det gjelder Lockes minner, Parfits sammenhenger og Korsgaards handlende selv. De som prøver opphavet og den ubrutte veien, gjelder fullt ut, fordi de gjelder for alle ting: Kripkes bord, skipet, kopien og byttet. Det gir kroppen og opphavet mer vekt for ham enn for oss. Det andre: kartet har lest det tynnere selvet som en tynnere vegg mellom ham og havet. Det holder bare om det individuelle sitter i fortellingen. Sitter det i selvmodellen slik Metzinger beskriver den, er kjernen i den kroppslig: å være noen, et sted, i en kropp. Den hadde Alfred trolig. Da var ikke veggen nødvendigvis tynnere hos ham. Å lese et mindre fortellende selv som nærmere havet kan være menneskemålestokken igjen: vi måler selvet i historien vi forteller om det. Det tredje går andre veien. Mindre fortelling er ikke det samme som lite sammenheng. Hunders personlighet er ganske stabil over år, mer jo eldre de er, og tretten år med vaner, forventninger og tilknytning er også sammenhenger i Parfits forstand. Parfit treffer ham svakere, men ikke ingenting. Dette er vår lesning av kildene. Ingen av dem skriver om hunder og identitet.",
+  "sources": [
+   {
+    "title": "Shaun Gallagher, Philosophical conceptions of the self: implications for cognitive science, Trends in Cognitive Sciences 4(1) (2000)"
+   },
+   {
+    "title": "Olaf Blanke og Thomas Metzinger, Full-body illusions and minimal phenomenal selfhood, Trends in Cognitive Sciences 13(1) (2009)",
+    "url": "https://doi.org/10.1016/j.tics.2008.10.003"
+   },
+   {
+    "title": "Fratkin, Sinn, Patall og Gosling, Personality Consistency in Dogs: A Meta-Analysis, PLoS ONE 8(1) (2013)",
+    "url": "https://doi.org/10.1371/journal.pone.0054907"
+   }
+  ],
+  "links": [
+   {
+    "rel": "answers",
+    "to": "self-questions-for-a-dog"
+   },
+   {
+    "rel": "qualifies",
+    "to": "where-the-individual-sits",
+    "note": "det tynne hos ham var fortellingen, ikke kjernen i selvmodellen"
+   },
+   {
+    "rel": "qualifies",
+    "to": "load-bearing-parfit",
+    "note": "Parfit treffer en hund svakere, men ikke ingenting"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "alfreds-three-words"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "mental-time-travel"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "scent-mirror"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "the-interpreter"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "origin-matters"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "good-enough-carrier"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "locke-on-animals"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map"
  },
  {
   "id": "thompson",

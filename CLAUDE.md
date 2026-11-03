@@ -65,12 +65,16 @@ Offline, d3 can be served from a local file: `D3_LOCAL=path/to/d3.min.js npm run
 
 Dig sites (see `next` in `data/status.json`):
 
-- Does the ocean pull because there is something in it, or because it is beautiful? (`why-the-ocean-pulls`). Tried once. A test with another model, or a neutral question about the three kinds of reception, remains.
+- Is there a whole? (`is-there-a-whole`). Two of its three questions dug on 3 November 2026.
+- Can a mind be itself and part of the ocean at once? (`exclusion-and-the-ocean`)
+- If Kastrup takes exclusion literally, is the rest an ocean or dust? (`kastrup-literal-exclusion`). Entanglement checked; whether the rest of the universe is integrated enough to be one whole is not.
 - What is a good enough carrier? (`good-enough-carrier`)
 - Where does what makes the listener his sit? (`where-the-individual-sits`)
 - Would it have helped him? (`would-it-help-him`)
 - Is there a reader without a notebook? (`reader-without-notebook`)
-- Do the questions about the self apply to a dog? (`self-questions-for-a-dog`). Added 3 November 2026 after a count showed that the deep digging rarely reaches Alfred's world.
+- Do the questions about the self apply to a dog? (`self-questions-for-a-dog`). Added 3 November 2026 after a count showed that the deep digging rarely reaches Alfred's world. Dug once the same day: Locke on animals, the minimal and the narrative self, the body as an obstacle, and McMahan's time-relative interests. Open: what it moves in the carrier and the ocean.
+
+No longer in `next`, but not closed: does the ocean pull because there is something in it, or because it is beautiful? (`why-the-ocean-pulls`). Tried once. A test with another model, or a neutral question about the three kinds of reception, remains.
 
 Waiting for Henrik:
 
