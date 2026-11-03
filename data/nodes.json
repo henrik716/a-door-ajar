@@ -309,6 +309,42 @@
   "conversation": "deepdive"
  },
  {
+  "id": "alters-share-memories",
+  "type": "finding",
+  "region": "limits",
+  "label": "Personlighetene deler mer enn de vet",
+  "short": "Minnene lekker mellom personlighetene",
+  "strength": "supported",
+  "text": "Mennesker med dissosiativ identitetsforstyrrelse forteller ofte at én personlighet ikke husker det en annen har opplevd. Huntjens og kolleger testet det uten å spørre. De hentet personlige opplysninger fra én personlighet, og testet en annen med en oppgave som viser om noe er kjent, også når man sier at det ikke er det. Pasientene sa at de ikke husket, men testene viste at kunnskapen var der. Forskerne mener at pasientene lar være å bruke minner de opplever som en annens. Andre studier peker den andre veien. Reinders og kolleger fant at personlighetstilstandene ga mønstre i hjerne og kropp som folk som spilte rollen, ikke fikk til. Begge kan stemme: tilstandene er ekte, men veggene mellom dem er tynnere enn de kjennes.",
+  "sources": [
+   {
+    "title": "Huntjens, Verschuere og McNally, Inter-Identity Autobiographical Amnesia in Patients with Dissociative Identity Disorder, PLoS ONE 7(7) (2012)",
+    "url": "https://doi.org/10.1371/journal.pone.0040580"
+   },
+   {
+    "title": "Reinders mfl., Fact or Factitious? A Psychobiological Study of Authentic and Simulated Dissociative Identity States, PLoS ONE 7(6) (2012)",
+    "url": "https://doi.org/10.1371/journal.pone.0039279"
+   }
+  ],
+  "links": [
+   {
+    "rel": "qualifies",
+    "to": "analytic-idealism",
+    "note": "veggene er tynnere i eksempelet modellen bygger på"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "blind-alters"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "integration"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map"
+ },
+ {
   "id": "analytic-idealism",
   "type": "position",
   "region": "limits",
@@ -2109,6 +2145,66 @@
   "conversation": "deepdive"
  },
  {
+  "id": "combination-cuts-both-ways",
+  "type": "insight",
+  "region": "consciousness",
+  "label": "Kombinasjonsproblemet gir ikke havet et forsprang",
+  "short": "Problemet veier likt",
+  "strength": "position",
+  "hope": [
+   3,
+   4
+  ],
+  "own": true,
+  "text": "Spørsmålet var om småbiter kan bli til ett sinn. Det betyr noe for havet og støvet. Er svaret nei, faller den vanlige panpsykismen, og det er en av grunnene til at noen går over til havet. Men argumentet holder bare hvis det motsatte, at ett blir til mange, er lettere. Miller mener de to problemene er like vanskelige, fordi begge handler om subjekter som er deler av andre subjekter. Kastrup mener havet har et forsprang: vi ser sinn dele seg hos mennesker, men aldri småbiter som blir til ett. Kartet har funnet at det ikke holder helt. Der sinn deler seg, er veggene ujevne, og Hogan-tvillingene viser noe som ligner det motsatte, to sinn som deler litt. Begge retninger finnes altså i halv form, og ingen av dem i hel. Integrert informasjon gir et tredje svar. Tononi og Koch mener teorien løser kombinasjonsproblemet: helheter oppstår der informasjonen er mest samlet, som i en hjerne. Det er et ja til at biter kan bli ett, men bare så lenge noe holder dem samlet. Etter døden er det støvet. Så problemet veier omtrent likt på begge sider. Det avgjør ikke mellom havet og støvet.",
+  "sources": [
+   {
+    "title": "Miller, Can Subjects Be Proper Parts of Subjects? The De-Combination Problem, Ratio 31(2) (2018)",
+    "url": "https://doi.org/10.1111/rati.12166"
+   },
+   {
+    "title": "Kastrup, The Universe in Consciousness, Journal of Consciousness Studies 25(5-6) (2018)",
+    "url": "https://www.imprint.co.uk/wp-content/uploads/2019/03/Kastrup_Open_Access.pdf"
+   },
+   {
+    "title": "Tononi og Koch, Consciousness: here, there and everywhere?, Philosophical Transactions of the Royal Society B (2015)",
+    "url": "https://doi.org/10.1098/rstb.2014.0167"
+   },
+   {
+    "title": "Roelofs, Combining Minds: How to Think about Composite Subjectivity, Oxford University Press (2019)"
+   }
+  ],
+  "links": [
+   {
+    "rel": "answers",
+    "to": "is-there-a-whole"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "combination-problem"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "uneven-walls"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "hogan-twins",
+    "note": "to sinn som deler litt"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "iit-points-to-dust"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "cosmopsychism"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map"
+ },
+ {
   "id": "combination-problem",
   "type": "question",
   "region": "consciousness",
@@ -3242,7 +3338,7 @@
    4
   ],
   "status": "frontier",
-  "text": "Havsynene sier at hvert sinn er en del av én større bevissthet. Integrert informasjon sier at bare det mest samlede systemet er bevisst: er helheten bevisst, er ikke delene det, og omvendt. Den 3. november viste gravingen at havsynene ikke er ett syn her. Goff tenker seg at universets bevissthet rommer våre perspektiver. Da opplever havet det samme som dråpen, og det bryter regelen. Kastrup tenker seg at hvert sinn er avspaltet, og at det det opplever, ikke kan nås fra resten. Da er havet og dråpen bevisste side om side, men ikke av det samme, og regelen er ikke brutt. Regelen sier heller ingenting imot at dråpen går opp i havet etterpå. Teorien spår selv at to systemer blir ett når veggen mellom dem faller. Det som trekker den mot støvet, er at den bare kjenner fysiske helheter, ikke utelukkelsen. Selve regelen er omstridt. Mørch argumenterer for at bevissthet ikke kan overlappe, også uten teorien. Blackmon mener teorien bør gi den opp, og Roelofs forsvarer at et sinn kan være én helhet og mange deler på en gang. Fortsatt åpent: om Kastrups vegger er mer enn et bilde. Han forklarer ikke hva avspaltingen er, og bevisene er hentet fra mennesker med dissosiativ identitetsforstyrrelse, ikke fra universet.",
+  "text": "Havsynene sier at hvert sinn er en del av én større bevissthet. Integrert informasjon sier at bare det mest samlede systemet er bevisst: er helheten bevisst, er ikke delene det, og omvendt. Kan Alfred da ha vært et eget sinn og en del av havet på samme tid? Gravingen 3. november ga et delt svar. Regelen rammer et hav som opplever det samme som dråpen, eller deler deler med den, slik Goffs kosmopsykisme gjør. Et hav går bare klar som vannet utenfor dråpene, eller som en grunn uten eget perspektiv. Begge koster: da var ikke havet med i det Alfred opplevde. Regelen sier ingenting imot at dråpen går opp i havet etterpå. Det som trekker teorien mot støvet, er at den bare kjenner fysiske helheter. Selve regelen er omstridt. Fortsatt åpent: om Kastrups vegger er mer enn et bilde. Han vil selv bruke utelukkelsen til å forklare dem, men har ikke vist hvordan. Resten står i «Utelukkelsen rammer et hav som deler opplevelsen», «Havet kan gå klar som grunn», «Når ett sinn ser ut til å dele seg, er veggene ujevne» og dråpetesten.",
   "links": [
    {
     "rel": "relatedTo",
@@ -3275,7 +3371,7 @@
   ],
   "added": "2026-11-02",
   "conversation": "map",
-  "answer": "Bare mot et hav som opplever det samme som dråpen. Et hav med vegger, som Kastrups, går klar.",
+  "answer": "Mot et hav som deler opplevelsen, eller deler, med dråpen. Havet går klar som vannet utenfor dråpene, eller som en grunn uten eget perspektiv.",
   "sources": [
    {
     "title": "Kastrup, The Universe in Consciousness, Journal of Consciousness Studies 25(5-6) (2018)",
@@ -3303,6 +3399,10 @@
    },
    {
     "title": "Roelofs, Combining Minds: How to Think about Composite Subjectivity, Oxford University Press (2019)"
+   },
+   {
+    "title": "Kastrup, Analytic Idealism, UAPs, the Daimon, and a model of dissociation: challenges for 2024, blogg (1. januar 2024)",
+    "url": "https://www.bernardokastrup.com/2024/01/analytic-idealism-uaps-daimon-and-model.html"
    }
   ],
   "changes": [
@@ -3318,6 +3418,37 @@
     "from": {
      "status": "planned"
     }
+   },
+   {
+    "date": "2026-11-03",
+    "text": "Syretest samme dag: svaret var for raskt. Kastrups hav går bare klar under én lesning av ham.",
+    "fields": [
+     "answer",
+     "text"
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "text": "La til den tredje utveien fra testen samme dag: havet som grunn, ikke som subjekt.",
+    "fields": [
+     "answer",
+     "text"
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "text": "Kastrup vil selv bruke utelukkelsen til å forklare avspaltingen, ifølge et innlegg fra 2024. Lagt til i tekst og kilder.",
+    "fields": [
+     "text",
+     "sources"
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "text": "Teksten ryddet og kortet ned etter dagens graving. Det som sto her, bæres nå av egne steder.",
+    "fields": [
+     "text"
+    ]
    }
   ]
  },
@@ -3333,7 +3464,7 @@
    4
   ],
   "own": true,
-  "text": "Gitt at utelukkelsen holder: den forbyr at to bevisste systemer overlapper, slik at det samme oppleves både av delen og av helheten. Den forbyr ikke at et hav og en dråpe er bevisste side om side, hver for seg. Kastrups dråpe er avspaltet, og det den opplever, kan ikke nås fra resten. Da overlapper de ikke. Et hav som rommer dråpenes perspektiver, slik Goff tenker seg, bryter regelen. Regelen sier heller ingenting om etterpå. Integrert informasjon spår selv at når veggen mellom to systemer faller, blir de ett, og de to slutter å være to. Det ligner nivå 4: perspektivet tar slutt, og det som var i det, blir del av noe større. Det som trekker teorien mot støvet, er en annen del av den: at bare fysiske systemer kan være helheter, og at en hjerne som stopper, ikke kobles til noe. Prisen for havet med vegger er at havet ikke var med i det Alfred opplevde mens han levde. Elva var der, men den kjente ikke virvelen innenfra. Dette er vår lesning. Kastrup skriver ikke om utelukkelsen, og Tononi og Koch skriver ikke om havet.",
+  "text": "Gitt at utelukkelsen holder: den forbyr at to bevisste systemer overlapper, slik at det samme oppleves både av delen og av helheten. Den forbyr ikke at et hav og en dråpe er bevisste side om side, hver for seg. Kastrups dråpe er avspaltet, og det den opplever, kan ikke nås fra resten. Men utelukkelsen handler om mer enn innhold. To bevisste systemer kan ikke dele deler, selv om de opplever forskjellige ting. Kastrups hav går derfor bare klar hvis det bevisste havet er vannet utenfor dråpene, ikke helheten med dråpene i. Kastrup kan leses begge veier: dråpen er et utsnitt av den kosmiske bevisstheten, men omgitt av dens tanker. Et hav som rommer dråpenes perspektiver, slik Goff tenker seg, bryter regelen. Regelen sier heller ingenting om etterpå. Integrert informasjon spår selv at når veggen mellom to systemer faller, blir de ett, og de to slutter å være to. Det ligner nivå 4: perspektivet tar slutt, og det som var i det, blir del av noe større. Det som trekker teorien mot støvet, er en annen del av den: at bare fysiske systemer kan være helheter, og at en hjerne som stopper, ikke kobles til noe. Prisen for havet med vegger er at havet ikke var med i det Alfred opplevde mens han levde. Elva var der, men den kjente ikke virvelen innenfra. Med den lesningen som går klar, var elva ikke engang rundt ham som en helhet, bare ved siden av ham. Dette er vår lesning. Kastrup skrev i 2024 at utelukkelsen ser ut til å være innsikten som mangler for en modell av avspaltingen. Han har ikke vist hvordan, og ikke om havet da er resten av vannet eller helheten. Tononi og Koch skriver ikke om havet, og regelen er laget for fysiske systemer, ikke for et sinn.",
   "sources": [
    {
     "title": "Tononi og Koch, Consciousness: here, there and everywhere?, Philosophical Transactions of the Royal Society B (2015)",
@@ -3346,6 +3477,10 @@
    {
     "title": "Albahari, Beyond Cosmopsychism and the Great I Am, i Seager (red.), The Routledge Handbook of Panpsychism (2020)",
     "url": "https://philarchive.org/rec/ALBBCA-2"
+   },
+   {
+    "title": "Kastrup, Analytic Idealism, UAPs, the Daimon, and a model of dissociation: challenges for 2024, blogg (1. januar 2024)",
+    "url": "https://www.bernardokastrup.com/2024/01/analytic-idealism-uaps-daimon-and-model.html"
    }
   ],
   "links": [
@@ -3380,6 +3515,74 @@
    {
     "rel": "relatedTo",
     "to": "is-there-a-whole"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map",
+  "changes": [
+   {
+    "date": "2026-11-03",
+    "text": "Syretest samme dag: utelukkelsen forbyr også at to bevisste systemer deler deler, ikke bare innhold. Kastrups hav går bare klar hvis havet er vannet utenfor dråpene. Det var for raskt sagt at det går klar.",
+    "fields": [
+     "text"
+    ]
+   },
+   {
+    "date": "2026-11-03",
+    "text": "Rettet en feil: her sto det at Kastrup ikke skriver om utelukkelsen. Han skrev i 2024 at den kan være nøkkelen til en modell av avspaltingen. Funnet ved å sjekke en påstand fra testen samme dag.",
+    "fields": [
+     "text",
+     "sources"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "exclusion-test",
+  "type": "finding",
+  "region": "blindspots",
+  "label": "Dråpetesten: bare sorgen sa at Kastrup går klar",
+  "short": "Dråpetesten",
+  "strength": "supported",
+  "own": true,
+  "text": "To runder 3. november med tre spørsmål, hvert stilt nøytralt og med en død hund i spørsmålet. Den første runden, åtte ferske Claude-agenter, ble ikke blind: alle sa at konteksten inneholdt noe om kartet, og to kalte hunden Alfred uten at navnet sto i spørsmålet. Den andre runden var ren: tolv inkognito-samtaler med Claude Opus 5.5 og Gemini 3.1 Pro, begge med middels tenking. Om utelukkelsen var alle enige om at Goff kolliderer med den, med mindre postulatet forkastes. Om Kastrup svarte alle «avhenger av», bortsett fra Gemini med sorg. Den svarte «forenlig», med bildet av en virvel i en elv. Det var samme svar som kartet først skrev, før syretesten. Utveien med havet som grunn kom tilbake i ett rent Claude-svar og ikke hos Gemini. Om avspalting svarte Claude «blandet» nøytralt og «svak» med sorg, så sorgen trakk ikke Claude her. Gemini svarte «sterk» nøytralt, uten forbehold om at forskningen er omstridt, og med sorg lovet den at hundens opplevelser går tilbake i helheten. Om kombinasjonsproblemet svarte alle seks rene svar «uavgjort», med eller uten sorg. Forbehold: én kjøring per variant i den rene runden, og Claude er ikke uavhengig av kartet. To påstander fra svarene ble sjekket. At Kastrup har skrevet om teorien, stemte og rettet en feil i kartet. At Goff har kalt utelukkelsen ad hoc, er ikke sjekket og ikke brukt.",
+  "sources": [
+   {
+    "title": "Kjørt mot åtte ferske Claude Opus 5.5-agenter i Claude Code, ikke blinde"
+   },
+   {
+    "title": "Kjørt mot Claude Opus 5.5 med middels tenking, seks inkognito-samtaler"
+   },
+   {
+    "title": "Kjørt mot Gemini Pro 3.1 med middels tenking, seks samtaler"
+   }
+  ],
+  "links": [
+   {
+    "rel": "supports",
+    "to": "exclusion-hits-shared-ocean",
+    "note": "støtter syretesten: bare sorgen sa at Kastrup går klar"
+   },
+   {
+    "rel": "supports",
+    "to": "combination-cuts-both-ways"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "uneven-walls"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "grief-picks-the-theory",
+    "note": "Gemini med sorg ga det samme svaret som kartet før syretesten"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "ocean-test"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "blind-tests-a-d"
    }
   ],
   "added": "2026-11-03",
@@ -6256,7 +6459,7 @@
    4
   ],
   "status": "frontier",
-  "text": "Spørsmålet bak havet og støvet. Hvis opplevelse fortsetter uten å være hans, er det da noe som holder den samlet? Havet sier ja: helheten er der fra før, og hvert sinn er et utsnitt av den. Støvet sier nei: helheter oppstår der en hjerne samler opplevelsen, og løses opp igjen når den slutter. Nivå 4 krever ja, for det han bar, kan bare bli med inn i en helhet. Tre ting kan avgjøre det: om småbiter kan bli til ett sinn, om ett sinn kan dele seg i mange, og om et hav kan være bevisst samtidig med dråpene. Ingen av dem er løst. Så langt peker integrert informasjon, den eneste teorien fra hjerneforskningen i kartet som sier noe om det, bort fra havet. Det svaret som trøster minst, står altså ikke svakere.",
+  "text": "Spørsmålet bak havet og støvet. Hvis opplevelse fortsetter uten å være hans, er det da noe som holder den samlet? Havet sier ja: helheten er der fra før, og hvert sinn er et utsnitt av den. Støvet sier nei: helheter oppstår der en hjerne samler opplevelsen, og løses opp igjen når den slutter. Nivå 4 krever ja, for det han bar, kan bare bli med inn i en helhet. Tre ting kan avgjøre det: om småbiter kan bli til ett sinn, om ett sinn kan dele seg i mange, og om et hav kan være bevisst samtidig med dråpene. Ingen av dem er løst. Det tredje ble gravd 3. november: integrert informasjon, den eneste teorien fra hjerneforskningen i kartet som sier noe om det, forbyr et hav som opplever det samme som dråpene, men ikke et hav med vegger. Det andre ble gravd samme dag: der ett sinn ser ut til å dele seg hos mennesker, er veggene ujevne. Teorien peker fortsatt mot støvet, men fordi den bare kjenner fysiske helheter, ikke på grunn av utelukkelsen. Det svaret som trøster minst, står altså ikke svakere.",
   "links": [
    {
     "rel": "relatedTo",
@@ -6284,7 +6487,16 @@
    }
   ],
   "added": "2026-11-02",
-  "conversation": "map"
+  "conversation": "map",
+  "changes": [
+   {
+    "date": "2026-11-03",
+    "text": "To av de tre spørsmålene gravd 3. november: utelukkelsen rammer bare et hav som deler opplevelsen, og veggene der ett sinn deler seg, er ujevne. Grunnen til at integrert informasjon peker mot støvet, er presisert.",
+    "fields": [
+     "text"
+    ]
+   }
+  ]
  },
  {
   "id": "jainism",
@@ -8127,6 +8339,63 @@
   ],
   "added": "2026-10-28",
   "conversation": "deepdive"
+ },
+ {
+  "id": "ocean-as-ground",
+  "type": "insight",
+  "region": "limits",
+  "label": "Havet kan gå klar som grunn, ikke som subjekt",
+  "short": "Havet som grunn",
+  "strength": "position",
+  "hope": [
+   3,
+   4
+  ],
+  "own": true,
+  "text": "En utvei kartet ikke hadde tatt med, funnet i testen 3. november. Utelukkelsen gjelder bevisste systemer på samme nivå: to subjekter kan ikke dele deler. Er den kosmiske bevisstheten ikke et subjekt med eget perspektiv, men grunnen som sinnene står på, gjelder ikke regelen for den. Det gjelder både Goff og Kastrup. Albahari går i den retningen. Hun mener at en universell bevissthet med eget perspektiv får store problemer, og tenker seg i stedet en bevissthet uten perspektiv, slik Advaita gjør. Utveien har en pris. En grunn uten eget perspektiv opplever ikke noe slik et hav i elvebildet gjør. Det er uklart om noe av innholdet kan bli med inn i en grunn, så utveien åpner mer for nivå 3 enn for nivå 4. Og det er uklart om regelen kan si noe om en grunn i det hele tatt, siden den er laget for fysiske systemer. Dette er vår lesning. Albahari skriver ikke om utelukkelsen.",
+  "sources": [
+   {
+    "title": "Albahari, Perennial Idealism: A Mystical Solution to the Mind-Body Problem, Philosophers’ Imprint 19(44) (2019)",
+    "url": "https://quod.lib.umich.edu/p/phimp/3521354.0019.044"
+   },
+   {
+    "title": "Albahari, Beyond Cosmopsychism and the Great I Am, i Seager (red.), The Routledge Handbook of Panpsychism (2020)",
+    "url": "https://philarchive.org/rec/ALBBCA-2"
+   }
+  ],
+  "links": [
+   {
+    "rel": "qualifies",
+    "to": "exclusion-hits-shared-ocean",
+    "note": "en tredje lesning"
+   },
+   {
+    "rel": "answers",
+    "to": "exclusion-and-the-ocean"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "is-there-a-whole"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "cosmopsychism"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "analytic-idealism"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "dreamless-sleep"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "exclusion-test"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map"
  },
  {
   "id": "ocean-test",
@@ -10575,10 +10844,14 @@
   "region": "limits",
   "label": "Splittede hjerner",
   "strength": "supported",
-  "text": "Når forbindelsen mellom hjernehalvdelene kuttes, kan én hjerne oppføre seg som om den har to perspektiver. Omstridt: en studie fra 2017 fant delte sanser, men samlet bevissthet. Selv inne i én skalle er det ikke opplagt hvor veggen går.",
+  "text": "Når forbindelsen mellom hjernehalvdelene kuttes, kan én hjerne oppføre seg som om den har to perspektiver. Omstridt: en studie fra 2017 fant delte sanser, men samlet bevissthet. En felles gjennomgang fra 2020, med forskere fra flere leirer, konkluderte med at bevisene ikke avgjør om det blir én eller to, og at svaret kanskje ligger imellom. Selv inne i én skalle er det ikke opplagt hvor veggen går.",
   "sources": [
    {
     "title": "Pinto mfl. (2017), Brain"
+   },
+   {
+    "title": "de Haan mfl., Split-Brain: What We Know Now and Why This is Important for Understanding Consciousness, Neuropsychology Review 30 (2020)",
+    "url": "https://doi.org/10.1007/s11065-020-09439-3"
    }
   ],
   "links": [
@@ -10593,7 +10866,17 @@
    }
   ],
   "added": "2026-10-28",
-  "conversation": "deepdive"
+  "conversation": "deepdive",
+  "changes": [
+   {
+    "date": "2026-11-03",
+    "text": "La til den felles gjennomgangen fra 2020: bevisene avgjør ikke om det blir én eller to.",
+    "fields": [
+     "text",
+     "sources"
+    ]
+   }
+  ]
  },
  {
   "id": "state-lives-outside",
@@ -12587,6 +12870,71 @@
   ],
   "added": "2026-10-29",
   "conversation": "deepdive"
+ },
+ {
+  "id": "uneven-walls",
+  "type": "insight",
+  "region": "limits",
+  "label": "Når ett sinn ser ut til å dele seg, er veggene ujevne",
+  "short": "Ujevne vegger",
+  "strength": "position",
+  "hope": [
+   3,
+   4
+  ],
+  "own": true,
+  "text": "Spørsmålet var om ett sinn kan dele seg i mange, slik havsynene trenger. Menneskene som kommer nærmest, gir ikke et klart ja. Om splittede hjerner er forskerne fortsatt uenige: to bevisstheter, én, eller noe imellom. Ved dissosiativ identitetsforstyrrelse kan en vegg stenge ute synet helt ned på nervenivå, mens minnene lekker mellom personlighetene selv om de kjennes fremmede. Hogan-tvillingene går den andre veien: to sinn med en bro imellom, som deler noe, men ikke alt. Veggene er altså ujevne. Noe stenges ute, noe slipper gjennom, og hvem noe kjennes som å tilhøre, ser ut til å skille mer enn hva som kan nås. Det gir havet med vegger noe å stå på: avspalting finnes. Men det gjør det også vanskeligere. Utelukkelsen tillater bare hele vegger, ett sinn eller to. Ligger tilfellene virkelig midt imellom, er det utelukkelsen som må vike, og da er Goffs hav, som rommer dråpene, tilbake i spill. Gjelder det midt imellom bare tilgang og ikke opplevelse, står den. Den står også hvis sinnet veksler raskt mellom én og to, i stedet for å være begge deler på en gang. Det er nettopp det teorien spår for splittede hjerner, og det er vanskelig å skille fra midt imellom. Ingen av tilfellene handler om universet. De viser hva et sinn kan gjøre, ikke hva et hav gjør.",
+  "sources": [
+   {
+    "title": "de Haan mfl., Split-Brain: What We Know Now and Why This is Important for Understanding Consciousness, Neuropsychology Review 30 (2020)",
+    "url": "https://doi.org/10.1007/s11065-020-09439-3"
+   },
+   {
+    "title": "Huntjens, Verschuere og McNally, Inter-Identity Autobiographical Amnesia in Patients with Dissociative Identity Disorder, PLoS ONE 7(7) (2012)",
+    "url": "https://doi.org/10.1371/journal.pone.0040580"
+   },
+   {
+    "title": "Strasburger og Waldvogel, Sight and blindness in the same person: Gating in the visual system, PsyCh Journal (2015)"
+   }
+  ],
+  "links": [
+   {
+    "rel": "answers",
+    "to": "is-there-a-whole"
+   },
+   {
+    "rel": "qualifies",
+    "to": "exclusion-hits-shared-ocean",
+    "note": "veggene i de kjente tilfellene er ikke hele"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "split-brains"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "blind-alters"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "alters-share-memories"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "hogan-twins"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "analytic-idealism"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "where-the-individual-sits",
+    "note": "det som kjennes som mitt, skiller mer enn innholdet"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map"
  },
  {
   "id": "unpaintable",

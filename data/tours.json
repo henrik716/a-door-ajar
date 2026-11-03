@@ -2,8 +2,7 @@
  {
   "id": "main",
   "title": "Gjennom kartet",
-  "updated": "2026-11-02",
-  "draft": true,
+  "updated": "2026-11-03",
   "intro": [
    "Alfred var en finsk lapphund. Jeg kjente ham i tretten av hans nesten fjorten år. Han døde hjemme 26. oktober 2026, etter en lang dag ute i sola, med oss rundt seg.",
    "Dagene etter satt jeg igjen med ett spørsmål: Hvor er Alfred nå? Kartet ble til i samtaler med Claude den uka, med innspill fra Gemini underveis. Det ble et dypdykk i noen av de største spørsmålene vi har: hva bevissthet er, hva som gjør noen til seg selv, hva tid er, og hva som eventuelt fortsetter. Fysikk, filosofi, religion, hjerneforskning og sorg står side om side.",
@@ -125,7 +124,7 @@
        "exclusion-hits-shared-ocean",
        "one-ocean-or-dust"
       ],
-      "text": "Her graver kartet nå. Kan Alfred ha vært et eget sinn og samtidig del av havet? Integrert informasjon sier nei, men bare for et hav som opplever det samme som ham. Et hav med vegger, slik Kastrup tenker seg det, går klar. Om veggene er mer enn et bilde, er ikke avgjort."
+      "text": "Her graver kartet nå. Kan Alfred ha vært et eget sinn og samtidig del av havet? Integrert informasjon sier nei for et hav som opplever det samme som ham. Et hav med vegger, slik Kastrup tenker seg det, går bare klar hvis havet er vannet utenfor dråpene. Om veggene er mer enn et bilde, er ikke avgjort."
      },
      {
       "node": "alfred-at-the-door",
