@@ -68,7 +68,7 @@ Dig sites (see `next` in `data/status.json`):
 - Is there a whole? (`is-there-a-whole`). Two of its three questions dug on 3 November 2026.
 - Can a mind be itself and part of the ocean at once? (`exclusion-and-the-ocean`)
 - If Kastrup takes exclusion literally, is the rest an ocean or dust? (`kastrup-literal-exclusion`). Entanglement checked; whether the rest of the universe is integrated enough to be one whole is not.
-- What is a good enough carrier? (`good-enough-carrier`)
+- What is a good enough carrier? (`good-enough-carrier`). Dug once on 3 November 2026: the stream needs something to carry it across gaps, so the third candidate is a base for the capacity to experience, and for identity the capacity counts, not the content (McMahan). Open: how much is enough, division, and whether the capacity can have a base other than the brain.
 - Where does what makes the listener his sit? (`where-the-individual-sits`)
 - Would it have helped him? (`would-it-help-him`)
 - Is there a reader without a notebook? (`reader-without-notebook`)

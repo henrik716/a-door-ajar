@@ -1639,6 +1639,76 @@
   "conversation": "deepdive"
  },
  {
+  "id": "capacity-not-content",
+  "type": "insight",
+  "region": "self",
+  "label": "For identiteten trengs evnen, ikke innholdet",
+  "short": "Evnen, ikke innholdet",
+  "strength": "position",
+  "hope": [
+   5
+  ],
+  "own": true,
+  "text": "Gravestedet spør om noe av innholdet må følge med. McMahan, som bærersynet bygger på, svarer nei for identiteten. Den samme er der så lenge nok av den samme hjernen fortsetter og fortsatt kan lage bevissthet, uten å deles. Minner, vaner og personlighet kreves ikke. Det er tanken din om demens, sagt i fagets språk. Men McMahan skiller mellom hvem som fortsetter, og hvor mye framtiden betyr for den som får den. Det siste avhenger av de psykologiske båndene mellom nå og da, og de kommer i grader. En bærer uten innhold ville altså vært ham, men framtiden ville vært hans på en tynn måte. Det er det samme som at strømmen uten innhold blir hans mest i opphavet, sett fra den andre siden. For en hund passer kriteriet godt. Det krever verken minner eller refleksjon, slik Lockes gjør, bare evnen til å oppleve. Hvor i Alfreds hjerne den satt, er åpent, for det henger på om følelsene sitter under hjernebarken. Ett sted skiller McMahan seg fra deg. Han krever at bæreren ikke deles, så ved halvdelene i to hunder er ingen av dem ham i identitetens forstand. Du svarte at begge er Alfred. Der står du nærmere Parfit, som sa at det som betyr noe, kan finnes i begge selv om identiteten ikke kan dobles. Og «nok av hjernen» har ingen skarp grense, slik Parfits spekter viser. Dette er vår lesning av McMahan.",
+  "sources": [
+   {
+    "title": "Jeff McMahan, The Ethics of Killing: Problems at the Margins of Life (2002)"
+   }
+  ],
+  "links": [
+   {
+    "rel": "answers",
+    "to": "good-enough-carrier",
+    "note": "ingenting av innholdet trengs for identiteten, men det teller for hvor mye framtiden er hans"
+   },
+   {
+    "rel": "answers",
+    "to": "self-questions-for-a-dog",
+    "note": "for bæreren flytter hunden lite: kriteriet krever ikke minner"
+   },
+   {
+    "rel": "supports",
+    "to": "carrier-not-content",
+    "note": "demenstanken har et faglig feste"
+   },
+   {
+    "rel": "qualifies",
+    "to": "carrier-view",
+    "note": "evnen til å lage bevissthet, uten deling"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "mcmahan-time-relative"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "his-only-in-history"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "two-halves-two-dogs"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "the-spectrum"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "locke-on-animals"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "feelings-below-the-cortex"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "measured-by-content"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map"
+ },
+ {
   "id": "carrier-not-content",
   "type": "finding",
   "region": "self",
@@ -1683,7 +1753,7 @@
   "label": "Bæreren må fortsette",
   "short": "Bærersynet",
   "strength": "position",
-  "text": "En tredje posisjon mellom dyret og mønsteret. Det som avgjør, er at det som bærer sinnet, fortsetter: hjernen, eller de delene av den som lager bevisstheten. Hjernen kan flyttes til en ny kropp og fortsatt være deg, men en kopi av informasjonen er en ny bærer og dermed noen andre. McMahan kalte oss innkapslede sinn. Synet tar informasjonen på alvor uten å si at alt bare er informasjon: mønsteret er deg bare så lenge det er den samme bæreren som kjører det.",
+  "text": "En tredje posisjon mellom dyret og mønsteret. Det som avgjør, er at det som bærer sinnet, fortsetter: hjernen, eller de delene av den som lager bevisstheten. Hjernen kan flyttes til en ny kropp og fortsatt være deg, men en kopi av informasjonen er en ny bærer og dermed noen andre. McMahan kaller oss sinn i en kropp, «embodied minds». Synet tar informasjonen på alvor uten å si at alt bare er informasjon: mønsteret er deg bare så lenge det er den samme bæreren som kjører det.",
   "sources": [
    {
     "title": "Jeff McMahan, The Ethics of Killing (2002)"
@@ -1718,7 +1788,16 @@
    }
   ],
   "added": "2026-10-29",
-  "conversation": "deepdive"
+  "conversation": "deepdive",
+  "changes": [
+   {
+    "date": "2026-11-03",
+    "text": "Rettet McMahans uttrykk. Han kaller oss «embodied minds», sinn i en kropp, ikke innkapslede sinn.",
+    "fields": [
+     "text"
+    ]
+   }
+  ]
  },
  {
   "id": "carroll",
@@ -5179,8 +5258,9 @@
   "region": "self",
   "label": "Hva er en god nok bærer?",
   "short": "En god nok bærer",
-  "status": "planned",
-  "text": "Ditt spørsmål: hvis personen er bæreren og ikke innholdet, hva er da en god nok bærer, og trenger noe av innholdet å følge med? Svarene dine så langt gir et utkast. Hjernen hans i en ny kropp, halvdelene hans og cellene byttet ut én og én er gode nok. En kopi bygget etter en beskrivelse er det ikke. Det felles er en ubrutt vei fra ham. Men tre kandidater står fortsatt mot hverandre: kroppen, slik animalismen sier, hjernen og prosessen i den, og strømmen av opplevelse, hvis den er noe mer enn hjernen. Bare den siste kan bære noe forbi døden, og det er den vi vet minst om. Om innholdet: etter tanken om demens trenger ingenting av innholdet å følge med for at det skal være ham. Men da blir det, som strømmen uten innhold viser, hans mest i opphavet.",
+  "status": "frontier",
+  "answer": "Evnen til å oppleve, ikke innholdet. Om noe annet enn hjernen kan bære den, er åpent",
+  "text": "Ditt spørsmål: hvis personen er bæreren og ikke innholdet, hva er da en god nok bærer, og trenger noe av innholdet å følge med? Svarene dine så langt gir et utkast. Hjernen hans i en ny kropp, halvdelene hans og cellene byttet ut én og én er gode nok. En kopi bygget etter en beskrivelse er det ikke. Det felles er en ubrutt vei fra ham. Men tre kandidater står fortsatt mot hverandre: kroppen, slik animalismen sier, hjernen og prosessen i den, og strømmen av opplevelse, hvis den er noe mer enn hjernen. Bare den siste kan bære noe forbi døden, og det er den vi vet minst om. Om innholdet: etter tanken om demens trenger ingenting av innholdet å følge med for at det skal være ham. Men da blir det, som strømmen uten innhold viser, hans mest i opphavet. Gravd første gang 3. november. Strømmen kan ikke være bæreren alene, for den har pauser. Den tredje kandidaten er derfor ikke selve strømmen, men det som binder den over pausene. Hos et levende dyr er det hjernen. Det er fortsatt tre kandidater: kroppen, hjernen og et underlag for evnen til å oppleve som ikke er hjernen. De to første slutter med døden. Bare den tredje kan bære noe forbi den, og det er spørsmålet om hjernen også er lytteren. Svaret ditt om pausen viser at strømmen kan brytes og at det likevel er han som våkner. Svaret om atomene tyder på at det som binder, for deg kan være stoffet og veien det går, ikke bare en evne som står der hele tiden. Om innholdet: etter McMahan trengs ingenting av det for identiteten, men det teller for hvor mye framtiden er hans. Åpent: hvor mye som er nok, delingen, der du og McMahan svarer ulikt, og om evnen kan ha et annet underlag.",
   "links": [
    {
     "rel": "relatedTo",
@@ -5212,7 +5292,21 @@
    }
   ],
   "added": "2026-10-30",
-  "conversation": "deepdive"
+  "conversation": "deepdive",
+  "changes": [
+   {
+    "date": "2026-11-03",
+    "text": "Gravd første gang: strømmen trenger noe som bærer den over pausene, og for identiteten trengs evnen, ikke innholdet. Fra ikke gravd til fronten.",
+    "fields": [
+     "status",
+     "answer",
+     "text"
+    ],
+    "from": {
+     "status": "planned"
+    }
+   }
+  ]
  },
  {
   "id": "grief-and-self-concept",
@@ -11345,6 +11439,83 @@
   ],
   "added": "2026-10-29",
   "conversation": "deepdive"
+ },
+ {
+  "id": "stream-needs-a-carrier",
+  "type": "insight",
+  "region": "self",
+  "label": "Strømmen trenger noe som bærer den over pausene",
+  "short": "Strømmen trenger en bærer",
+  "strength": "position",
+  "hope": [
+   5
+  ],
+  "own": true,
+  "text": "Av de tre kandidatene til bæreren er strømmen av opplevelse den eneste som kan bære noe forbi døden. Men en strøm har pauser. Opphøret merkes først etterpå, som et kutt. Ved noen hjerteoperasjoner kjøles kroppen så langt ned at hjernens elektriske aktivitet blir helt stille før sirkulasjonen stoppes, og pasienten våkner som seg selv. I slike pauser kan bæreren ikke være selve strømmen, for den var borte. Det må være noe som binder den over pausen. Dainton, som bygger selvet på opplevelse og ikke på minner, kom dit: selvet er ikke en ubrutt strøm, men evnen til å oppleve, og den varer gjennom søvnen. Buddhismen, som lærer at et vesen er en strøm av øyeblikk, møtte det samme i striden om opphøret. Når det ikke finnes noe øyeblikk av bevissthet, hva tenner det neste? Vaibhāṣika sa at det siste øyeblikket før opphøret virker over gapet, fordi det som har vært, fortsatt finnes. Sautrāntika sa at kroppen bærer frøene. Yogācāra la en bevissthet under strømmen, lagerbevisstheten, som varer også i opphøret. Ingen av dem lot strømmen bære seg selv over gapet. To la noe under den, og den tredje trengte at fortiden fortsatt virker. Svarene dine sier det samme. En hjerne som står stille i en time, uten opplevelse, og hundre år i frys: begge ganger var det han som våknet. Da var strømmen borte, og noe annet bandt den over pausen. At han kan bygges opp igjen av de samme atomene etter at de var spredt, sier mer. Da stod ingen hjerne gjennom pausen, bare stoffet og veien det gikk. For deg trenger det som binder, altså ikke være en evne som står der hele tiden. Det kan være opphavet. Det flytter gravestedet. Den tredje kandidaten er ikke strømmen, men det som binder den over pausene. Hos et levende dyr er det hjernen, og da faller den sammen med den andre. Skal strømmen bære noe forbi døden, må evnen ha et underlag som ikke er hjernen: noe som tas imot, en sjel, eller et lag fysikken ikke kjenner. Det er spørsmålet om hjernen også er lytteren, stilt fra en annen kant. To forbehold. Noen mener at den drømmeløse søvnen ikke er tom, men en svært enkel opplevelse. Da er ikke alle pausene pauser, men opphøret og den stille hjernen er det trolig. Og Dainton krever ikke den samme hjernen: evnen kan etter ham flyttes til et annet stoff. Under linjen din må den i så fall flyttes langs en ubrutt vei. Dette er vår lesning av kildene.",
+  "sources": [
+   {
+    "title": "Barry Dainton, The Phenomenal Self (2008)"
+   },
+   {
+    "title": "Paul J. Griffiths, On Being Mindless: Buddhist Meditation and the Mind-Body Problem (1986)"
+   },
+   {
+    "title": "Stecker, Cheung, Pochettino mfl., Deep hypothermic circulatory arrest: I. Effects of cooling on electroencephalogram and evoked potentials, Annals of Thoracic Surgery 71(1) (2001)"
+   },
+   {
+    "title": "Windt, Nielsen og Thompson, Does Consciousness Disappear in Dreamless Sleep?, Trends in Cognitive Sciences 20(12) (2016)"
+   }
+  ],
+  "links": [
+   {
+    "rel": "answers",
+    "to": "good-enough-carrier",
+    "note": "strømmen alene kan ikke være bæreren"
+   },
+   {
+    "rel": "qualifies",
+    "to": "what-level-5-requires",
+    "note": "det tredje kravet er et underlag for evnen som ikke er hjernen"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "program-and-listener"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "your-thoughts-on-carrier"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "cessation"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "santana"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "anesthesia-and-dreams"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "two-filter-theories"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "swinburne-soul"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "lamp-lit-by-lamp"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "unbroken-path"
+   }
+  ],
+  "added": "2026-11-03",
+  "conversation": "map"
  },
  {
   "id": "stress-sync",
