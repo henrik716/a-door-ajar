@@ -74,6 +74,13 @@ function renderGraph() {
     const k = .22 * len, mx = d.cx + dx / 2, my = d.cy + dy / 2;
     return `M${d.cx},${d.cy} Q${mx - dy / len * k},${my + dx / len * k} 0,0`;
   });
+  // The blur's region follows the trail. A fixed large region scales with the zoom and becomes a huge bitmap,
+  // which made the page run out of memory and crash, most of all on phones.
+  const tp = svg.select('.trail path').node();
+  if (tp) {
+    const b = tp.getBBox(), m = 20;
+    svg.select('#soft').attr('x', b.x - m).attr('y', b.y - m).attr('width', b.width + 2 * m).attr('height', b.height + 2 * m);
+  }
   // contour lines rising towards the middle
   const rings = [.16, .3, .45, .61, .78, .96];
   svg.select('.topo').selectAll('path').data(rings).join('path').attr('class', (f, i) => i < 2 ? 'inner' : null).attr('d', f => {
