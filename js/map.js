@@ -69,18 +69,13 @@ function renderGraph() {
   placeRegionLabels(nodes);
   // the trail home: from Alfred's world in to the middle
   const hd = regionInfo.find(d => d.r === 'dog');
-  svg.select('.trail').selectAll('path').data(hd ? [hd] : []).join('path').attr('d', d => {
+  // Five strokes on top of each other make it soft. A blur filter was used before, but it is drawn as a bitmap
+  // that grows with the zoom, and on phones that ran out of memory and crashed the page.
+  svg.select('.trail').selectAll('path').data(hd ? [5, 4, 3, 2, 1].map(i => ({ ...hd, i })) : []).join('path').attr('class', d => 'tl' + d.i).attr('d', d => {
     const dx = -d.cx, dy = -d.cy, len = Math.hypot(dx, dy) || 1;
     const k = .22 * len, mx = d.cx + dx / 2, my = d.cy + dy / 2;
     return `M${d.cx},${d.cy} Q${mx - dy / len * k},${my + dx / len * k} 0,0`;
   });
-  // The blur's region follows the trail. A fixed large region scales with the zoom and becomes a huge bitmap,
-  // which made the page run out of memory and crash, most of all on phones.
-  const tp = svg.select('.trail path').node();
-  if (tp) {
-    const b = tp.getBBox(), m = 20;
-    svg.select('#soft').attr('x', b.x - m).attr('y', b.y - m).attr('width', b.width + 2 * m).attr('height', b.height + 2 * m);
-  }
   // contour lines rising towards the middle
   const rings = [.16, .3, .45, .61, .78, .96];
   svg.select('.topo').selectAll('path').data(rings).join('path').attr('class', (f, i) => i < 2 ? 'inner' : null).attr('d', f => {

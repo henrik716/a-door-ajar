@@ -167,7 +167,12 @@ button { cursor: pointer; }
 .terrain path { fill: var(--paper-3); fill-opacity: .55; stroke: var(--line); stroke-width: 1; vector-effect: non-scaling-stroke; }
 .terrain path.rg-dog { fill: url(#fur); fill-opacity: 1; stroke: var(--alf-edge); stroke-opacity: .45; stroke-width: 1; }
 .trail { pointer-events: none; }
-.trail path { fill: none; stroke: var(--trail); stroke-opacity: var(--trail-a); stroke-width: 9; stroke-linecap: round; filter: url(#soft); }
+.trail path { fill: none; stroke: var(--trail); stroke-linecap: round; }
+.trail .tl5 { stroke-width: 16; stroke-opacity: calc(var(--trail-a) * .22); }
+.trail .tl4 { stroke-width: 13; stroke-opacity: calc(var(--trail-a) * .22); }
+.trail .tl3 { stroke-width: 10; stroke-opacity: calc(var(--trail-a) * .22); }
+.trail .tl2 { stroke-width: 7; stroke-opacity: calc(var(--trail-a) * .22); }
+.trail .tl1 { stroke-width: 4; stroke-opacity: calc(var(--trail-a) * .22); }
 #map.focus .trail { opacity: .45; }
 #map .rlabel.rl-dog { fill: var(--alf-text); }
 .topo path { fill: none; stroke: var(--topo); stroke-width: 1; vector-effect: non-scaling-stroke; }
