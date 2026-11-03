@@ -12995,7 +12995,7 @@
         "nb": "Hvor sitter det som gjør lytteren til hans?"
       },
       "text": {
-        "nb": "Spørsmålet om det fantes en lytter som var hans, avhenger av hvor det individuelle sitter. Sitter det i selve lytteren, slik Zahavi og buddhismens strøm sier, var lytteren hans helt inn, og kunne den fortsette, ville den vært ham. Sitter det i innholdet og selvmodellen, slik Metzinger, Advaita og Kastrup sier, var lytteren aldri bare hans, og det som eventuelt fortsetter, er havet. Kastrups bilde åpner for at vannet blir med. For en hund er spørsmålet ekstra skarpt: Alfred hadde et tynnere selvbilde enn oss, så hvis det individuelle sitter i selvmodellen, var grensen mellom ham og havet tynnere hos ham."
+        "nb": "Spørsmålet om det fantes en lytter som var hans, avhenger av hvor det individuelle sitter. Sitter det i selve lytteren, slik Zahavi og buddhismens strøm sier, var lytteren hans helt inn, og kunne den fortsette, ville den vært ham. Sitter det i innholdet og selvmodellen, slik Metzinger, Advaita og Kastrup sier, var lytteren aldri bare hans, og det som eventuelt fortsetter, er havet. Kastrups bilde åpner for at vannet blir med. For en hund er spørsmålet ekstra skarpt, men på en annen måte enn kartet først skrev. Alfred hadde trolig lite av det fortellende selvet, historien om seg selv, men trolig det minimale: å være noen, et sted, i en kropp. Sitter det individuelle i fortellingen, var grensen mellom ham og havet tynnere hos ham. Sitter det i kjernen av selvmodellen, som er kroppslig, var den ikke nødvendigvis det."
       },
       "region": "v:core",
       "strength": "v:position",
@@ -13006,6 +13006,18 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-29",
+      "modified": "2026-11-03",
+      "changes": [
+        {
+          "date": "2026-11-03",
+          "text": {
+            "nb": "Den siste setningen rettet etter gravingen om selvet hos en hund. Det tynne hos Alfred var trolig fortellingen, ikke hele selvmodellen, så grensen mot havet var ikke nødvendigvis tynnere hos ham."
+          },
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "answers": [
         "n:his-own-listener"
       ],
