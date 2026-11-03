@@ -989,7 +989,9 @@ n:death-is-not-a-pause a v:Insight ;
   v:ownConclusion true ;
   v:conversation v:deepdive ;
   dct:created "2026-10-29"^^xsd:date ;
-  v:presupposes n:lit-by-him, n:t-content ;
+  dct:modified "2026-11-03"^^xsd:date ;
+  v:change [ dct:date "2026-11-03"^^xsd:date ; rdfs:comment "Forutsetningen «Han er innholdet sitt» er byttet med «Bæreren må fortsette». Teksten handler om at bæreren går i oppløsning, ikke om innholdet. Den gamle forutsetningen fikk Kripkes opphav til å utfordre en slutning det egentlig bærer."@nb ; v:changedField "links" ] ;
+  v:presupposes n:lit-by-him, n:carrier-view ;
   v:relatedTo n:what-was-the-carrier, n:your-half-goes-on, n:less-of-him, n:filter-theory .
 
 n:death-not-experienced a v:Position ;
@@ -1528,6 +1530,24 @@ n:fechner-larger-life a v:Position ;
   dct:source "William James, A Pluralistic Universe (1909), om Fechner"@nb ;
   v:relatedTo n:integration, n:objective-immortality, n:your-half-goes-on, n:james .
 
+n:feelings-below-the-cortex a v:Position ;
+  rdfs:label "Følelsene sitter under hjernebarken"@nb ;
+  v:shortLabel "Under hjernebarken"@nb ;
+  rdfs:comment "Panksepp og Solms mener at det dypeste laget av opplevelse ikke sitter i hjernebarken, men lenger ned, i hjernestammen og de eldste delene av hjernen. Panksepp fant sju grunnsystemer for følelser som går igjen hos pattedyr: å lete, frykt, sinne, lyst, omsorg, panikk og sorg, og lek. Han fant dem ved å stimulere dype deler av hjernen hos dyr, som reagerte som om noe kjentes godt eller vondt. Barn født nesten uten hjernebark kan være våkne, glede seg, vise ubehag og foretrekke dem de kjenner. Under det synet er laget som betyr mest for å være noen og være knyttet til noen, nesten likt hos Alfred og deg. Det som skiller dere, sitter høyere opp: å huske seg selv i tid og å fortelle om det. Men synet trekker også den andre veien. Solms knytter følelsene til kroppens arbeid med å holde seg i live, som Seth. Da sitter det dypeste laget i en levende kropp, og det slutter med den. Mange forskere er uenige. LeDoux mener at kretsene dypt i hjernen styrer overlevelse, men at følelsen først oppstår når hjernebarken fanger dem opp. Og barna uten hjernebark har ofte rester av den."@nb ;
+  v:region v:consciousness ;
+  v:strength v:contested ;
+  v:conversation v:map ;
+  dct:created "2026-11-03"^^xsd:date ;
+  dct:source "Jaak Panksepp, Affective Neuroscience: The Foundations of Human and Animal Emotions (1998)"@nb ;
+  dct:source "Bjorn Merker, Consciousness without a cerebral cortex: A challenge for neuroscience and medicine, Behavioral and Brain Sciences (2007)"@nb ;
+  dct:source "Mark Solms, The Hidden Spring: A Journey to the Source of Consciousness (2021)"@nb ;
+  dct:source "Joseph LeDoux og Richard Brown, A higher-order theory of emotional consciousness, PNAS (2017)"@nb ;
+  v:supports n:dogs-have-an-inside ;
+  v:relatedTo n:beast-machine, n:listener-tied-to-life, n:brainstem-switch, n:program-and-listener, n:where-the-individual-sits, n:autonoetic, n:presence-and-archive .
+
+# note: n:feelings-below-the-cortex v:supports n:dogs-have-an-inside — følelsene sitter i laget hunder og mennesker deler
+# note: n:feelings-below-the-cortex v:relatedTo n:beast-machine — samme retning: følelsen følger livet
+# note: n:feelings-below-the-cortex v:relatedTo n:autonoetic — albumet sitter høyere opp
 n:feinstein a v:Finding ;
   rdfs:label "Følelsen varer lenger enn minnet"@nb ;
   v:shortLabel "Følelsen varer lenger"@nb ;
@@ -2159,6 +2179,9 @@ n:his-own-listener a v:Question ;
   v:answer "Avhenger av hvor det individuelle sitter"@nb ;
   v:conversation v:deepdive ;
   dct:created "2026-10-29"^^xsd:date ;
+  dct:modified "2026-11-03"^^xsd:date ;
+  v:change [ dct:date "2026-11-03"^^xsd:date ; rdfs:comment "La til kilden for Wegners syn på følelsen av å velge."@nb ; v:changedField "sources" ] ;
+  dct:source "Daniel Wegner, The Illusion of Conscious Will (2002)"@nb ;
   v:relatedTo n:open-individualism, n:whole-him-or-the-river, n:measured-by-content, n:mineness, n:wegner .
 
 n:hobbes-planks a v:Image ;
@@ -2274,12 +2297,14 @@ n:iit-points-to-dust a v:Insight ;
 
 n:illusionism a v:Position ;
   rdfs:label "Illusjonisme"@nb ;
-  rdfs:comment "Innsiden som noe ekstra er noe hjernen fremstiller for seg selv, en slags brukerflate. De sier ikke at Alfred ikke kjente glede eller smerte, bare at det ikke fantes noe i tillegg til det som skjedde i ham. Et mindretall, men et seriøst et."@nb ;
+  rdfs:comment "Innsiden som noe ekstra er noe hjernen fremstiller for seg selv, en slags brukerflate. De sier ikke at Alfred ikke kjente glede eller smerte, bare at det ikke fantes noe i tillegg til det som skjedde i ham. Et mindretall, men et seriøst et. Synet gjør det lettere for en kopi å være ham, men av en grunn som koster: det fantes mindre som måtte overleve."@nb ;
   v:region v:consciousness ;
   v:strength v:position ;
   v:hopeLevel 2 ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
+  dct:modified "2026-11-03"^^xsd:date ;
+  v:change [ dct:date "2026-11-03"^^xsd:date ; rdfs:comment "La til at illusjonismen styrker kopiveiene ved å gjøre mindre av det som må overleve."@nb ; v:changedField "text" ] ;
   dct:source "Frankish (2016), Illusionism as a Theory of Consciousness"@nb ;
   v:contradicts n:t-inside-extra ;
   v:dissolves n:hard-problem ;
@@ -2547,6 +2572,14 @@ n:kubler-ross a v:Thinker ;
   dct:created "2026-10-28"^^xsd:date ;
   dct:source "On Death and Dying (1969)"@nb ;
   v:behind n:five-stages .
+
+n:ladyman-ross a v:Thinker ;
+  rdfs:label "James Ladyman og Don Ross"@nb ;
+  rdfs:comment "Vitenskapsfilosofer. Forsvarer ontisk strukturrealisme: at det som finnes nederst, er struktur, ikke ting."@nb ;
+  v:region v:consciousness ;
+  v:conversation v:map ;
+  dct:created "2026-11-03"^^xsd:date ;
+  v:behind n:only-structure .
 
 n:lamp-lit-by-lamp a v:Image ;
   rdfs:label "En lampe tent av en annen"@nb ;
@@ -3248,6 +3281,23 @@ n:one-ocean-or-dust a v:Insight ;
   v:relatedTo n:cosmopsychism, n:analytic-idealism, n:whole-him-or-the-river, n:open-individualism .
 
 # note: n:one-ocean-or-dust v:qualifies n:panpsychism — gir støv, ikke et hav å møtes i
+n:only-structure a v:Position ;
+  rdfs:label "Det finnes bare struktur"@nb ;
+  rdfs:comment "Hawking spurte hva det er som puster ild i likningene og gir dem et univers å beskrive. Tegmark svarer at det ikke trengs noe: virkeligheten er en matematisk struktur, ikke noe som blir beskrevet av en. Ladyman og Ross kommer fra en annen kant og mener at fysikken ikke finner ting nederst, bare forhold. Hvis de har rett, finnes det ingen bærer i seg selv. Det rammer bærersynet hardest. Opphavet kan overleve, for også en historie er et forhold: en kopi står et annet sted i strukturen enn ham. Men det som er igjen av «tent av ham», er da en vei i et mønster, ikke en flamme som går videre. Russellsk monisme svarer det motsatte: struktur må være struktur av noe, og det noe kan være opplevelse. Begge synene er omstridt. At fysikken bare viser oss struktur, betyr ikke at det bare finnes struktur."@nb ;
+  v:region v:consciousness ;
+  v:strength v:contested ;
+  v:conversation v:map ;
+  dct:created "2026-11-03"^^xsd:date ;
+  dct:source "Stephen Hawking, A Brief History of Time (1988)"@nb ;
+  dct:source "James Ladyman og Don Ross, Every Thing Must Go: Metaphysics Naturalized (2007)"@nb ;
+  dct:source "Max Tegmark, Our Mathematical Universe (2014)"@nb ;
+  v:contradicts n:carrier-view, n:russellian-monism ;
+  v:qualifies n:lit-by-him ;
+  v:relatedTo n:the-score, n:origin-matters .
+
+# note: n:only-structure v:contradicts n:carrier-view — det finnes ingen bærer i seg selv, bare forhold
+# note: n:only-structure v:contradicts n:russellian-monism — strukturen trenger ikke være struktur av noe
+# note: n:only-structure v:qualifies n:lit-by-him — opphavet kan stå som et forhold, men ikke som en flamme
 n:open-closed-same-facts a v:Insight ;
   rdfs:label "Åpen og lukket individualisme kan være samme fakta, talt ulikt"@nb ;
   v:shortLabel "Samme fakta, talt ulikt"@nb ;
@@ -3320,6 +3370,14 @@ n:pain-is-a-sign a v:Insight ;
   v:hopeLevel 1, 2 ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date .
+
+n:panksepp a v:Thinker ;
+  rdfs:label "Jaak Panksepp"@nb ;
+  rdfs:comment "Estisk-amerikansk hjerneforsker (1943–2017). Ga faget affektiv nevrovitenskap navnet."@nb ;
+  v:region v:consciousness ;
+  v:conversation v:map ;
+  dct:created "2026-11-03"^^xsd:date ;
+  v:behind n:feelings-below-the-cortex .
 
 n:panpsychism a v:Position ;
   rdfs:label "Panpsykisme"@nb ;
@@ -3585,7 +3643,9 @@ n:pure-awareness a v:Finding ;
   v:strength v:supported ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
-  v:challengesWord n:word-i, n:word-where, n:word-now, n:word-inside ;
+  dct:modified "2026-11-03"^^xsd:date ;
+  v:change [ dct:date "2026-11-03"^^xsd:date ; rdfs:comment "Fjernet at stedet utfordrer ordet «innside». Det fikk grafen til å si at ren våkenhet kan oppløse det harde problemet, mens «Jeg, her og nå er lag» sier at det harde problemet hører til selve opplevelsen. Det romlige poenget dekkes av ordet «hvor»."@nb ; v:changedField "links" ] ;
+  v:challengesWord n:word-i, n:word-where, n:word-now ;
   v:supports n:time-and-consciousness .
 
 n:pyrrho a v:Thinker ;
@@ -4094,6 +4154,14 @@ n:smolin a v:Thinker ;
   dct:source "Time Reborn (2013)"@nb ;
   v:behind n:presentism, n:now-is-real .
 
+n:solms a v:Thinker ;
+  rdfs:label "Mark Solms"@nb ;
+  rdfs:comment "Sørafrikansk nevropsykolog ved Universitetet i Cape Town."@nb ;
+  v:region v:consciousness ;
+  v:conversation v:map ;
+  dct:created "2026-11-03"^^xsd:date ;
+  v:behind n:feelings-below-the-cortex .
+
 n:soul-continues a v:Position ;
   rdfs:label "En sjel som fortsetter"@nb ;
   rdfs:comment "Det klassiske svaret: en udelelig kjerne som overlever kroppen og tar minnene med seg."@nb ;
@@ -4391,6 +4459,14 @@ n:tears-at-reunion a v:Finding ;
   dct:source "Murata mfl. (2022), Current Biology"@nb ;
   v:supports n:thin-wall ;
   v:relatedTo n:alfred-at-the-door, n:gaze-and-oxytocin .
+
+n:tegmark a v:Thinker ;
+  rdfs:label "Max Tegmark"@nb ;
+  rdfs:comment "Svensk-amerikansk fysiker ved MIT."@nb ;
+  v:region v:consciousness ;
+  v:conversation v:map ;
+  dct:created "2026-11-03"^^xsd:date ;
+  v:behind n:only-structure .
 
 n:teleporter a v:Finding ;
   rdfs:label "Flere filosofer sier død enn overlevelse i teleporteren"@nb ;
@@ -5472,18 +5548,13 @@ n:type-token v:qualifiesDerived n:cosmopsychism .
 n:death-is-not-a-pause v:sharesPremiseWith n:line-closes-third-way .
 n:death-is-not-a-pause v:sharesPremiseWith n:listener-without-archive .
 n:death-is-not-a-pause v:sharesPremiseWith n:what-level-5-requires .
+n:only-structure v:qualifiesDerived n:death-is-not-a-pause .
 n:process-causality v:qualifiesDerived n:death-is-not-a-pause .
 n:the-container v:qualifiesDerived n:death-is-not-a-pause .
 n:unbroken-path v:qualifiesDerived n:death-is-not-a-pause .
-n:man-and-person v:challengesDerived n:death-is-not-a-pause .
-n:origin-matters v:challengesDerived n:death-is-not-a-pause .
-n:death-is-not-a-pause v:sharesPremiseWith n:less-of-him .
-n:death-is-not-a-pause v:sharesPremiseWith n:not-ruled-out-has-content .
-n:death-is-not-a-pause v:sharesPremiseWith n:reader-is-the-question .
-n:death-is-not-a-pause v:sharesPremiseWith n:reassembly-stands .
-n:death-is-not-a-pause v:sharesPremiseWith n:two-questions-separate .
+n:only-structure v:challengesDerived n:death-is-not-a-pause .
 n:death-is-not-a-pause v:sharesPremiseWith n:what-was-the-carrier .
-n:presence-and-archive v:qualifiesDerived n:death-is-not-a-pause .
+n:lit-by-him v:qualifiesDerived n:death-is-not-a-pause .
 n:engrams v:challengesDerived n:filter-theory .
 n:materialism v:challengesDerived n:filter-theory .
 n:memory-in-the-brain v:challengesDerived n:filter-theory .
@@ -5521,6 +5592,7 @@ n:less-of-him v:sharesPremiseWith n:two-questions-separate .
 n:less-of-him v:sharesPremiseWith n:what-was-the-carrier .
 n:line-closes-third-way v:sharesPremiseWith n:listener-without-archive .
 n:line-closes-third-way v:sharesPremiseWith n:what-level-5-requires .
+n:only-structure v:qualifiesDerived n:line-closes-third-way .
 n:process-causality v:qualifiesDerived n:line-closes-third-way .
 n:the-container v:qualifiesDerived n:line-closes-third-way .
 n:unbroken-path v:qualifiesDerived n:line-closes-third-way .
@@ -5534,6 +5606,7 @@ n:listener-without-archive v:sharesPremiseWith n:same-signal-two-receivers .
 n:listener-without-archive v:sharesPremiseWith n:spinoza-modes .
 n:listener-without-archive v:sharesPremiseWith n:what-level-5-requires .
 n:intuitive-dualism v:qualifiesDerived n:listener-without-archive .
+n:only-structure v:qualifiesDerived n:listener-without-archive .
 n:process-causality v:qualifiesDerived n:listener-without-archive .
 n:the-container v:qualifiesDerived n:listener-without-archive .
 n:unbroken-path v:qualifiesDerived n:listener-without-archive .
@@ -5671,9 +5744,11 @@ n:type-token v:qualifiesDerived n:two-thin-walls .
 n:illusionism v:challengesDerived n:what-level-5-requires .
 n:intuitive-dualism v:qualifiesDerived n:what-level-5-requires .
 n:awareness-without-me v:challengesDerived n:what-level-5-requires .
+n:only-structure v:qualifiesDerived n:what-level-5-requires .
 n:process-causality v:qualifiesDerived n:what-level-5-requires .
 n:the-container v:qualifiesDerived n:what-level-5-requires .
 n:unbroken-path v:qualifiesDerived n:what-level-5-requires .
+n:only-structure v:challengesDerived n:what-was-the-carrier .
 n:lit-by-him v:qualifiesDerived n:what-was-the-carrier .
 n:man-and-person v:challengesDerived n:what-was-the-carrier .
 n:origin-matters v:challengesDerived n:what-was-the-carrier .
@@ -5690,7 +5765,9 @@ n:the-swap v:strengthensDerived n:animalism-polarizes .
 n:philpapers-2020 v:strengthensDerived n:awareness-as-ground .
 n:presentism v:strengthensDerived n:cannot-be-undone .
 n:philpapers-2020 v:strengthensDerived n:cosmopsychism .
+n:origin-matters v:strengthensDerived n:death-is-not-a-pause .
 n:your-thoughts-on-carrier v:strengthensDerived n:death-is-not-a-pause .
+n:duplication-problem v:strengthensDerived n:death-is-not-a-pause .
 n:philpapers-2020 v:strengthensDerived n:filter-theory .
 n:philpapers-2020 v:strengthensDerived n:hard-problem .
 n:presentism v:strengthensDerived n:having-been .
@@ -5769,14 +5846,11 @@ n:two-halves-two-dogs v:mayDissolveDerived n:continue-as-himself .
 n:type-token v:mayDissolveDerived n:continue-as-himself .
 n:ability-not-archive v:mayDissolveDerived n:continue-as-himself .
 n:memory-is-reconstruction v:mayDissolveDerived n:continue-as-himself .
-n:pure-awareness v:mayDissolveDerived n:hard-problem .
 n:illusionism v:mayDissolveDerived n:inside .
-n:pure-awareness v:mayDissolveDerived n:inside .
 n:lasting-bonds v:mayDissolveDerived n:must-the-bond-be-released .
 n:love-without-answer v:mayDissolveDerived n:must-the-bond-be-released .
 n:the-bond-moves v:mayDissolveDerived n:must-the-bond-be-released .
 n:illusionism v:mayDissolveDerived n:other-minds .
-n:pure-awareness v:mayDissolveDerived n:other-minds .
 n:ability-not-archive v:mayDissolveDerived n:other-side-of-the-wall .
 n:buddhism-three-words v:mayDissolveDerived n:other-side-of-the-wall .
 n:category-mistake v:mayDissolveDerived n:other-side-of-the-wall .
