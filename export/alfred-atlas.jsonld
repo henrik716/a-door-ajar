@@ -3171,19 +3171,46 @@
         "nb": "Kan et sinn være seg selv og samtidig del av havet?"
       },
       "text": {
-        "nb": "Havsynene sier at hvert sinn er en del av én større bevissthet, og at begge er bevisste på en gang: Alfred var en virvel i elva, og elva var der også. Integrert informasjon sier det motsatte. Bare det mest samlede systemet er bevisst. Er helheten bevisst, er ikke delene det, og omvendt. Det er derfor teorien spår at to hjerner koblet tett nok blir én, og slutter å være to. Hvis regelen holder, kan ikke Alfred ha vært et eget sinn og en del av havet på samme tid. Da må havsynene enten forklare hvorfor regelen ikke gjelder for dem, eller godta at havet bare er bevisst der det ikke finnes dråper. Men regelen er laget for fysiske systemer, og teorien er selv omstridt. Ikke gravd ennå: hva sier Kastrup og kosmopsykistene til utelukkelsen, og er den et argument mot havet, eller bare mot et hav bygget av hjerner?"
+        "nb": "Havsynene sier at hvert sinn er en del av én større bevissthet. Integrert informasjon sier at bare det mest samlede systemet er bevisst: er helheten bevisst, er ikke delene det, og omvendt. Den 3. november viste gravingen at havsynene ikke er ett syn her. Goff tenker seg at universets bevissthet rommer våre perspektiver. Da opplever havet det samme som dråpen, og det bryter regelen. Kastrup tenker seg at hvert sinn er avspaltet, og at det det opplever, ikke kan nås fra resten. Da er havet og dråpen bevisste side om side, men ikke av det samme, og regelen er ikke brutt. Regelen sier heller ingenting imot at dråpen går opp i havet etterpå. Teorien spår selv at to systemer blir ett når veggen mellom dem faller. Det som trekker den mot støvet, er at den bare kjenner fysiske helheter, ikke utelukkelsen. Selve regelen er omstridt. Mørch argumenterer for at bevissthet ikke kan overlappe, også uten teorien. Blackmon mener teorien bør gi den opp, og Roelofs forsvarer at et sinn kan være én helhet og mange deler på en gang. Fortsatt åpent: om Kastrups vegger er mer enn et bilde. Han forklarer ikke hva avspaltingen er, og bevisene er hentet fra mennesker med dissosiativ identitetsforstyrrelse, ikke fra universet."
       },
       "region": "v:limits",
       "hopeLevel": [
         3,
         4
       ],
-      "status": "v:planned",
+      "status": "v:frontier",
       "shortLabel": {
         "nb": "Dråpen og havet"
       },
+      "answer": {
+        "nb": "Bare mot et hav som opplever det samme som dråpen. Et hav med vegger, som Kastrups, går klar."
+      },
       "conversation": "v:map",
       "created": "2026-11-02",
+      "modified": "2026-11-03",
+      "changes": [
+        {
+          "date": "2026-11-03",
+          "text": {
+            "nb": "Gravd 3. november. Utelukkelsen rammer et hav som deler opplevelsen med dråpen, ikke et hav med vegger. Svar, tekst og kilder lagt til, og stedet er front, ikke lenger ugravd."
+          },
+          "fields": [
+            "status",
+            "answer",
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.imprint.co.uk/wp-content/uploads/2019/03/Kastrup_Open_Access.pdf",
+        "https://doi.org/10.1098/rstb.2014.0167",
+        "https://philarchive.org/rec/ALBBCA-2",
+        "https://doi.org/10.1111/rati.12166",
+        "https://philarchive.org/rec/MRCWCC",
+        "https://philarchive.org/rec/BLAIIT-4",
+        "Roelofs, Combining Minds: How to Think about Composite Subjectivity, Oxford University Press (2019)"
+      ],
       "relatedTo": [
         "n:iit",
         "n:analytic-idealism",
@@ -3192,6 +3219,52 @@
         "n:points-to-the-ocean",
         "n:river-eddies",
         "n:why-the-ocean-pulls"
+      ]
+    },
+    {
+      "@id": "n:exclusion-hits-shared-ocean",
+      "@type": "v:Insight",
+      "label": {
+        "nb": "Utelukkelsen rammer et hav som deler opplevelsen, ikke et hav med vegger"
+      },
+      "text": {
+        "nb": "Gitt at utelukkelsen holder: den forbyr at to bevisste systemer overlapper, slik at det samme oppleves både av delen og av helheten. Den forbyr ikke at et hav og en dråpe er bevisste side om side, hver for seg. Kastrups dråpe er avspaltet, og det den opplever, kan ikke nås fra resten. Da overlapper de ikke. Et hav som rommer dråpenes perspektiver, slik Goff tenker seg, bryter regelen. Regelen sier heller ingenting om etterpå. Integrert informasjon spår selv at når veggen mellom to systemer faller, blir de ett, og de to slutter å være to. Det ligner nivå 4: perspektivet tar slutt, og det som var i det, blir del av noe større. Det som trekker teorien mot støvet, er en annen del av den: at bare fysiske systemer kan være helheter, og at en hjerne som stopper, ikke kobles til noe. Prisen for havet med vegger er at havet ikke var med i det Alfred opplevde mens han levde. Elva var der, men den kjente ikke virvelen innenfra. Dette er vår lesning. Kastrup skriver ikke om utelukkelsen, og Tononi og Koch skriver ikke om havet."
+      },
+      "region": "v:limits",
+      "strength": "v:position",
+      "ownConclusion": true,
+      "hopeLevel": [
+        3,
+        4
+      ],
+      "shortLabel": {
+        "nb": "Havet med vegger går klar"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-03",
+      "sources": [
+        "https://doi.org/10.1098/rstb.2014.0167",
+        "https://www.imprint.co.uk/wp-content/uploads/2019/03/Kastrup_Open_Access.pdf",
+        "https://philarchive.org/rec/ALBBCA-2"
+      ],
+      "answers": [
+        "n:exclusion-and-the-ocean"
+      ],
+      "qualifies": [
+        "n:iit-points-to-dust"
+      ],
+      "relatedTo": [
+        "n:analytic-idealism",
+        "n:cosmopsychism",
+        "n:river-eddies",
+        "n:split-brains",
+        "n:is-there-a-whole"
+      ],
+      "notes": [
+        "v:qualifies n:iit-points-to-dust: utelukkelsen alene peker ikke mot støvet",
+        "v:relatedTo n:analytic-idealism: avspaltingen holder dråpen og havet fra hverandre",
+        "v:relatedTo n:cosmopsychism: rammer et hav som rommer perspektivene",
+        "v:relatedTo n:river-eddies: elva kjente ikke virvelen innenfra"
       ]
     },
     {
@@ -5335,7 +5408,7 @@
       "strength": "v:position",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
-      "modified": "2026-11-02",
+      "modified": "2026-11-03",
       "changes": [
         {
           "date": "2026-11-02",
@@ -5345,6 +5418,15 @@
           "fields": [
             "text",
             "sources",
+            "links"
+          ]
+        },
+        {
+          "date": "2026-11-03",
+          "text": {
+            "nb": "Merknaden om dråpen og havet presisert, og lenke til at utelukkelsen bare rammer et hav som deler opplevelsen."
+          },
+          "fields": [
             "links"
           ]
         }
@@ -5364,11 +5446,12 @@
       ],
       "relatedTo": [
         "n:one-ocean-or-dust",
-        "n:cosmopsychism"
+        "n:cosmopsychism",
+        "n:exclusion-hits-shared-ocean"
       ],
       "notes": [
         "v:qualifies n:claude-angle: ifølge teorien har vanlige datamaskiner nesten ingen bevissthet, uansett hva de gjør",
-        "v:relatedTo n:one-ocean-or-dust: under utelukkelsen kan ikke dråpen og havet være bevisste samtidig"
+        "v:relatedTo n:one-ocean-or-dust: under utelukkelsen kan ikke dråpen og havet oppleve det samme samtidig"
       ]
     },
     {
@@ -5378,7 +5461,7 @@
         "nb": "Integrert informasjon peker mot støvet, ikke mot havet"
       },
       "text": {
-        "nb": "Tononi og Koch skriver at teorien deler noe med panpsykismen: bevissthet er gradert og kan finnes i svært enkle systemer. Men ikke alt er bevisst. Ansamlinger og grupper er det ikke, bare det som er mest samlet. Leser man det på døden, forsvinner helheten når hjernen slutter å samle informasjonen. Det som eventuelt blir igjen, er små systemer med litt samlet informasjon hver for seg, og ingenting som samler dem. Det ligner støvet. Utelukkelsen sier samtidig at et hav ikke kan være bevisst mens dråpene er det. Teorien trekker altså bort fra havet og mot støvet, hvis noe blir igjen i det hele tatt. To forbehold: Tononi og Koch skriver ikke om hva som skjer etter døden, så dette er vår lesning. Og teorien er sterkt omstridt."
+        "nb": "Tononi og Koch skriver at teorien deler noe med panpsykismen: bevissthet er gradert og kan finnes i svært enkle systemer. Men ikke alt er bevisst. Ansamlinger og grupper er det ikke, bare det som er mest samlet. Leser man det på døden, forsvinner helheten når hjernen slutter å samle informasjonen. Det som eventuelt blir igjen, er små systemer med litt samlet informasjon hver for seg, og ingenting som samler dem. Det ligner støvet. Utelukkelsen sier samtidig at et hav ikke kan oppleve det samme som dråpene mens de er bevisste. Et hav med vegger mellom dråpene rammes ikke av den. Teorien trekker altså bort fra havet og mot støvet, hvis noe blir igjen i det hele tatt. To forbehold: Tononi og Koch skriver ikke om hva som skjer etter døden, så dette er vår lesning. Og teorien er sterkt omstridt."
       },
       "region": "v:limits",
       "strength": "v:position",
@@ -5391,6 +5474,18 @@
       },
       "conversation": "v:map",
       "created": "2026-11-02",
+      "modified": "2026-11-03",
+      "changes": [
+        {
+          "date": "2026-11-03",
+          "text": {
+            "nb": "Én setning presisert etter gravingen i dråpen og havet: utelukkelsen rammer et hav som deler opplevelsen, ikke et hav med vegger."
+          },
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "sources": [
         "https://doi.org/10.1098/rstb.2014.0167"
       ],
