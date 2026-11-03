@@ -3099,6 +3099,53 @@
       ]
     },
     {
+      "@id": "n:entanglement-not-a-whole",
+      "@type": "v:Insight",
+      "label": {
+        "nb": "Sammenfiltring gjør trolig ikke universet til én helhet"
+      },
+      "text": {
+        "nb": "Kastrup skriver at det er sterke grunner til å tro at i alle fall hele den livløse delen av universet er én helhet. Han viser til Schaffer, som mener at kosmos er ett sammenfiltret system. Spørsmålet er om det gjør universet til én helhet slik integrert informasjon måler det. Fire ting peker imot. Albantakis og kolleger, fra miljøet bak teorien, har vist at sammenfiltring kan gi et system mer indre struktur. Men de har bare regnet på to og tre kvantebiter, og de skriver at det reiser nye spørsmål å bruke teorien på universet som helhet. Teorien måler hvordan delene kan virke på hverandre. Sammenfiltring alene kan ikke bære virkning fra ett sted til et annet, og deler av universet som ligger lenger fra hverandre enn lyset rekker, kan ikke virke på hverandre i det hele tatt. Tegmark har pekt på at kvantefysikken ikke engang sier hvordan universet skal deles i deler før man kan regne. Og Barrett, som har prøvd å bygge teorien inn i fysikken, får bare lokale helheter, ingen større bevissthet over dem. Gitt at utelukkelsen brukes på resten av universet også, peker dette mot støvet. Ingen har regnet på det, og det er vår lesning av kildene, ikke deres konklusjon. Kartet antok først at sammenfiltring ikke gir delene noen virkning på hverandre. Det var for raskt: i små systemer kan den bidra."
+      },
+      "region": "v:limits",
+      "strength": "v:position",
+      "ownConclusion": true,
+      "hopeLevel": [
+        3,
+        4
+      ],
+      "shortLabel": {
+        "nb": "Sammenfiltring samler ikke universet"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-03",
+      "sources": [
+        "https://www.imprint.co.uk/wp-content/uploads/2019/03/Kastrup_Open_Access.pdf",
+        "Schaffer, Monism: The Priority of the Whole, Philosophical Review 119(1) (2010)",
+        "https://arxiv.org/abs/2301.02244",
+        "https://arxiv.org/abs/1401.1219",
+        "https://doi.org/10.3389/fpsyg.2014.00063",
+        "https://doi.org/10.1098/rstb.2014.0167"
+      ],
+      "answers": [
+        "n:kastrup-literal-exclusion"
+      ],
+      "supports": [
+        "n:iit-points-to-dust"
+      ],
+      "qualifies": [
+        "n:analytic-idealism"
+      ],
+      "relatedTo": [
+        "n:iit",
+        "n:ocean-as-ground"
+      ],
+      "notes": [
+        "v:supports n:iit-points-to-dust: gitt at regelen brukes på resten også",
+        "v:qualifies n:analytic-idealism: universet som én helhet er ikke vist"
+      ]
+    },
+    {
       "@id": "n:entropy-objection",
       "@type": "v:Insight",
       "label": {
@@ -6282,6 +6329,46 @@
       ],
       "behind": [
         "n:analytic-idealism"
+      ]
+    },
+    {
+      "@id": "n:kastrup-literal-exclusion",
+      "@type": "v:Question",
+      "label": {
+        "nb": "Hvis Kastrup tar utelukkelsen bokstavelig, blir resten hav eller støv?"
+      },
+      "text": {
+        "nb": "Kastrup vil bruke utelukkelsen til å forklare avspaltingen: en hjerne er så tett samlet at den blir sin egen helhet og skiller seg fra resten. Men regelen bestemmer også hva resten er. Er resten av universet tett samlet, blir det én helhet ved siden av dråpene, og havet finnes som vannet utenfor dem. Er resten løst koblet, deler den seg i mange små helheter uten noe som samler dem. Da er resten støv. Ved døden går dråpen inn i det som er rundt den, havet eller støvet. Spørsmålet om havet eller støvet blir altså et spørsmål om hvor samlet universet er. Kastrup mener at universet er én helhet, fordi det er sammenfiltret i kvantefysisk forstand. Det første som ble gravd 3. november, var om sammenfiltring teller som samling i teorien. Svaret står i «Sammenfiltring gjør trolig ikke universet til én helhet». To utveier gjenstår for Kastrup. Han kan si at regelen bare gjelder dråpene, og ikke resten, men da bruker han den halvveis. Eller han kan la havet være en grunn uten eget perspektiv, og da trenger det ikke være samlet. Kastrup snakket med Christof Koch, som utviklet teorien sammen med Tononi, 29. juli 2025. Kapitlene heter blant annet «I analytisk idealisme krever avspalting aktivt opprettholdte bruddlinjer», «Forskjellen mellom Bernardos og Christofs modell av avspalting» og «Teorien kan ikke forklare en kosmisk bevissthet». Det tyder på at de snakket om nettopp dette, og at Kastrups avspalting kanskje ikke er utelukkelsen brukt bokstavelig. Opptaket er bare for medlemmer, så hva som ble sagt, er ikke kjent."
+      },
+      "region": "v:limits",
+      "hopeLevel": [
+        3,
+        4
+      ],
+      "status": "v:frontier",
+      "shortLabel": {
+        "nb": "Hav eller støv hos Kastrup?"
+      },
+      "answer": {
+        "nb": "Trolig støv, hvis regelen brukes på resten også. Ingen har regnet på det."
+      },
+      "conversation": "v:map",
+      "created": "2026-11-03",
+      "sources": [
+        "https://www.bernardokastrup.com/2024/01/analytic-idealism-uaps-daimon-and-model.html",
+        "https://www.imprint.co.uk/wp-content/uploads/2019/03/Kastrup_Open_Access.pdf",
+        "https://www.withrealityinmind.com/recording-christof-koch-2/"
+      ],
+      "relatedTo": [
+        "n:exclusion-and-the-ocean",
+        "n:analytic-idealism",
+        "n:iit-points-to-dust",
+        "n:ocean-as-ground",
+        "n:is-there-a-whole",
+        "n:one-ocean-or-dust"
+      ],
+      "notes": [
+        "v:relatedTo n:ocean-as-ground: en grunn trenger ikke være samlet"
       ]
     },
     {
@@ -9983,6 +10070,34 @@
       "supports": [
         "n:thin-wall",
         "n:grief-and-self-concept"
+      ]
+    },
+    {
+      "@id": "n:self-questions-for-a-dog",
+      "@type": "v:Question",
+      "label": {
+        "nb": "Gjelder spørsmålene om selvet for en hund?"
+      },
+      "text": {
+        "nb": "Mye av gravingen om hvem som eventuelt fortsetter, bygger på tilfeller tenkt ut for mennesker: Locke og minnene, Parfit og teleporteren, kopien og opphavet. Antakelsen under, som ikke står skrevet noe sted, er at de samme spørsmålene gjelder for en hund på samme måte. Det er ikke sikkert. Alfred husket hendelser, men levde mest i et bredt nå, trolig uten en fortelling om seg selv, og verden hans var mest lukt og kropp. Var selvet hans tynnere eller bygget annerledes, kan svarene flytte seg: kanskje veier kroppen og opphavet mer for ham, og minnene og selvmodellen mindre. Kartet har funnet at modellene gir et menneske mer rom for tro enn en hund. Det samme kan gjelde for hvor kartet selv har gravd: få lenker fra Selvet, Bevisstheten, Kjernen og Grensene går til Alfreds verden. Ikke gravd ennå."
+      },
+      "region": "v:dog",
+      "status": "v:planned",
+      "shortLabel": {
+        "nb": "Selvet hos en hund"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-03",
+      "relatedTo": [
+        "n:where-the-individual-sits",
+        "n:good-enough-carrier",
+        "n:load-bearing-parfit",
+        "n:t-content",
+        "n:animalism",
+        "n:mental-time-travel",
+        "n:dog-episodic-memory",
+        "n:umwelt",
+        "n:exp-human-vs-dog"
       ]
     },
     {

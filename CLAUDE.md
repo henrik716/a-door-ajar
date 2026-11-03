@@ -70,6 +70,7 @@ Dig sites (see `next` in `data/status.json`):
 - Where does what makes the listener his sit? (`where-the-individual-sits`)
 - Would it have helped him? (`would-it-help-him`)
 - Is there a reader without a notebook? (`reader-without-notebook`)
+- Do the questions about the self apply to a dog? (`self-questions-for-a-dog`). Added 3 November 2026 after a count showed that the deep digging rarely reaches Alfred's world.
 
 Waiting for Henrik:
 
