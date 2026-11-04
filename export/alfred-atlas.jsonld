@@ -194,6 +194,18 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "La til lenken: stedet sier imot at minner finnes uten hjerne, men det sto ikke i lenkene."
+          },
+          "fields": [
+            "links"
+          ]
+        }
+      ],
       "exampleOf": [
         "n:category-mistake"
       ],
@@ -203,6 +215,16 @@
       "challengesWord": [
         "n:word-memory",
         "n:word-where"
+      ],
+      "contradicts": [
+        "n:t-memory-without-brain"
+      ],
+      "notes": [
+        "v:contradicts n:t-memory-without-brain: var minnene bare en evne i ham, finnes de ikke et annet sted"
+      ],
+      "challengesDerived": [
+        "n:filter-theory",
+        "n:soul-continues"
       ],
       "mayDissolveDerived": [
         "n:alfred-now",
@@ -510,6 +532,7 @@
         "n:rebirth-without-self",
         "n:russellian-monism",
         "n:same-signal-two-receivers",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ],
       "challengesDerived": [
@@ -744,6 +767,235 @@
       ]
     },
     {
+      "@id": "n:atom-path-holds-roughly",
+      "@type": "v:Finding",
+      "label": {
+        "nb": "Et atom har en vei, men bare omtrent"
+      },
+      "text": {
+        "nb": "Spørsmålet var om et atom har en vei man kan følge når det er spredt i jord og luft i årevis. Svaret er delt. Et atom har ingen merkelapp. Bytter to like atomer plass, oppstår det ingen ny tilstand. Det kan måles: i karbondioksid mangler halvparten av rotasjonsnivåene, fordi de to oksygenkjernene er like. Men det som skiller to atomer i praksis, er ikke en merkelapp, men hvor de er. Smale bølgepakker som ikke overlapper, oppfører seg som partikler med en bane, og det er omgivelsene som holder dem smale. Ved kroppstemperatur har et karbonatom en termisk bølgelengde på rundt 0,3 ångström, mens avstanden til naboene er fra 1,5 ångström og oppover. Tunge atomer kan derfor følges godt mellom møtene. Hydrogen er verre stilt. Bølgelengden er rundt 1 ångström, på størrelse med en binding, og protonene hopper mellom vannmolekylene. Hydrogen er rundt seks av ti atomer i et menneske, og trolig omtrent det samme i en hund. Elektronene kan ikke følges i det hele tatt, så «det samme atomet» betyr i praksis den samme atomkjernen. Det uavklarte er hva som skjer når like partikler møtes. Den vanlige lesningen er at de smelter identitetene sammen, så det ikke finnes noe faktum om hvilken som er hvilken etterpå. Dieks og Lubberdink mener at partikler er noe som vokser fram av lokaliserte tilstander, og at de kan følges så lenge de ikke overlapper. Uenigheten er ikke avgjort. Vi mistenkte at veien forsvinner når atomene er spredt. Det stemmer ikke helt. For tunge atomer holder den trolig godt over korte strekk, men som en tilnærming, ikke som et faktum helt ned. Hvor langt den holder gjennom år i jord og luft, er gravd i «Over år holder veien for noen atomer, ikke for alle». Bølgelengdene er regnet ut av oss, og lesningen er vår."
+      },
+      "region": "v:self",
+      "strength": "v:supported",
+      "ownConclusion": true,
+      "shortLabel": {
+        "nb": "Atomets vei"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-03",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Spørsmålet om veien over år var ubesvart. Det er nå gravd og står som eget sted."
+          },
+          "fields": [
+            "text"
+          ]
+        }
+      ],
+      "sources": [
+        "https://plato.stanford.edu/entries/qt-idind/",
+        "https://arxiv.org/abs/1002.2544",
+        "Erich Joos og H. Dieter Zeh, The emergence of classical properties through interaction with the environment, Zeitschrift für Physik B 59 (1985)",
+        "Gerhard Herzberg, Molecular Spectra and Molecular Structure II: Infrared and Raman Spectra of Polyatomic Molecules (1945)",
+        "https://en.wikipedia.org/wiki/Composition_of_the_human_body"
+      ],
+      "answers": [
+        "n:atoms-and-death"
+      ],
+      "qualifies": [
+        "n:identical-atoms",
+        "n:unbroken-path"
+      ],
+      "relatedTo": [
+        "n:process-causality"
+      ],
+      "notes": [
+        "v:answers n:atoms-and-death: veien holder som en tilnærming, ikke helt ned",
+        "v:qualifies n:identical-atoms: i praksis skiller stedet atomene",
+        "v:qualifies n:unbroken-path: stoffets vei er en tilnærming"
+      ]
+    },
+    {
+      "@id": "n:atom-path-over-years",
+      "@type": "v:Finding",
+      "label": {
+        "nb": "Over år holder veien for noen atomer, ikke for alle"
+      },
+      "text": {
+        "nb": "Spørsmålet var hvor langt et atoms vei holder gjennom år i jord og luft. Svaret er ulikt fra atom til atom, og et stykke på vei kommer det an på hvordan kvantemekanikken leses. Stoffet blir ikke borte. I Frankrike ble nitrogengjødsel merket med en sjelden isotop lagt ut i 1982. Den ble fulgt i tre tiår, og etter mer enn 25 år lå 12 til 15 prosent fortsatt i jorda. Men det følger en andel, ikke et atom, og et merket atom er nettopp ikke likt naboene sine. Enkeltatomet må derfor vurderes av fysikken. Mellom møtene står veien sterkt. Støt med gass visker ut interferens, slik det er målt for fullerener, og Busse og Hornberger viser at støt velger ut lokaliserte bølgepakker som følger klassiske bevegelseslikninger. Møter mellom like atomer ser heller ikke ut til å være der veien ryker. Ved helium må bytteeffekter regnes med under omkring 7 kelvin. Tyngre atomer ved kroppstemperatur ligger langt unna det. Det sier hvor stor virkningen er, ikke om det finnes et faktum. Stedet der veien ryker for tunge atomer, er molekyler med to like atomer. Oksygen i luft sitter i O2 og CO2. Mellom støtene roterer molekylet fritt. Målinger i nitrogen viser at rotasjonen holder seg uforstyrret rundt 80 pikosekunder ved vanlig trykk, mens mønsteret i rotasjonen gjentar seg hvert 8. pikosekund. Da finnes det trolig ikke noe sted på ringen der det ene atomet er og det andre ikke er. Pakkene overlapper, og det er nettopp der Dieks og Lubberdink sier at en vei ikke kan følges. De manglende rotasjonsnivåene sier det samme. Når molekylet brytes, finnes det ikke noe faktum om hvilket atom som var hvilket. Veien får en gaffel, og hver slik runde gir en ny. Oksygen 16 har ikke kjernespinn som kan skille dem. Nitrogen ligner, men der kan spinnet skille, og det har vi ikke gått inn i. Karbon i CO2 sitter alene og har ingen partner. Karbon står derfor best av de vanlige atomene på veien gjennom luft. Hydrogen står svakest, og elektronene kan ikke følges. Bevegelsen er også kaotisk. Zurek og Paz mener at en liten kvanteuvisshet i et kaotisk system vokser raskt, og at omgivelsene holder tingen lokalisert, men ikke bestemmer på forhånd hvilken vei den tar. De skriver om en måne, ikke om gass, og det er omstridt. Overført hit betyr det at veien bare finnes bakover, ikke framover. Om den finnes som et faktum, avhenger av lesningen. Med Bohm har hver partikkel en bane. I mangeverdenssynet har atomet mange veier. Gell-Mann og Hartle sier at bare grove nok historier kan gis sannsynligheter. Stanford-oversikten sier at fysikken ikke avgjør om partikler er individer i det hele tatt. Bigaj mener at like partikler kan identifiseres gjennom et møte bare hvis noe ved dem består, for eksempel stedet, og at svaret avhenger av hvordan de skilles i utgangspunktet. Det er lest i sammendrag. To ting følger. «Alle de samme atomene» finnes trolig ikke. Hydrogenet alene er rundt seks av ti atomer, så det beste som finnes, er under halvparten regnet i antall, selv om det er det meste av vekten. Og det finnes ikke noe merke. Bare omgivelsene har et spor av hvor atomet har vært, og det sporet er spredt med varme og lys. Selv om faktumet finnes, kan ingen hente det. Rotasjonsargumentet og overføringen fra Zurek og Paz er vår lesning. Vi har ikke funnet noen som har regnet på dette for atomer i jord og luft."
+      },
+      "region": "v:self",
+      "strength": "v:supported",
+      "ownConclusion": true,
+      "shortLabel": {
+        "nb": "Veien over år"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-04",
+      "sources": [
+        "Mathieu Sebilo, Bernhard Mayer, Bernard Nicolardot, Gilles Pinay og André Mariotti, Long-term fate of nitrate fertilizer in agricultural soils, PNAS 110(45) (2013)",
+        "https://arxiv.org/abs/quant-ph/0303093",
+        "https://arxiv.org/abs/0910.1062",
+        "https://arxiv.org/abs/1103.2857",
+        "https://arxiv.org/abs/2004.04056",
+        "Walter Heitler og Gerhard Herzberg, Gehorchen die Stickstoffkerne der Boseschen Statistik?, Naturwissenschaften 17 (1929)",
+        "https://arxiv.org/abs/1002.2544",
+        "https://arxiv.org/abs/quant-ph/9612037",
+        "https://arxiv.org/abs/gr-qc/9210010",
+        "https://link.springer.com/article/10.1007/s13194-020-00298-6",
+        "https://plato.stanford.edu/entries/qt-idind/"
+      ],
+      "answers": [
+        "n:atoms-and-death"
+      ],
+      "qualifies": [
+        "n:atom-path-holds-roughly",
+        "n:who-owns-the-atoms",
+        "n:two-beginnings"
+      ],
+      "supports": [
+        "n:atoms-carry-nothing"
+      ],
+      "relatedTo": [
+        "n:identical-atoms",
+        "n:information-preserved"
+      ],
+      "notes": [
+        "v:answers n:atoms-and-death: veien holder for noen atomer, og faktumet avhenger av lesningen",
+        "v:qualifies n:atom-path-holds-roughly: molekyler med to like atomer gir gaffel i veien",
+        "v:qualifies n:who-owns-the-atoms: hele sett av de samme atomene finnes ikke",
+        "v:qualifies n:two-beginnings: Hershenovs deler er tallmessig de samme bare omtrent"
+      ]
+    },
+    {
+      "@id": "n:atoms-and-death",
+      "@type": "v:Question",
+      "label": {
+        "nb": "Atomene og døden"
+      },
+      "text": {
+        "nb": "Dine tanker om rekken sier ja til at han bygges opp igjen av de samme atomene etter at de var spredt. «Hvis linjen holder: døden er ikke en pause» sier at det som skiller døden fra pausen, er at bæreren går i oppløsning. Etter svaret om atomene er ikke oppløsningen et brudd. Spørsmålet er om svaret holder når vi ser hva det fører med seg, eller om det var følelsen av skipet som svarte. Gravd første gang 3. november. Fire ting er funnet. Et atom har en vei, men bare omtrent. Veien bærer ingenting av ham, så alt av ham må komme fra en beskrivelse. Svaret har en alvorlig forsvarer i Hershenov og en alvorlig motstander i van Inwagen. Og det gjør ikke døden til en pause, det gjør den bare ikke nødvendigvis endelig. Det gir tre veier videre. Den første er å beholde svaret. Da er det nok at stoffet har gått veien, selv om det ikke bærer noe. Prisen er at forskjellen fra en kopi bare ligger i historien, og at det nok må være de siste atomene, ikke begge settene, ellers blir det to Alfred laget utenfra. Den andre er å slippe svaret. Da blir linjen enklere, men «Hvis følelsen holder, står kroppens oppstandelse igjen» mister grunnen sin, hvis ikke noe annet bærer ham over gapet. Den tredje er å slippe linjen og si at en beskrivelse er nok, slik den vide versjonen hos Parfit gjør. Da er kopien ham også. Fysikken avgjør ikke mellom dem. At atomer er like, kan leses som at bare mønsteret teller, eller som at historien er det eneste som kan telle. Det er det samme valget som i «Samme utfall, ulik dom». Fire ting kom til da du svarte på tre spørsmål 4. november, se «Hvem er hvem når atomene byttes?». Spørsmålene var for enkle: hva som er ham, skifter med synet. Få syn gir atomene selv vekt, og panpsykismen er trolig ikke unntaket. Svaret ditt om byttet peker mot den tredje veien, men der står nei-et ditt til kopien. Og ingen av de to hundene er også et mulig svar. Du ble spurt om hva hund A bygget av hund Bs atomer har, som en hund av nye atomer ikke har. Så vidt vi ser, ingenting, for opphavet skiller dem ikke. Men svaret viste at de tre veiene er tre betydninger av ordet opphav, se «Opphav betyr tre ting». Du svarte fortsatt ja til den frosne og til den som er satt sammen av de samme spredte atomene, og nei til den som er bygget etter en skanning. Men du så at du da gir atomene en egenskap de ikke har. Det stemmer om en egenskap i atomet, for det finnes ingen. Det eneste som kan stå, er en historie: at akkurat dette stoffet var i ham. Historie er ikke noe i tingen, slik en forfalskning bare skiller seg fra originalen i historien, så det er ikke i seg selv en feil. Men for atomer er historien selv usikker. Den holder bare omtrent, og den skal bære alt uten å bringe noe med seg. Trolig ble følelsen til ved planker, der delene har form og en vei man kan se, og så ble den strakt ned til atomene, der ingen av delene gjelder. Det peker mot at det var følelsen av skipet som svarte, slik spørsmålet mistenkte. Det er ikke vist at svaret er galt. Du svarte nei: det blir for enkelt og uten godt nok grunnlag. Dermed slipper du ja-et til atomene, og det som teller for deg nå, er ubrutt struktur. Følgene er de «Død, men ikke nødvendigvis endelig» varslet: det spørsmålet faller, og døden er endelig for alt som var bundet til hjernen. «Hvis følelsen holder, står kroppens oppstandelse igjen» mister grunnen sin hos deg, og linjen trenger ikke lenger «eller for stoffet». Dette er standpunktet ditt nå, ikke et funn, og striden mellom Hershenov og van Inwagen er ikke avgjort av det. Fysikken ble gravd samme dag, se «Over år holder veien for noen atomer, ikke for alle». Den avgjør ikke saken, slik vi sa den kunne, men den snevrer den inn: «alle de samme atomene» finnes trolig ikke, og det beste som finnes, er under halvparten regnet i antall. Åpent, og bare du kan svare: Svaret ditt gjelder atomene. Du har ikke sluppet at han kan settes sammen av egne deler. Hvor på veien fra planker til celler, molekyler og atomer slutter det å være ham som settes sammen?"
+      },
+      "region": "v:self",
+      "status": "v:frontier",
+      "answer": {
+        "nb": "Det var trolig følelsen av skipet som svarte. Du slipper ja-et til atomene, fordi en historie som bare holder omtrent og ikke bærer noe, ikke er nok. Hvor grensen går mellom egne deler og atomer, er åpent"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-03",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Henrik svarte på de tre spørsmålene. De var for enkle, for svaret skifter med synet. Svar og tekst er oppdatert, og spørsmålet som står åpent, er nå hva byttet har som kopien ikke har."
+          },
+          "fields": [
+            "answer",
+            "text"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Henrik svarte opphavet på hva byttet har som kopien ikke har. Opphavet skiller dem ikke, men svaret viste at veiene videre er tre betydninger av ordet. Svar og tekst er oppdatert."
+          },
+          "fields": [
+            "answer",
+            "text"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Henrik svarte at han står ved ja-et, men ser at det gir atomene en egenskap de ikke har. Svaret skiller nå egenskap fra historie, og det opprinnelige spørsmålet har fått et foreløpig svar."
+          },
+          "fields": [
+            "answer",
+            "text"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Henrik svarte at historien ikke er nok, og slipper ja-et til atomene. Veien over år er gravd. Vi sa at den kunne avgjøres utenfra, men den avhenger også av lesningen. Svar og tekst er oppdatert, og det åpne spørsmålet er nå hvor grensen går mellom egne deler og atomer."
+          },
+          "fields": [
+            "answer",
+            "text"
+          ]
+        }
+      ],
+      "relatedTo": [
+        "n:death-is-not-a-pause",
+        "n:resurrection-remains",
+        "n:thoughts-on-series-and-ship",
+        "n:pause-or-copy",
+        "n:good-enough-carrier",
+        "n:unbroken-path",
+        "n:the-path-matters"
+      ]
+    },
+    {
+      "@id": "n:atoms-carry-nothing",
+      "@type": "v:Insight",
+      "label": {
+        "nb": "Atomene bærer ingenting av ham"
+      },
+      "text": {
+        "nb": "Svaret ditt om atomene skiller seg fra alle de andre svarene dine. Ved pausen og frysen står strukturen. Ved cellene som byttes ut, går stoffet, men strukturen bæres videre i ham. Ved hjernen i en ny hund og ved halvdelene følger begge med. Ved atomene som har vært spredt, er strukturen borte. Bare stoffet har gått en vei. Og det som gikk, bærer ingenting av ham. Et karbonatom som har vært i hjernen hans, er ikke forskjellig fra et hvilket som helst annet karbonatom. Det husker ikke hvor det satt. Byttes det mot et annet, blir det som bygges, det samme. Da må alt som er ham, komme fra noe annet enn atomene: en beskrivelse av hvor hvert av dem skal. Det er dette van Inwagen peker på. Atomene i en levende kropp sitter der de sitter på grunn av livets egne prosesser. Samles de etterpå, sitter de der av en annen grunn. Han sammenligner med et hus av klosser som et barn har bygget. Velter det, og en voksen setter de samme klossene nøyaktig likt, er det ikke barnets hus. Selv Hershenov, som forsvarer gjensamling, sier at prosessene da bare virker inn gjennom den siste ordningen av delene, og at dette ikke er en indre årsak. I praksis er det en beskrivelse. En gjensamling av spredte atomer er altså en avlesning pluss stoffets historie. Alt av ham går gjennom avlesningen. Atomene legger bare til at de en gang var der. Det er speilbildet av teleporteren, der strukturen går og stoffet blir igjen. De to svarene som aldri har passet helt i linjen din, er nettopp de to der du sier ja selv om ingenting holder ham i seg selv underveis. Cellene som byttes ut, viser at stoffet ikke er nødvendig. Bare svaret om atomene sier at det er nok. Tas det svaret bort, trenger linjen ikke lenger «eller for stoffet». Skillet er ikke skarpt. Planker har en form som viser hvor de hører hjemme. Når svampceller presses gjennom en duk, finner de sammen igjen uten noen beskrivelse utenfra. Hjerneceller som er skilt fra hverandre, har mistet koblingene, så der må noe komme utenfra. Atomer har ingenting. Jo mindre delene er, jo mer må komme fra beskrivelsen. «De egne delene» betyr derfor noe annet ved plankene enn ved atomene. Det kan være skipet som svarte, men det er ikke vist. Beskrivelsen ligger heller ikke i atomene. Slik kvantemekanikken vanligvis forstås, er den spredt i sammenhengene mellom alt som har vært i berøring, også varmen og lyset som har forlatt jorda, og lyset kan ingenting ta igjen. Dette er vår lesning."
+      },
+      "region": "v:self",
+      "strength": "v:position",
+      "ownConclusion": true,
+      "hopeLevel": [
+        6
+      ],
+      "shortLabel": {
+        "nb": "Atomene bærer ingenting"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-03",
+      "sources": [
+        "Peter van Inwagen, The Possibility of Resurrection, International Journal for Philosophy of Religion 9 (1978)",
+        "https://www.acsu.buffalo.edu/~dh25/articles/TheMetaphysicalProblemofIntermittentExistence.pdf",
+        "Henry V. Wilson, A New Method by Which Sponges May Be Artificially Reared, Science 25 (1907)"
+      ],
+      "answers": [
+        "n:atoms-and-death"
+      ],
+      "qualifies": [
+        "n:thoughts-on-series-and-ship",
+        "n:unbroken-path",
+        "n:resurrection-remains",
+        "n:information-preserved"
+      ],
+      "supports": [
+        "n:line-closes-third-way"
+      ],
+      "relatedTo": [
+        "n:process-causality",
+        "n:teleporter",
+        "n:hobbes-planks",
+        "n:identical-atoms",
+        "n:stream-needs-a-carrier",
+        "n:lit-by-him"
+      ],
+      "notes": [
+        "v:answers n:atoms-and-death: alt av ham må komme fra en beskrivelse",
+        "v:qualifies n:thoughts-on-series-and-ship: svaret om atomene hviler på stoffet alene",
+        "v:qualifies n:unbroken-path: «eller for stoffet» trengs bare for svaret om atomene",
+        "v:qualifies n:resurrection-remains: «hans eget stoff» bringer ingenting av ham",
+        "v:qualifies n:information-preserved: beskrivelsen ligger ikke i atomene"
+      ],
+      "qualifiesDerived": [
+        "n:death-not-necessarily-final"
+      ]
+    },
+    {
       "@id": "n:autonoetic",
       "@type": "v:Finding",
       "label": {
@@ -860,6 +1112,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -1004,6 +1257,7 @@
       ],
       "strengthensDerived": [
         "n:middle-way-on-the-map",
+        "n:not-knowing-is-not-new",
         "n:not-ruled-out-has-content"
       ]
     },
@@ -2483,6 +2737,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires",
         "n:objective-immortality",
         "n:open-individualism",
@@ -2630,6 +2885,52 @@
       ]
     },
     {
+      "@id": "n:death-not-necessarily-final",
+      "@type": "v:Insight",
+      "label": {
+        "nb": "Død, men ikke nødvendigvis endelig"
+      },
+      "text": {
+        "nb": "Hvis han kan bygges opp igjen av de samme atomene etter at de var spredt, ser det ut som om det eneste som skiller døden fra en lang pause, er at ingenting setter ham sammen igjen. Men det er to spørsmål, ikke ett. Det første er om han er død. Der står skillet. I en pause står evnen: et fryst embryo eller et tørket bjørnedyr er ikke dødt, for det som skal til, er der og kan startes. Etter Luper er død at evnen er borte, og den er borte selv om noe en gang skulle bygge den opp igjen. Det andre spørsmålet er om døden er endelig. Legevitenskapen har et skille som passer. Bernat skiller mellom permanent, det som ikke kommer til å komme tilbake, og irreversibelt, det som ikke kan komme tilbake. Etter svaret ditt er Alfreds død permanent, men ikke irreversibel i prinsippet. Etter van Inwagen er den irreversibel, også for Gud. Svaret ditt sier altså ikke at døden er en pause. Det sier at det kan finnes et hull: han er ikke, og så er han igjen. Det har en pris. Om døden var endelig, avhenger da av noe som ennå ikke har skjedd, og ingenting i verden nå kan vise det. Det er nær striden om organdonasjon, der Marquis mener at en pasient ikke er død når hjertet bare ikke kommer til å bli startet igjen, så lenge det kunne vært det. Hullet sier heller ikke noe om opplevelse. Var hjernen bæreren, var det ingen der imens. Faller svaret om atomene, faller også dette spørsmålet, og døden er endelig for alt som var bundet til hjernen. «Døden er ikke en pause» står i begge tilfeller. Dette er vår lesning."
+      },
+      "region": "v:core",
+      "strength": "v:position",
+      "ownConclusion": true,
+      "hopeLevel": [
+        6
+      ],
+      "shortLabel": {
+        "nb": "Død eller endelig"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-03",
+      "sources": [
+        "James L. Bernat, How the Distinction between «Irreversible» and «Permanent» Illuminates Circulatory-Respiratory Death Determination, Journal of Medicine and Philosophy 35(3) (2010)",
+        "Don Marquis, Are DCD Donors Dead?, Hastings Center Report 40(3) (2010)",
+        "https://plato.stanford.edu/entries/death/"
+      ],
+      "answers": [
+        "n:atoms-and-death"
+      ],
+      "qualifies": [
+        "n:death-is-not-a-pause"
+      ],
+      "presupposes": [
+        "n:thoughts-on-series-and-ship"
+      ],
+      "relatedTo": [
+        "n:resurrection-remains",
+        "n:simply-gone"
+      ],
+      "notes": [
+        "v:answers n:atoms-and-death: svaret gjør ikke døden til en pause, bare ikke nødvendigvis endelig",
+        "v:qualifies n:death-is-not-a-pause: at døden ikke er en pause, sier ikke om den er endelig"
+      ],
+      "sharesPremiseWith": [
+        "n:resurrection-remains"
+      ]
+    },
+    {
       "@id": "n:dejaegher",
       "@type": "v:Thinker",
       "label": {
@@ -2754,12 +3055,32 @@
       "strength": "v:supported",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Lenken sa bare at de henger sammen. Funnet går faktisk litt imot at minnene hans bare var en evne."
+          },
+          "fields": [
+            "links"
+          ]
+        }
+      ],
       "sources": [
         "Fugazza, Pogány og Miklósi (2016), Current Biology"
       ],
       "relatedTo": [
-        "n:autonoetic",
+        "n:autonoetic"
+      ],
+      "qualifies": [
         "n:ability-not-archive"
+      ],
+      "notes": [
+        "v:qualifies n:ability-not-archive: et minne om en bestemt hendelse er mer enn en evne til å kjenne igjen"
+      ],
+      "qualifiesDerived": [
+        "n:your-half-goes-on"
       ]
     },
     {
@@ -2862,14 +3183,35 @@
         "nb": "Hunder lukter tid"
       },
       "text": {
-        "nb": "Fortiden ligger i dufter som blekner, og det som kommer, ligger i det vinden bærer med seg."
+        "nb": "Hepper og Wells lot hunder følge et spor der hvert fotsteg lå på sin egen bit teppe. Fem fotsteg var nok til å finne retningen, tre var ikke nok, og når rekkefølgen ble stokket, mistet de den. Forskerne anslo at lukten fra to fotsteg skiller seg nok etter ett til to sekunder til at hunden kan bruke forskjellen. Det er det som er målt: hunder kan lese rekkefølge i lukt. Horowitz går videre: fortiden ligger i dufter som blekner, og det som kommer, ligger i det vinden bærer med seg. Det er en rimelig lesning, ikke et funn. Om det oppleves som tid, er ikke målt."
       },
       "region": "v:dog",
       "strength": "v:supported",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Teksten var en vakker setning uten noe som ble målt, merket som funn. Nå står målingen der, og setningen er merket som Horowitz’ lesning."
+          },
+          "fields": [
+            "text",
+            "sources",
+            "links"
+          ]
+        }
+      ],
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/15741595/",
+        "Alexandra Horowitz, Being a Dog (2016)"
+      ],
       "supports": [
         "n:different-now"
+      ],
+      "notes": [
+        "v:supports n:different-now: for evnen til å lese rekkefølge i lukt, ikke for hvordan det oppleves"
       ]
     },
     {
@@ -2879,12 +3221,30 @@
         "nb": "15 000 år sammen"
       },
       "text": {
-        "nb": "Hunder er avlet i minst 15 000 år for å leve tett med mennesker."
+        "nb": "Hunder har levd tett med mennesker i minst rundt 15 000 år. De eldste hundene som er bekreftet genetisk, er omtrent 15 800 år gamle, fra Pınarbaşı i Tyrkia. Noen mener at det begynte tidligere, kanskje for rundt 23 000 år siden i Sibir, men det er mer usikkert. Etter den vanligste forklaringen begynte det ikke med avl, men med ulver som holdt seg nær mennesker, uten at noen planla det. Tilpasningen mot mennesker er ekte, men «avlet» sa mer om en plan enn det vi vet."
       },
       "region": "v:dog",
       "strength": "v:solid",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Rettet «avlet i minst 15 000 år». Tidlig domestisering var trolig ikke avl. La til kilder og datering."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "https://doi.org/10.1038/s41586-026-10170-x",
+        "https://doi.org/10.1073/pnas.2010083118",
+        "https://doi.org/10.1146/annurev-ecolsys-110512-135813"
+      ],
       "supports": [
         "n:the-wall-you-built"
       ]
@@ -4060,6 +4420,9 @@
         "v:supports n:dogs-have-an-inside: følelsene sitter i laget hunder og mennesker deler",
         "v:relatedTo n:beast-machine: samme retning: følelsen følger livet",
         "v:relatedTo n:autonoetic: albumet sitter høyere opp"
+      ],
+      "strengthensDerived": [
+        "n:not-knowing-is-not-new"
       ]
     },
     {
@@ -4083,6 +4446,53 @@
       ],
       "supports": [
         "n:love-goes-last"
+      ]
+    },
+    {
+      "@id": "n:few-views-weigh-the-atoms",
+      "@type": "v:Insight",
+      "label": {
+        "nb": "Få syn gir atomene selv vekt"
+      },
+      "text": {
+        "nb": "Svarene dine går gjennom synene ett for ett, så vi så på hva hvert av dem sier om de bestemte atomene. Panpsykismen er trolig ikke unntaket du tenkte. Den sier at opplevelse finnes i materien, ikke at et atom tar med seg noe fra dyret det var i. Den finnes i tre hovedformer. I den ene er et dyrs sinn grunnet i småbitenes opplevelse. I den andre vokser det fram av samspillet mellom dem og finnes ved siden av dem. I den tredje smelter de sammen og slutter å finnes hver for seg. I alle tre avhenger hundens sinn av hvordan stoffet er ordnet, så de samme atomene i en annen hund gir et annet sinn. Det stemmer med det kartet allerede sier: det som var ham, løser seg opp. Skal noe av Alfred følge atomene, må atomet ha et spor av ham som ikke vises i fysikken. Det er en ekstra antakelse. Den er ikke motbevist, men vi har ikke funnet noen panpsykist som forsvarer den, og heller ingen som drøfter den. Materialismen er ikke ett svar. Den sier at sinnet er av stoff, ikke at det må være dette stoffet. Van Inwagen er materialist og sier nei til gjensamling, også med alle atomene. Den vide versjonen hos Parfit sier ja, også med ingen av dem. Ingen av dem lar halvparten gjøre noe. Under dualismen går ikke sjelen i oppløsning. Spørsmålet er hvilken sjel som kommer, og hos Swinburne består ikke hvem du er av kropp eller minner, så stoffet avgjør det ikke. Under analytisk idealisme er kroppen det avspaltingen ser ut som utenfra, og avspaltingen tar slutt ved døden, slik du sa. Om en ny kropp kunne være den samme avspaltingen igjen, har vi ikke funnet noe om. Det gamle stedet der de bestemte delene selv teller, er læren om kroppens oppstandelse, og det nye er Hershenov, som ikke drøfter at atomer ikke har egen identitet. Det betyr ikke at de tar feil. Men svaret om atomene står smalere enn det så ut til. Det hviler på et standpunkt om deler, ikke på noe av synene om bevissthet. Dette er vår lesning. Panpsykismen er lest etter oversikten i Stanford Encyclopedia, som ikke tar opp identitet eller overlevelse."
+      },
+      "region": "v:self",
+      "strength": "v:position",
+      "ownConclusion": true,
+      "hopeLevel": [
+        6
+      ],
+      "shortLabel": {
+        "nb": "Atomene veier lite"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-04",
+      "sources": [
+        "https://plato.stanford.edu/entries/panpsychism/",
+        "Peter van Inwagen, The Possibility of Resurrection, International Journal for Philosophy of Religion 9 (1978)",
+        "https://www.acsu.buffalo.edu/~dh25/articles/TheMetaphysicalProblemofIntermittentExistence.pdf"
+      ],
+      "answers": [
+        "n:atoms-and-death"
+      ],
+      "qualifies": [
+        "n:your-answers-on-the-atoms",
+        "n:two-beginnings"
+      ],
+      "supports": [
+        "n:atoms-carry-nothing"
+      ],
+      "relatedTo": [
+        "n:panpsychism",
+        "n:swinburne-soul",
+        "n:analytic-idealism",
+        "n:bodily-resurrection"
+      ],
+      "notes": [
+        "v:answers n:atoms-and-death: svaret om atomene hviler på et standpunkt om deler",
+        "v:qualifies n:your-answers-on-the-atoms: panpsykismen gir trolig ikke ja til en annen hund",
+        "v:qualifies n:two-beginnings: striden står om deler, ikke om bevissthet"
       ]
     },
     {
@@ -4128,6 +4538,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -4282,14 +4693,36 @@
         "nb": "Hunder ser flimmer raskere"
       },
       "text": {
-        "nb": "Hunder oppfatter flimmer ved høyere frekvens enn mennesker. Synsnået deres er mer finmasket enn vårt."
+        "nb": "Hunder oppfatter flimmer ved høyere frekvens enn mennesker. Det er målt i atferdsforsøk på beagler, og en stor sammenstilling oppgir rundt 80 hertz for hund og 60 for menneske, men metodene er ulike, så forskjellen er usikker. Det som måles, er hvor fort synet følger med, ikke hvordan tid oppleves. En gjennomgang fant lite som tyder på at flimmerterskelen følger opplevd tid. At synsnået hans var mer finmasket enn vårt, er derfor en slutning, ikke et funn."
       },
       "region": "v:dog",
       "strength": "v:solid",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
-      "supports": [
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Fant kilder. Skilte det som er målt, flimmeret, fra slutningen om et mer finmasket nå. Lenken til «Alfred levde i et annet nå» endret fra støtter til nyanserer."
+          },
+          "fields": [
+            "text",
+            "sources",
+            "links"
+          ]
+        }
+      ],
+      "sources": [
+        "https://doi.org/10.1016/0031-9384(89)90092-9",
+        "https://doi.org/10.1016/j.anbehav.2013.06.018",
+        "https://rethinkpriorities.org/research-area/does-critical-flicker-fusion-frequency-track-the-subjective-experience-of-time/"
+      ],
+      "qualifies": [
         "n:different-now"
+      ],
+      "notes": [
+        "v:qualifies n:different-now: øyet er raskere, men det er ikke målt at opplevelsen er det"
       ]
     },
     {
@@ -4959,7 +5392,7 @@
         "nb": "Hva er en god nok bærer?"
       },
       "text": {
-        "nb": "Ditt spørsmål: hvis personen er bæreren og ikke innholdet, hva er da en god nok bærer, og trenger noe av innholdet å følge med? Svarene dine så langt gir et utkast. Hjernen hans i en ny kropp, halvdelene hans og cellene byttet ut én og én er gode nok. En kopi bygget etter en beskrivelse er det ikke. Det felles er en ubrutt vei fra ham. Men tre kandidater står fortsatt mot hverandre: kroppen, slik animalismen sier, hjernen og prosessen i den, og strømmen av opplevelse, hvis den er noe mer enn hjernen. Bare den siste kan bære noe forbi døden, og det er den vi vet minst om. Om innholdet: etter tanken om demens trenger ingenting av innholdet å følge med for at det skal være ham. Men da blir det, som strømmen uten innhold viser, hans mest i opphavet. Gravd første gang 3. november. Strømmen kan ikke være bæreren alene, for den har pauser. Den tredje kandidaten er derfor ikke selve strømmen, men det som binder den over pausene. Hos et levende dyr er det hjernen. Det er fortsatt tre kandidater: kroppen, hjernen og et underlag for evnen til å oppleve som ikke er hjernen. De to første slutter med døden. Bare den tredje kan bære noe forbi den, og det er spørsmålet om hjernen også er lytteren. Svaret ditt om pausen viser at strømmen kan brytes og at det likevel er han som våkner. Svaret om atomene tyder på at det som binder, for deg kan være stoffet og veien det går, ikke bare en evne som står der hele tiden. Om innholdet: etter McMahan trengs ingenting av det for identiteten, men det teller for hvor mye framtiden er hans. Åpent: hvor mye som er nok, delingen, der du og McMahan svarer ulikt, og om evnen kan ha et annet underlag."
+        "nb": "Ditt spørsmål: hvis personen er bæreren og ikke innholdet, hva er da en god nok bærer, og trenger noe av innholdet å følge med? Svarene dine så langt gir et utkast. Hjernen hans i en ny kropp, halvdelene hans og cellene byttet ut én og én er gode nok. En kopi bygget etter en beskrivelse er det ikke. Det felles er en ubrutt vei fra ham. Men tre kandidater står fortsatt mot hverandre: kroppen, slik animalismen sier, hjernen og prosessen i den, og strømmen av opplevelse, hvis den er noe mer enn hjernen. Bare den siste kan bære noe forbi døden, og det er den vi vet minst om. Om innholdet: etter tanken om demens trenger ingenting av innholdet å følge med for at det skal være ham. Men da blir det, som strømmen uten innhold viser, hans mest i opphavet. Gravd første gang 3. november. Strømmen kan ikke være bæreren alene, for den har pauser. Den tredje kandidaten er derfor ikke selve strømmen, men det som binder den over pausene. Hos et levende dyr er det hjernen. Det er fortsatt tre kandidater: kroppen, hjernen og et underlag for evnen til å oppleve som ikke er hjernen. De to første slutter med døden. Bare den tredje kan bære noe forbi den, og det er spørsmålet om hjernen også er lytteren. Svaret ditt om pausen viser at strømmen kan brytes og at det likevel er han som våkner. Svaret om atomene tydet på at det som binder, for deg kunne være stoffet og veien det går, ikke bare en evne som står der hele tiden. Det svaret slapp du 4. november. Om innholdet: etter McMahan trengs ingenting av det for identiteten, men det teller for hvor mye framtiden er hans. Åpent: hvor mye som er nok, delingen, der du og McMahan svarer ulikt, og om evnen kan ha et annet underlag."
       },
       "region": "v:self",
       "status": "v:frontier",
@@ -4971,7 +5404,7 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-30",
-      "modified": "2026-11-03",
+      "modified": "2026-11-04",
       "changes": [
         {
           "date": "2026-11-03",
@@ -4981,6 +5414,15 @@
           "fields": [
             "status",
             "answer",
+            "text"
+          ]
+        },
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Henrik slapp ja-et til atomene 4. november, så setningen om stoffet og veien det går, står nå i fortid."
+          },
+          "fields": [
             "text"
           ]
         }
@@ -5002,12 +5444,29 @@
         "nb": "Sorg rokker ved selvbildet"
       },
       "text": {
-        "nb": "Jo mer den andre var en del av selvbildet, jo mer opplever den som blir igjen at en del av seg selv er revet bort."
+        "nb": "En dansk studie fulgte etterlatte partnere og voksne barn fra to til atten måneder etter dødsfallet. De som kjente at identiteten deres var smeltet sammen med den døde, hadde mer langvarig sorg, utover det de hadde av symptomer først. Personer med langvarig sorg har også et mindre klart bilde av seg selv. Det passer med at en del av selvet rives bort når den andre var en del av det. Men det er målt etter tap av mennesker, ikke dyr, og det er målt med spørreskjema, så det viser ikke sikkert hva som er årsaken."
       },
       "region": "v:grief",
       "strength": "v:supported",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Teksten sa mer enn det som var dekket. Fant kilder og skrev om til det som er målt, og hos hvem."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "https://doi.org/10.1007/s12144-021-02343-w",
+        "https://doi.org/10.1097/nmd.0b013e31823e577f"
+      ],
       "answers": [
         "n:what-died-for-you"
       ],
@@ -5291,6 +5750,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -5459,6 +5919,22 @@
       "created": "2026-10-28",
       "behind": [
         "n:the-river"
+      ]
+    },
+    {
+      "@id": "n:hershenov",
+      "@type": "v:Thinker",
+      "label": {
+        "nb": "David B. Hershenov"
+      },
+      "text": {
+        "nb": "Amerikansk filosof."
+      },
+      "region": "v:self",
+      "conversation": "v:map",
+      "created": "2026-11-03",
+      "behind": [
+        "n:two-beginnings"
       ]
     },
     {
@@ -5699,7 +6175,7 @@
         "nb": "Atomer har ingen egen identitet"
       },
       "text": {
-        "nb": "Hobbes sine planker kan merkes, men atomer kan ikke. I kvantemekanikken er to elektroner, eller to karbonatomer av samme slag, ikke bare like, men umulige å skille i prinsippet. Strengt tatt finnes det ikke noe faktum om hvilket atom som var hans, selv om man i praksis kan følge atomer omtrent i en varm kropp. «De egne delene» gir mening ned til planker og celler, men ikke helt ned. Gjensamling av «de samme atomene» kan dermed ikke skille ham fra en kopi."
+        "nb": "Hobbes sine planker kan merkes, men atomer kan ikke. I kvantemekanikken er to elektroner, eller to karbonatomer av samme slag, ikke bare like, men umulige å skille i prinsippet. Slik det vanligvis forstås, finnes det strengt tatt ikke noe faktum om hvilket atom som var hans, selv om man i praksis kan følge atomer omtrent i en varm kropp. «De egne delene» gir mening ned til planker og celler, men ikke helt ned. Ingenting i det som bygges av «de samme atomene», kan dermed skille ham fra en kopi. Forskjellen kan bare ligge i veien atomene gikk."
       },
       "region": "v:self",
       "strength": "v:solid",
@@ -5708,8 +6184,23 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-29",
+      "modified": "2026-11-03",
+      "changes": [
+        {
+          "date": "2026-11-03",
+          "text": {
+            "nb": "Siste setning var for sterk. Like atomer gjør at ingenting i det ferdige kan skille ham fra en kopi, men historien er ikke tatt bort med det. «Slik det vanligvis forstås» er lagt til, for det finnes en annen lesning i faget. Etter gravingen i atomene og døden."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
       "sources": [
-        "Prinsippet om identiske partikler i kvantemekanikken"
+        "Prinsippet om identiske partikler i kvantemekanikken",
+        "https://plato.stanford.edu/entries/qt-idind/",
+        "https://arxiv.org/abs/1002.2544"
       ],
       "qualifies": [
         "n:pause-or-copy"
@@ -5883,6 +6374,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ],
       "strengthensDerived": [
@@ -5976,7 +6468,7 @@
         "nb": "Informasjon går aldri tapt"
       },
       "text": {
-        "nb": "I kvantemekanikken, slik den vanligvis forstås, blir informasjon spredt, ikke ødelagt. Detaljene om hvordan Alfreds hjerne var bygget, finnes i prinsippet fortsatt i universet."
+        "nb": "I kvantemekanikken, slik den vanligvis regnes, kan tilstanden til et lukket system i prinsippet regnes bakover. Da blir informasjon spredt, ikke ødelagt. Detaljene om hvordan Alfreds hjerne var bygget, finnes i så fall fortsatt i universet. Forbeholdene er store. Det gjelder helheten, ikke noe som ligger et bestemt sted. Det avhenger av hva som skjer ved måling: i kollapsteoriene legges tilfeldige ledd til i likningen, og da stemmer det ikke. I mangeverdenssynet stemmer det fullt ut. Sorte hull var lenge en strid om det samme, og den er ikke helt avgjort. Og informasjon betyr her bare at tilstanden kan regnes ut, ikke at noe husker. Det er ikke det samme som at noe av ham er bevart. Atomene bærer ingenting av ham."
       },
       "region": "v:borderland",
       "strength": "v:position",
@@ -5985,6 +6477,23 @@
       ],
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Sa «slik den vanligvis forstås» uten forbehold. La til at det avhenger av tolkningen av måling, at det gjelder helheten, og hva informasjon betyr her."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "https://arxiv.org/abs/1609.04036",
+        "https://plato.stanford.edu/entries/qm-collapse/"
+      ],
       "supports": [
         "n:t-recoverable",
         "n:cannot-be-undone"
@@ -6259,6 +6768,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -6905,6 +7415,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -7240,7 +7751,7 @@
         "nb": "Materialisme"
       },
       "text": {
-        "nb": "Bevisstheten oppstår av hjernen og opphører når hjernen gjør det. Det vanligste synet blant hjerneforskere."
+        "nb": "Bevisstheten oppstår av hjernen og opphører når hjernen gjør det. Synet er to påstander. Den første er at opplevelsen avhenger av hjernen mens vi lever. Den er nesten alle enige om: narkose, skader, stimulering og rusmidler endrer opplevelsen. Den andre er at hjernen er hele forklaringen, så det ikke er noe igjen når den stopper. Det er her uenigheten ligger. For taler at ingen kjente unntak er vist, og at synet ikke trenger noe ekstra. Imot taler at avhengighet ikke viser at hjernen lager opplevelsen, slik James påpekte, og at ingen vet hvordan den skulle gjøre det. Det sies ofte at dette er det vanligste synet blant hjerneforskere. Det er trolig riktig, men lite målt. Blant 166 bevissthetsforskere svarte to av tre at en full biofysisk forklaring er mulig, og like mange at noe vil stå igjen når funksjonene er forklart. Blant filosofer heller 52 prosent til fysikalisme og 32 prosent til det motsatte. Holder synet, står nivå 1 og 2. Faller det, er de andre åpne, ikke bevist."
       },
       "region": "v:consciousness",
       "strength": "v:position",
@@ -7250,6 +7761,25 @@
       ],
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Delte synet i de to påstandene det består av, og la til grunnene for og imot. «Det vanligste synet blant hjerneforskere» sto uten kilde. Undersøkelsen som er nærmest, spurte ikke direkte, så det er nå sagt med forbehold."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Francis Crick, The Astonishing Hypothesis (1994)",
+        "William James, Human Immortality (1898)",
+        "https://doi.org/10.1093/nc/niac011",
+        "https://doi.org/10.3998/phimp.2109"
+      ],
       "contradicts": [
         "n:t-one-subject",
         "n:t-memory-without-brain"
@@ -7323,6 +7853,9 @@
       ],
       "notes": [
         "v:qualifies n:deprivation: veid etter hvor bundet han var til framtiden"
+      ],
+      "qualifiesDerived": [
+        "n:not-deprived-of-good-days"
       ]
     },
     {
@@ -7659,6 +8192,21 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Fant kilde for at en samtale ikke har noe lagret mellom svarene, utenom teksten."
+          },
+          "fields": [
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "https://platform.claude.com/docs/en/build-with-claude/working-with-messages"
+      ],
       "relatedTo": [
         "n:one-model-many-chats"
       ],
@@ -7868,12 +8416,29 @@
         "nb": "Intet felles nå"
       },
       "text": {
-        "nb": "Relativitetsteorien: hva som skjer samtidig, avhenger av hvordan man beveger seg. Det finnes ikke ett nå for hele universet."
+        "nb": "Relativitetsteorien: hva som skjer samtidig, avhenger av hvordan man beveger seg. Det finnes ikke ett nå for hele universet. Rekkefølgen av det som kan påvirke hverandre, er likevel den samme for alle. Kosmologien regner med en kosmisk tid, men det er en nyttig oppdeling, ikke noe relativitetsteorien krever."
       },
       "region": "v:time",
       "strength": "v:solid",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Fant kilder. La til at rekkefølgen av det som kan påvirke hverandre, står fast."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Albert Einstein, Zur Elektrodynamik bewegter Körper, Annalen der Physik 17 (1905)",
+        "https://doi.org/10.2307/2024493"
+      ],
       "contradicts": [
         "n:t-common-now"
       ],
@@ -7910,6 +8475,40 @@
       "presupposes": [
         "n:simple-death-concept",
         "n:mental-time-travel"
+      ]
+    },
+    {
+      "@id": "n:no-fact-about-animal-minds",
+      "@type": "v:Position",
+      "label": {
+        "nb": "Kanskje finnes det ikke noe svar om dyrs innside"
+      },
+      "text": {
+        "nb": "At pattedyr har en innside, er forskerne nær enige om. Men det finnes en alvorlig motstemme, og den sto ikke i kartet. Carruthers mener at hvis bevissthet er det globale arbeidsrommet, finnes det ikke noe faktum om hvorvidt dyr er bevisste. Begrepet er hentet fra vårt eget førstepersonsperspektiv, og det gjelder enten eller, mens dyrs hjerner bare ligner våre i en viss grad. Han sier ikke at dyr ikke opplever noe, og han mener at det ikke endrer hvordan vi skal behandle dem. Det enkleste svaret mot ham er å avvise teorien han bygger på. New York-erklæringen går motsatt vei: den sier at det er sterk støtte for bevissthet hos pattedyr og fugler. Synet flytter ikke styrken i «Det fantes en innside i Alfred», men det viser hva den hviler på: at innside er noe som enten er der eller ikke."
+      },
+      "region": "v:dog",
+      "strength": "v:contested",
+      "shortLabel": {
+        "nb": "Ikke noe svar om dyrs innside"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-04",
+      "sources": [
+        "Peter Carruthers, Human and Animal Minds: The Consciousness Questions Laid to Rest (2019)",
+        "https://ndpr.nd.edu/news/human-and-animal-minds-the-consciousness-questions-laid-to-rest/",
+        "New York-erklæringen om dyrs bevissthet (2024)"
+      ],
+      "contradicts": [
+        "n:dogs-have-an-inside"
+      ],
+      "relatedTo": [
+        "n:global-workspace"
+      ],
+      "notes": [
+        "v:contradicts n:dogs-have-an-inside: ikke at han ikke hadde en innside, men at det ikke finnes noe svar"
+      ],
+      "challengesDerived": [
+        "n:not-knowing-is-not-new"
       ]
     },
     {
@@ -7975,9 +8574,24 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Skrev ut forutsetningen i en lenke."
+          },
+          "fields": [
+            "links"
+          ]
+        }
+      ],
       "relatedTo": [
         "n:no-death-ahead",
         "n:you-carry-what-he-dropped"
+      ],
+      "presupposes": [
+        "n:deprivation"
       ]
     },
     {
@@ -7994,8 +8608,23 @@
       "ownConclusion": true,
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Skrev ut forutsetningen i en lenke."
+          },
+          "fields": [
+            "links"
+          ]
+        }
+      ],
       "relatedTo": [
         "n:being-a-bat"
+      ],
+      "presupposes": [
+        "n:dogs-have-an-inside"
       ]
     },
     {
@@ -8127,12 +8756,31 @@
         "nb": "Han visste at du fantes"
       },
       "text": {
-        "nb": "Hunder klarer tester der en gjenstand gjemmes. De vet at ting finnes når de er ute av syne. Alfred ventet fordi han visste at du var et sted."
+        "nb": "Hunder klarer tester der en gjenstand gjemmes mens de ser på, også etter en stund. De ser også lenger på utfall som ikke stemmer, som når en gjemt gjenstand har skiftet farge eller størrelse. Flyttes gjenstanden usynlig, er bildet mer blandet: noe av det som så ut som forståelse, var at hundene fulgte beholderen. De vet at ting finnes når de er ute av syne. Testene gjelder gjenstander, ikke personer. At Alfred ventet fordi han visste at du var et sted, er en rimelig slutning fra dette og fra tilknytningen hans til deg, men det er en slutning, ikke noe som er målt."
       },
       "region": "v:dog",
       "strength": "v:solid",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Fant kilder. La til at usynlig flytting gir et blandet bilde, og at steget fra gjenstander til deg er en slutning."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Thomas Zentall og Kristina Pattison, Now You See It, Now You Don’t: Object Permanence in Dogs, Current Directions in Psychological Science 25 (2016)",
+        "https://doi.org/10.1037/a0023009",
+        "https://doi.org/10.1037/0735-7036.118.4.421",
+        "https://doi.org/10.1007/s10071-006-0060-5"
+      ],
       "leadsTo": [
         "n:alfred-at-the-door"
       ]
@@ -8659,6 +9307,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -8921,6 +9570,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -9007,6 +9657,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -9244,6 +9895,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -9373,7 +10025,23 @@
       "region": "v:words",
       "strength": "v:supported",
       "conversation": "v:deepdive",
-      "created": "2026-10-28"
+      "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Fant kilder. Styrken beholdes: påstanden er bare at noen spørsmål kan oppløses, og det er vist i praksis."
+          },
+          "fields": [
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Ludwig Wittgenstein, Filosofiske undersøkelser (1953)",
+        "Rudolf Carnap, Überwindung der Metaphysik durch logische Analyse der Sprache, Erkenntnis 2 (1932)"
+      ]
     },
     {
       "@id": "n:rainbow-bridge",
@@ -9628,6 +10296,7 @@
         "n:russellian-monism",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ],
       "challengesDerived": [
@@ -9752,6 +10421,9 @@
       ],
       "notes": [
         "v:qualifies n:line-closes-third-way: stenger ikke gjensamling av eget stoff"
+      ],
+      "sharesPremiseWith": [
+        "n:death-not-necessarily-final"
       ]
     },
     {
@@ -9870,6 +10542,7 @@
         "n:rebirth-without-self",
         "n:same-signal-two-receivers",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -10016,6 +10689,7 @@
         "n:rebirth-without-self",
         "n:russellian-monism",
         "n:spinoza-modes",
+        "n:three-extremes",
         "n:what-level-5-requires"
       ]
     },
@@ -10263,15 +10937,36 @@
         "nb": "Selv-andre-overlapp"
       },
       "text": {
-        "nb": "I nære relasjoner tar vi den andre inn i vårt eget selvbilde. Folk bruker lengre tid på å skille sine egne egenskaper fra partnerens, fordi grensen er blitt utydelig."
+        "nb": "I nære relasjoner tar vi den andre inn i vårt eget selvbilde. Folk bruker lengre tid på å skille sine egne egenskaper fra partnerens, fordi grensen er blitt utydelig. Senere forsøk fant at folk oftere blander sammen hva de har sagt om seg selv og om en nær person, og at det skyldes nærheten, ikke likhet eller at de kjenner personen godt. Funnene gjelder mennesker seg imellom. Mellom menneske og hund er det ikke målt."
       },
       "region": "v:limits",
       "strength": "v:solid",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Fant kilder. La til at funnet gjelder mennesker, siden det støtter veggen mellom deg og Alfred."
+          },
+          "fields": [
+            "text",
+            "sources",
+            "links"
+          ]
+        }
+      ],
+      "sources": [
+        "Aron, Aron, Tudor og Nelson, Close relationships as including other in the self, Journal of Personality and Social Psychology 60 (1991)",
+        "Debra Mashek, Arthur Aron og Maria Boncimino, Confusions of Self With Close Others, Personality and Social Psychology Bulletin 29 (2003)"
+      ],
       "supports": [
         "n:thin-wall",
         "n:grief-and-self-concept"
+      ],
+      "notes": [
+        "v:supports n:thin-wall: målt mellom mennesker, ikke mellom menneske og hund"
       ]
     },
     {
@@ -10681,6 +11376,7 @@
         "n:rebirth-without-self",
         "n:russellian-monism",
         "n:same-signal-two-receivers",
+        "n:three-extremes",
         "n:what-level-5-requires",
         "n:two-thin-walls"
       ]
@@ -10872,7 +11568,7 @@
         "nb": "Strømmen trenger noe som bærer den over pausene"
       },
       "text": {
-        "nb": "Av de tre kandidatene til bæreren er strømmen av opplevelse den eneste som kan bære noe forbi døden. Men en strøm har pauser. Opphøret merkes først etterpå, som et kutt. Ved noen hjerteoperasjoner kjøles kroppen så langt ned at hjernens elektriske aktivitet blir helt stille før sirkulasjonen stoppes, og pasienten våkner som seg selv. I slike pauser kan bæreren ikke være selve strømmen, for den var borte. Det må være noe som binder den over pausen. Dainton, som bygger selvet på opplevelse og ikke på minner, kom dit: selvet er ikke en ubrutt strøm, men evnen til å oppleve, og den varer gjennom søvnen. Buddhismen, som lærer at et vesen er en strøm av øyeblikk, møtte det samme i striden om opphøret. Når det ikke finnes noe øyeblikk av bevissthet, hva tenner det neste? Vaibhāṣika sa at det siste øyeblikket før opphøret virker over gapet, fordi det som har vært, fortsatt finnes. Sautrāntika sa at kroppen bærer frøene. Yogācāra la en bevissthet under strømmen, lagerbevisstheten, som varer også i opphøret. Ingen av dem lot strømmen bære seg selv over gapet. To la noe under den, og den tredje trengte at fortiden fortsatt virker. Svarene dine sier det samme. En hjerne som står stille i en time, uten opplevelse, og hundre år i frys: begge ganger var det han som våknet. Da var strømmen borte, og noe annet bandt den over pausen. At han kan bygges opp igjen av de samme atomene etter at de var spredt, sier mer. Da stod ingen hjerne gjennom pausen, bare stoffet og veien det gikk. For deg trenger det som binder, altså ikke være en evne som står der hele tiden. Det kan være opphavet. Det flytter gravestedet. Den tredje kandidaten er ikke strømmen, men det som binder den over pausene. Hos et levende dyr er det hjernen, og da faller den sammen med den andre. Skal strømmen bære noe forbi døden, må evnen ha et underlag som ikke er hjernen: noe som tas imot, en sjel, eller et lag fysikken ikke kjenner. Det er spørsmålet om hjernen også er lytteren, stilt fra en annen kant. To forbehold. Noen mener at den drømmeløse søvnen ikke er tom, men en svært enkel opplevelse. Da er ikke alle pausene pauser, men opphøret og den stille hjernen er det trolig. Og Dainton krever ikke den samme hjernen: evnen kan etter ham flyttes til et annet stoff. Under linjen din må den i så fall flyttes langs en ubrutt vei. Dette er vår lesning av kildene."
+        "nb": "Av de tre kandidatene til bæreren er strømmen av opplevelse den eneste som kan bære noe forbi døden. Men en strøm har pauser. Opphøret merkes først etterpå, som et kutt. Ved noen hjerteoperasjoner kjøles kroppen så langt ned at hjernens elektriske aktivitet blir helt stille før sirkulasjonen stoppes, og pasienten våkner som seg selv. I slike pauser kan bæreren ikke være selve strømmen, for den var borte. Det må være noe som binder den over pausen. Dainton, som bygger selvet på opplevelse og ikke på minner, kom dit: selvet er ikke en ubrutt strøm, men evnen til å oppleve, og den varer gjennom søvnen. Buddhismen, som lærer at et vesen er en strøm av øyeblikk, møtte det samme i striden om opphøret. Når det ikke finnes noe øyeblikk av bevissthet, hva tenner det neste? Vaibhāṣika sa at det siste øyeblikket før opphøret virker over gapet, fordi det som har vært, fortsatt finnes. Sautrāntika sa at kroppen bærer frøene. Yogācāra la en bevissthet under strømmen, lagerbevisstheten, som varer også i opphøret. Ingen av dem lot strømmen bære seg selv over gapet. To la noe under den, og den tredje trengte at fortiden fortsatt virker. Svarene dine sier det samme. En hjerne som står stille i en time, uten opplevelse, og hundre år i frys: begge ganger var det han som våknet. Da var strømmen borte, og noe annet bandt den over pausen. At han kan bygges opp igjen av de samme atomene etter at de var spredt, sier mer. Da stod ingen hjerne gjennom pausen, bare stoffet og veien det gikk. For deg trengte det som binder, altså ikke være en evne som står der hele tiden. Det kunne være opphavet. Den 4. november slapp du det svaret: en historie som bare holder omtrent og ikke bærer noe, er ikke nok. Da må det som binder, være noe som står gjennom pausen, slik det gjør i frysen. Det flytter gravestedet. Den tredje kandidaten er ikke strømmen, men det som binder den over pausene. Hos et levende dyr er det hjernen, og da faller den sammen med den andre. Skal strømmen bære noe forbi døden, må evnen ha et underlag som ikke er hjernen: noe som tas imot, en sjel, eller et lag fysikken ikke kjenner. Det er spørsmålet om hjernen også er lytteren, stilt fra en annen kant. To forbehold. Noen mener at den drømmeløse søvnen ikke er tom, men en svært enkel opplevelse. Da er ikke alle pausene pauser, men opphøret og den stille hjernen er det trolig. Og Dainton krever ikke den samme hjernen: evnen kan etter ham flyttes til et annet stoff. Under linjen din må den i så fall flyttes langs en ubrutt vei. Dette er vår lesning av kildene."
       },
       "region": "v:self",
       "strength": "v:position",
@@ -10885,6 +11581,18 @@
       },
       "conversation": "v:map",
       "created": "2026-11-03",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Henrik slapp ja-et til atomene 4. november, så det som binder, kan ikke lenger være stoffets vei alene."
+          },
+          "fields": [
+            "text"
+          ]
+        }
+      ],
       "sources": [
         "Barry Dainton, The Phenomenal Self (2008)",
         "Paul J. Griffiths, On Being Mindless: Buddhist Meditation and the Mind-Body Problem (1986)",
@@ -10926,11 +11634,29 @@
       "strength": "v:supported",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "La til lenken: «felt fra begge sider» passer ikke helt med retningen som er målt."
+          },
+          "fields": [
+            "links"
+          ]
+        }
+      ],
       "sources": [
         "Sundman mfl. (2019), Scientific Reports"
       ],
       "supports": [
         "n:shared-system"
+      ],
+      "qualifies": [
+        "n:thin-wall"
+      ],
+      "notes": [
+        "v:qualifies n:thin-wall: det som er målt, går mest fra eier til hund, ikke begge veier"
       ]
     },
     {
@@ -11013,6 +11739,52 @@
       ]
     },
     {
+      "@id": "n:swap-or-copy",
+      "@type": "v:Insight",
+      "label": {
+        "nb": "Er hund A av hund Bs atomer en kopi?"
+      },
+      "text": {
+        "nb": "Du sa at hund A kunne vært hund A uansett hvilke atomer som ble brukt. Det treffer noe du har sagt før. Et karbonatom som har vært i hund B, er ikke forskjellig fra et hvilket som helst annet karbonatom. Da er hund A bygget av hund Bs atomer det samme som hund A bygget av nye atomer etter en beskrivelse. Det er teleporteren, og det er den nye hjernen etter en skanning, det eneste i rekken du har kalt en kopi. Begge deler kan ikke stå. Enten er kopien ham også, slik den vide versjonen hos Parfit sier. Da faller linjen gjennom tankene dine, og «Opphavet hører til tingen» mister tyngde. Eller så er ingen av de to hundene den samme som før. Det svaret var ikke med blant dine. Det sier van Inwagen, og det følger trolig også hos Hershenov, som krever de siste delene i den siste ordningen. Halvparten lander på samme sted. Er ja-et der båret av mønsteret, gjelder det også ved ingen atomer. Er det båret av stoffet, må det gå en grense et sted mellom halvparten og null, og den må noen kunne vise. Svaret kan også ha en annen grunn. Når du ser for deg den oppbygde hunden, ser du hund A, med samme blikk og samme gange. «Byttet» viste at det som er vanskelig å kjenne igjen, sier noe om hva man kan se, ikke om hvem det er. Det samme kan gjelde her. Det er ikke vist. Dette er vår lesning."
+      },
+      "region": "v:self",
+      "strength": "v:position",
+      "ownConclusion": true,
+      "hopeLevel": [
+        6
+      ],
+      "shortLabel": {
+        "nb": "Byttet eller kopien"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-04",
+      "answers": [
+        "n:atoms-and-death"
+      ],
+      "qualifies": [
+        "n:lit-by-him",
+        "n:your-answers-on-the-atoms"
+      ],
+      "relatedTo": [
+        "n:the-swap",
+        "n:teleporter",
+        "n:origin-matters",
+        "n:pause-or-copy",
+        "n:two-beginnings"
+      ],
+      "notes": [
+        "v:answers n:atoms-and-death: svaret om byttet peker mot en beskrivelse, men der står nei-et til kopien",
+        "v:qualifies n:lit-by-him: byttet og skanningen kan ikke få hver sin dom",
+        "v:qualifies n:your-answers-on-the-atoms: ingen av hundene er også et svar"
+      ],
+      "qualifiesDerived": [
+        "n:death-is-not-a-pause",
+        "n:line-closes-third-way",
+        "n:listener-without-archive",
+        "n:what-level-5-requires"
+      ]
+    },
+    {
       "@id": "n:swinburne",
       "@type": "v:Thinker",
       "label": {
@@ -11083,12 +11855,30 @@
         "nb": "Det finnes et felles nå"
       },
       "text": {
-        "nb": "Forutsetningen bak «han er borte nå» som et faktum om hele virkeligheten."
+        "nb": "Antakelsen at det finnes ett nå for hele virkeligheten, slik at «han er borte nå» er et faktum om universet og ikke bare om oss. Grunnen til å tro det er at nået er det eneste vi noen gang møter, og at Smolin og Ellis mener det hører hjemme i fysikken. Presentister kan legge til en foretrukket oppdeling av romtiden, slik Zimmerman gjør, men relativitetsteorien krever den ikke. Grunnen imot er nettopp relativitetsteorien: hva som skjer samtidig, avhenger av hvordan man beveger seg. Faller antakelsen, mister «borte nå» plassen som faktum om hele virkeligheten. Men det flytter lite her. For oss ligger døden hans i fortiden, uansett hvordan noen beveger seg, og det som er langt unna, kan ikke nås. Relativiteten gjør ikke at han er her, bare at ordet «nå» ikke rekker lenger enn til oss."
       },
       "region": "v:time",
       "strength": "v:contested",
       "conversation": "v:deepdive",
-      "created": "2026-10-28"
+      "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "La til grunnene for og imot, og at det å miste antakelsen flytter mindre enn det kan se ut som."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Albert Einstein, Zur Elektrodynamik bewegter Körper, Annalen der Physik 17 (1905)",
+        "https://doi.org/10.2307/2024493",
+        "Dean Zimmerman, Presentism and the Space-Time Manifold, i Craig Callender (red.), The Oxford Handbook of Philosophy of Time (2011)"
+      ]
     },
     {
       "@id": "n:t-content",
@@ -11114,7 +11904,7 @@
         "nb": "Selvet er et dypt, udelelig faktum"
       },
       "text": {
-        "nb": "Den vanlige intuisjonen: det finnes en kjerne som enten fortsetter eller ikke. Forutsetningen bak både sjelen og det absolutte tapet."
+        "nb": "Den vanlige intuisjonen: det finnes en kjerne som enten fortsetter eller ikke. Reid sa det rett ut: en person kan ikke være delvis den samme. Spør du om du våkner i morgen, virker det som om svaret må være ja eller nei, uansett hva som ellers skjer. Swinburne bygger på dette i dag. Grunnen imot er tilfellene der ja eller nei ikke finner feste: deling, hjerner som kuttes i to, og demens som går gradvis. Parfit mener at alt er sagt når alle delene er beskrevet, og Buddha og Hume kom dit på andre veier. Antakelsen er forutsetningen bak både sjelen og det absolutte tapet. Faller den, faller begge: ingen kjerne som venter, og ingen kjerne som ble knust. Men kartet har sett at lesningen uten kjerne kan være valgt av sorgen, så den er ikke avgjort."
       },
       "region": "v:self",
       "strength": "v:contested",
@@ -11122,7 +11912,25 @@
         "nb": "Selvet er en dyp kjerne"
       },
       "conversation": "v:deepdive",
-      "created": "2026-10-28"
+      "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "La til grunnene for og imot, og hva som faller, med forbeholdet om at sorgen kan ha valgt Parfit."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Thomas Reid, Essays on the Intellectual Powers of Man (1785), essay III, kapittel 4",
+        "Derek Parfit, Reasons and Persons (1984), del III",
+        "Sydney Shoemaker og Richard Swinburne, Personal Identity (1984)"
+      ]
     },
     {
       "@id": "n:t-fixed-past",
@@ -11131,7 +11939,7 @@
         "nb": "Fortiden ligger fast"
       },
       "text": {
-        "nb": "Det som har skjedd, kan ikke gjøres om. Nesten alle tidsteorier er enige, også de som sier at bare nået finnes. Da finnes ikke fortiden lenger, men det er fortsatt sant at den var."
+        "nb": "Det som har skjedd, kan ikke gjøres om. Nesten alle tidsteorier er enige, også de som sier at bare nået finnes. Da finnes ikke fortiden lenger, men det er fortsatt sant at den var. Aristoteles siterer Agathon på at ikke engang Gud kan gjøre det som er gjort, ugjort, og Lewis viser at tidsreiser ikke endrer dette: den som reiser bakover, kan påvirke fortiden, ikke endre den. Styrken er en enighet om begrepet, ikke en måling. Unntaket er sjeldent: Dummett undersøkte synet at utsagn om fortiden bare er sanne hvis noe nå kan vise det."
       },
       "region": "v:time",
       "strength": "v:solid",
@@ -11140,6 +11948,24 @@
       ],
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Fant kilder. Styrken beholdes, men det står nå hva slags styrke det er: en enighet om begrepet, ikke en måling."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Aristoteles, Den nikomakiske etikk VI.2",
+        "David Lewis, The Paradoxes of Time Travel, American Philosophical Quarterly 13 (1976)",
+        "https://doi.org/10.1093/aristotelian/69.1.239"
+      ],
       "answers": [
         "n:happened"
       ]
@@ -11165,7 +11991,7 @@
         "nb": "Hvis noe fortsetter, er det godt"
       },
       "text": {
-        "nb": "Den stille antakelsen bak at det kan sies med trygghet at han ikke lider. Den holder under de vanligste synene, men ikke under alle."
+        "nb": "Antakelsen at hvis noe kommer etter døden, så er det godt. Den trengs bare for grenen der noe fortsetter: kommer ingenting, finnes ingen som kan lide. Det er den som gjør at det kan sies med trygghet at han ikke lider. Grunnen til å tro den er at de vanligste synene gir noe fredfullt, og at de fleste som forteller fra nær døden, beskriver fred. Grunnen imot er at ingenting viser at det må være slik. Tradisjonell gjenfødselslære regner med lidelse, også for dyr, og noen nær-døden-opplevelser er skremmende. At vi ønsker at det er godt, gjør det ikke mer sannsynlig. Faller antakelsen, går tryggheten fra alle syn til de fleste, og det er det kartet alt sier: den holder under de vanligste synene, men ikke under alle."
       },
       "region": "v:borderland",
       "strength": "v:contested",
@@ -11173,7 +11999,23 @@
         "nb": "Noe etterpå er godt"
       },
       "conversation": "v:deepdive",
-      "created": "2026-10-29"
+      "created": "2026-10-29",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "La til at antakelsen bare trengs for grenen der noe fortsetter, og grunnene for og imot."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "https://doi.org/10.1080/00332747.1992.11024583"
+      ]
     },
     {
       "@id": "n:t-inside-extra",
@@ -11182,7 +12024,7 @@
         "nb": "Innsiden er mer enn det hjernen gjør"
       },
       "text": {
-        "nb": "Forutsetningen bak det harde problemet, og bak de fleste veiene til håp om en innside som fortsetter."
+        "nb": "Antakelsen er at det å oppleve noe ikke er det samme som det hjernen gjør. Selv om alt om signaler, funksjon og atferd var forklart, ville det stå igjen et spørsmål: hvorfor det føles som noe. Grunnen til å tro det er at en fullstendig beskrivelse utenfra ikke ser ut til å inneholde hvordan det er å være en flaggermus eller en hund. Nagel, Jackson og Levine har sagt det hver på sin måte, og omtrent to av tre filosofer mener problemet er ekte. Grunnen imot er at følelsen av et gap kan komme av hvordan hjernen fremstiller seg selv, slik illusjonistene sier, og at et hull i forklaringen ikke må være et hull i verden. Faller antakelsen, faller det harde problemet og de fleste veiene til en innside som fortsetter. Holder den, er ingen av dem bevist: den sier at noe mangler i forklaringen, ikke at noe overlever."
       },
       "region": "v:consciousness",
       "strength": "v:position",
@@ -11191,6 +12033,26 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Teksten sa hva antakelsen sto bak, ikke hva den er. Nå står det hva den sier, grunnene for og imot, og hva som faller."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Thomas Nagel, What Is It Like to Be a Bat?, The Philosophical Review 83 (1974)",
+        "Frank Jackson, Epiphenomenal Qualia, The Philosophical Quarterly 32 (1982)",
+        "Joseph Levine, Materialism and Qualia: The Explanatory Gap, Pacific Philosophical Quarterly 64 (1983)",
+        "Keith Frankish, Illusionism as a Theory of Consciousness, Journal of Consciousness Studies 23 (2016)",
+        "https://doi.org/10.3998/phimp.2109"
+      ],
       "contradicts": [
         "n:t-functionalism"
       ],
@@ -11206,7 +12068,7 @@
         "nb": "Minner kan finnes uten hjerne"
       },
       "text": {
-        "nb": "Forutsetningen for at innsiden skal kunne ta med seg båndene."
+        "nb": "Antakelsen at det Alfred husket, kan finnes et annet sted enn i hjernen hans. Den er forutsetningen for at en innside som fortsetter, skal kunne ta med seg båndene, og det er den som skiller nivå 5 fra nivå 6. Grunnene for er svake. Bergson mente at hjernen henter fram minner uten å lagre dem, og Lashley fant aldri ett bestemt sted. Paradoksal klarhet tyder på at minner kan være utilgjengelige uten å være slettet, og flatormer beholder noe av det de har lært etter at hodet vokser ut på nytt, men begge deler skjer i en levende kropp. Grunnene imot er sterke: skader og demens tar minner, og enkeltminner kan slås av og på i mus. Notatboka til Otto ligger utenfor hjernen, men den trenger en leser. Faller antakelsen, kan sjelen og filteret stå, men da uten minnene."
       },
       "region": "v:borderland",
       "strength": "v:contested",
@@ -11215,6 +12077,23 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Sa bare hva antakelsen er forutsetning for. Nå står grunnene for og imot, og at de ikke veier likt."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Henri Bergson, Matière et mémoire (1896)",
+        "https://doi.org/10.1242/jeb.087809"
+      ],
       "usesWord": [
         "n:word-memory"
       ]
@@ -11226,7 +12105,7 @@
         "nb": "Det finnes ett grunnleggende subjekt"
       },
       "text": {
-        "nb": "Antakelsen at all opplevelse til syvende og sist tilhører én og samme bevissthet."
+        "nb": "Antakelsen at all opplevelse til syvende og sist tilhører én og samme bevissthet. Da er det ikke mange som opplever, men én som opplever fra mange steder. Grunnen til å tro det er at grensen mellom to subjekter er vanskelig å finne: Zuboff og Kolak mener at ingenting gjør en opplevelse til min og en annen til din, bortsett fra at de ikke er koblet sammen. Det er også Upanishadenes svar. Grunnen imot er det enkleste faktumet vi har: jeg kjenner ikke tannverken din. At det bare skyldes manglende kobling, må forklares, og ingen har vist hvordan én blir til mange. Utelukkelsen i integrert informasjon taler også imot et hav som deler opplevelsen med dråpen. Faller antakelsen, faller åpen individualisme, analytisk idealisme og kosmopsykismen. Holder den, følger minnene og båndene ikke nødvendigvis med."
       },
       "region": "v:limits",
       "strength": "v:contested",
@@ -11234,7 +12113,25 @@
         "nb": "Ett grunnleggende subjekt"
       },
       "conversation": "v:deepdive",
-      "created": "2026-10-28"
+      "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Sa bare hva antakelsen er. Nå står grunnene for og imot, og hva som faller."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "https://doi.org/10.1080/00201749008602210",
+        "Daniel Kolak, I Am You (2004)",
+        "Philip Goff, Consciousness and Fundamental Reality (2017)"
+      ]
     },
     {
       "@id": "n:t-real-past",
@@ -11243,7 +12140,7 @@
         "nb": "Fortiden finnes fortsatt"
       },
       "text": {
-        "nb": "Den sterkere påstanden: fortiden er ikke bare sann, den er virkelig, like ekte som nået. Blokkuniverset og den voksende blokken sier ja. Presentismen sier nei."
+        "nb": "Den sterkere påstanden: fortiden er ikke bare sann, den er virkelig, like ekte som nået. Blokkuniverset og den voksende blokken sier ja. Presentismen sier nei. Grunnen til å tro den er relativitetsteorien, som gjør det vanskelig å si at bare ett nå finnes, og spørsmålet om hva som gjør det sant at dere gikk den turen, hvis fortiden ikke finnes. Grunnen imot er at vi bare møter nået, og at presentister kan svare at det som gjør fortiden sann, finnes nå. Skillet mot «Fortiden ligger fast» betyr mye: at det som skjedde, ikke kan gjøres om, krever ikke denne antakelsen. Faller den, står det at det skjedde, men ikke at det er der. Holder den, ligger de tretten årene i det som er virkelig, men ingenting spilles av på nytt."
       },
       "region": "v:time",
       "strength": "v:position",
@@ -11251,7 +12148,25 @@
         1
       ],
       "conversation": "v:deepdive",
-      "created": "2026-10-28"
+      "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "La til grunnene for og imot, og skillet mot at fortiden ligger fast."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Theodore Sider, Four-Dimensionalism (2001)",
+        "Ned Markosian, A Defense of Presentism, Oxford Studies in Metaphysics 1 (2004)",
+        "https://plato.stanford.edu/entries/time/"
+      ]
     },
     {
       "@id": "n:t-recoverable",
@@ -11260,7 +12175,7 @@
         "nb": "Mønsteret kan i prinsippet samles igjen"
       },
       "text": {
-        "nb": "Forutsetningen for vei 2."
+        "nb": "Antakelsen under vei 2: at det som var Alfreds mønster, i prinsippet kan hentes ut av det som er spredt, og settes sammen igjen. Den er tre påstander i én. Den første er at informasjonen fortsatt finnes. Det støttes av vanlig kvantemekanikk, med forbeholdene i «Informasjon går aldri tapt». Den andre er at den kan hentes ut. Der finnes ingen kjent prosess: den ligger spredt i omgivelsene, og å samle den ville kreve kontroll over langt mer enn det som en gang var ham. Den tredje er at det som bygges, er ham og ikke en kopi. Det er ikke et fysikkspørsmål, og det er der du skiller mellom det som er tent av ham og det som er laget etter en beskrivelse. Faller antakelsen, faller vei 2. Holder den, er vei 2 bare mulig i prinsippet, og «i prinsippet» gjør nesten alt arbeidet."
       },
       "region": "v:borderland",
       "strength": "v:contested",
@@ -11268,7 +12183,23 @@
         "nb": "Mønsteret kan samles igjen"
       },
       "conversation": "v:deepdive",
-      "created": "2026-10-28"
+      "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Teksten var bare «Forutsetningen for vei 2». Nå står det hva antakelsen sier, delt i de tre påstandene den består av."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "Peter van Inwagen, The Possibility of Resurrection, International Journal for Philosophy of Religion 9 (1978)"
+      ]
     },
     {
       "@id": "n:t-sealed-minds",
@@ -11277,7 +12208,7 @@
         "nb": "Hvert sinn er forseglet fra naturens side"
       },
       "text": {
-        "nb": "Antakelsen under mye av fortvilelsen: vi er stengt inne hver for oss, og døden lukker bare en boks som alltid var lukket. Grenseforskningen svekker den."
+        "nb": "Antakelsen under mye av fortvilelsen: vi er stengt inne hver for oss, og døden lukker bare en boks som alltid var lukket. William James kalte skillet mellom to personers tanker det mest absolutte bruddet i naturen. Grunnen til å tro det er at ingen har kjent en annens opplevelse direkte, slik Nagel viser med flaggermusen. Grenseforskningen svekker den sterke versjonen: Hogan-tvillingene ser ut til å dele noe over en bro mellom hjernene, og delte hjerner viser at grensen ikke er opplagt selv inne i én skalle. Men det som svekkes, er at veggen er absolutt, ikke at den er tynn uten en fysisk kobling. Tvillingene har en bro. Det tyder på at veggen følger koblingene, og det passer like godt med at hjernen lager opplevelsen. Faller antakelsen, åpner det for noe mellom dere, men det viser ikke at noe gikk over."
       },
       "region": "v:limits",
       "strength": "v:contested",
@@ -11285,7 +12216,24 @@
         "nb": "Hvert sinn er forseglet"
       },
       "conversation": "v:deepdive",
-      "created": "2026-10-28"
+      "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "La til grunnene for og imot, og presiserte «svekker»: det som svekkes, er at veggen er absolutt. Tvillingene har en fysisk bro."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
+      "sources": [
+        "William James, The Principles of Psychology (1890), kapittel IX",
+        "Thomas Nagel, What Is It Like to Be a Bat?, The Philosophical Review 83 (1974)"
+      ]
     },
     {
       "@id": "n:t-thing-with-a-place",
@@ -12035,11 +12983,91 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Skrev ut forutsetningen i en lenke."
+          },
+          "fields": [
+            "links"
+          ]
+        }
+      ],
       "relatedTo": [
         "n:claude-angle",
         "n:clive-wearing",
         "n:alfreds-three-words",
         "n:pure-awareness"
+      ],
+      "presupposes": [
+        "n:t-inside-extra"
+      ],
+      "notes": [
+        "v:presupposes n:t-inside-extra: skillet mellom tekst og leser krever at innsiden er mer enn det som gjøres"
+      ],
+      "sharesPremiseWith": [
+        "n:analytic-idealism",
+        "n:awareness-as-ground",
+        "n:cosmopsychism",
+        "n:filter-theory",
+        "n:hard-problem",
+        "n:listener-without-archive",
+        "n:panpsychism",
+        "n:points-to-the-ocean",
+        "n:process-philosophy",
+        "n:rebirth-without-self",
+        "n:russellian-monism",
+        "n:same-signal-two-receivers",
+        "n:spinoza-modes",
+        "n:what-level-5-requires"
+      ]
+    },
+    {
+      "@id": "n:three-kinds-of-origin",
+      "@type": "v:Insight",
+      "label": {
+        "nb": "Opphav betyr tre ting"
+      },
+      "text": {
+        "nb": "Spørsmålet var hva hund A bygget av hund Bs atomer har, som en hund bygget av nye atomer ikke har. Du svarte opphavet, og kalte det et dårlig svar fordi vi har stilt spørsmål ved det før. Det er et dårlig svar her, men av en annen grunn. At opphavet er stilt spørsmål ved, betyr ikke at det er falt: «Samme utfall, ulik dom» står åpent mellom Parfits lesning og historien som et faktum. Problemet er at opphavet ikke skiller disse to. Begge er bygget etter en beskrivelse av hund A, og ingen av dem av hund As stoff. Så vidt vi ser, har byttet ingenting som kopien ikke har. Men svaret viser noe annet. Kartet bruker ordet opphav om tre ting, og de er de tre veiene videre. Den første er ubrutt struktur: noe holder ham i seg selv hele veien, også når prosessen står stille. Da er cellene som byttes ut, pausen og frysen ham, men ikke atomene som har vært spredt. Det er linjen uten «eller for stoffet». Den andre er struktur eller stoff: det holder at stoffet har gått veien. Da er de spredte atomene ham også, slik du svarte. Det er det eneste av de tre som trenger to bein, og stoffbeinet bærer ingenting av ham. Den tredje er enhver årsakskjede fra ham, også en avlesning. Da kommer beskrivelsen også fra ham, og kopien er ham. Det er den vide versjonen hos Parfit, og da kan det bli mange. I de to første er ingen av hundene i byttet de gamle. I den tredje er begge det, og det er bare der hund A er hund A uansett atomer. Svarene dine fra før passer alle med den andre, så det er setningen om byttet som stikker ut. Ordet har glidd. Kripke snakker om hva en ting begynte av, ikke om hva som holder den gjennom tid, og er nærmest stoffet. Geodata følger en kjede av oppdateringer, og det ligner mest den tredje. «Tent av ham» betyr den første. «Det kan være opphavet», som står i «Strømmen trenger noe som bærer den over pausene», sier ikke hvilken. Tvilen fra før gjelder alle tre: ingenting av dette merkes i det ferdige, og om det å ha vært gjennom ham betyr noe, er fortsatt åpent. Dette er vår lesning."
+      },
+      "region": "v:self",
+      "strength": "v:position",
+      "ownConclusion": true,
+      "shortLabel": {
+        "nb": "Tre slags opphav"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-04",
+      "answers": [
+        "n:atoms-and-death"
+      ],
+      "qualifies": [
+        "n:origin-matters",
+        "n:swap-or-copy",
+        "n:stream-needs-a-carrier",
+        "n:lit-by-him"
+      ],
+      "relatedTo": [
+        "n:the-path-matters",
+        "n:unbroken-path",
+        "n:geo-origin-and-purpose",
+        "n:relation-r"
+      ],
+      "notes": [
+        "v:answers n:atoms-and-death: de tre veiene er tre betydninger av opphav",
+        "v:qualifies n:origin-matters: ordet dekker tre ting",
+        "v:qualifies n:swap-or-copy: opphavet skiller ikke byttet fra kopien",
+        "v:qualifies n:stream-needs-a-carrier: «det kan være opphavet» sier ikke hvilket",
+        "v:qualifies n:lit-by-him: linjen bruker den første betydningen"
+      ],
+      "qualifiesDerived": [
+        "n:death-is-not-a-pause",
+        "n:line-closes-third-way",
+        "n:listener-without-archive",
+        "n:what-level-5-requires"
       ]
     },
     {
@@ -12382,6 +13410,50 @@
       "created": "2026-10-28",
       "behind": [
         "n:autonoetic"
+      ]
+    },
+    {
+      "@id": "n:two-beginnings",
+      "@type": "v:Position",
+      "label": {
+        "nb": "Kan det samme begynne to ganger?"
+      },
+      "text": {
+        "nb": "Hvis Alfred er borte og stoffet hans settes sammen igjen, har han da begynt to ganger? Aristoteles sa at mennesker og dyr ikke vender tilbake slik at det samme individet blir til en gang til. Det som kommer igjen, er det samme i art, ikke i tall. Van Inwagen sier at et lik som ikke har gått for langt i oppløsning, kan vekkes og være den samme. Men er kroppen ødelagt, er årsakskjeden brutt, og ikke engang Gud kan gjenopprette den. Han har et argument som treffer svaret ditt om de to settene. Atomene han besto av som tiåring, kunne i prinsippet samles til en gutt. Er gjensamling nok, kunne gutten og den voksne stå overfor hverandre og si «du er meg». Det mener han er umulig. Hershenov svarer at det samme kan begynne igjen. En klokke kan ligge i deler og settes sammen, og et våpen blir ikke et nytt våpen hver gang det tas ut av kofferten. Han ser ingen nedre grense for hvor små delene kan være. Og han spør: hvis det ikke har noe å si hvordan delene kom sammen første gang, hvorfor skal det ha noe å si andre gang? Men han setter en grense selv. Bare de delene man hadde sist, teller. Den som døde gammel, kan ikke komme tilbake som tjueåring, slik et avbrutt spill må fortsette der det slapp. Det er strengere enn svaret ditt om at begge settene er ham. Og argumentet hans hviler på at delene er tallmessig de samme, uten at han drøfter at atomer ikke har egen identitet. Van Inwagen skriver selv at identitet over tid er uklar for de minste partiklene, og at fysikken sier lite om den. Luper skriver at det er langt fra opplagt at noen ville overlevd å bli delt opp i atomer og satt sammen igjen. Striden er ikke avgjort. Svaret ditt står ikke alene, men det står på den ene siden av en åpen strid. Hershenov er lest i hans egen tekst, van Inwagen i russisk oversettelse."
+      },
+      "region": "v:self",
+      "strength": "v:contested",
+      "hopeLevel": [
+        6
+      ],
+      "shortLabel": {
+        "nb": "To begynnelser"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-03",
+      "sources": [
+        "https://classics.mit.edu/Aristotle/gener_corr.2.ii.html",
+        "Peter van Inwagen, The Possibility of Resurrection, International Journal for Philosophy of Religion 9 (1978)",
+        "https://www.acsu.buffalo.edu/~dh25/articles/TheMetaphysicalProblemofIntermittentExistence.pdf",
+        "https://plato.stanford.edu/entries/death/"
+      ],
+      "answers": [
+        "n:atoms-and-death"
+      ],
+      "qualifies": [
+        "n:whole-him-or-the-river"
+      ],
+      "usesWord": [
+        "n:word-same"
+      ],
+      "relatedTo": [
+        "n:bodily-resurrection",
+        "n:reassembly",
+        "n:who-owns-the-atoms"
+      ],
+      "notes": [
+        "v:answers n:atoms-and-death: svaret har en forsvarer og en motstander",
+        "v:qualifies n:whole-him-or-the-river: selv forsvareren godtar bare de siste delene"
       ]
     },
     {
@@ -12811,8 +13883,21 @@
       "region": "v:borderland",
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-03",
+      "changes": [
+        {
+          "date": "2026-11-03",
+          "text": {
+            "nb": "Lenket til «Kan det samme begynne to ganger?», der argumentet hans mot gjensamling står."
+          },
+          "fields": [
+            "links"
+          ]
+        }
+      ],
       "behind": [
-        "n:bodily-resurrection"
+        "n:bodily-resurrection",
+        "n:two-beginnings"
       ]
     },
     {
@@ -13021,7 +14106,8 @@
         "n:rebirth-without-self",
         "n:russellian-monism",
         "n:same-signal-two-receivers",
-        "n:spinoza-modes"
+        "n:spinoza-modes",
+        "n:three-extremes"
       ]
     },
     {
@@ -13215,7 +14301,7 @@
         "nb": "Atomene har mange eiere"
       },
       "text": {
-        "nb": "Et gammelt problem for oppstandelse ved gjensamling. Atomene i en død kropp blir en del av gress, insekter og andre dyr, og noen av dem har vært i andre levende vesener før. Hvem får dem tilbake? I tillegg byttet Alfred ut stoffet sitt mange ganger på fjorten år. Det finnes flere hele sett av «hans egne» atomer: valpens, den voksne hundens og den gamle og syke hundens. Hvilket sett er ham?"
+        "nb": "Et gammelt problem for oppstandelse ved gjensamling. Atomene i en død kropp blir en del av gress, insekter og andre dyr, og noen av dem har vært i andre levende vesener før. Hvem får dem tilbake? I tillegg byttet Alfred ut stoffet sitt mange ganger på fjorten år. Det finnes flere hele sett av «hans egne» atomer: valpens, den voksne hundens og den gamle og syke hundens. Hvilket sett er ham? Men ikke alt byttes ut. Hos mennesker er nervecellene i hjernebarken like gamle som personen, og karbonet i DNA-et deres ble lagt inn da cellene ble til. Hos rotter finnes proteiner i hjernen som nesten ikke byttes ut. Det samme gjaldt trolig Alfred. En liten del av ham var med hele veien, men den er for liten til å være et sett."
       },
       "region": "v:self",
       "strength": "v:position",
@@ -13224,9 +14310,24 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-29",
+      "modified": "2026-11-03",
+      "changes": [
+        {
+          "date": "2026-11-03",
+          "text": {
+            "nb": "La til at ikke alt byttes ut. Nerveceller og noen proteiner i hjernen varer hele livet, så settene er ikke helt adskilt. Etter gravingen i atomene og døden."
+          },
+          "fields": [
+            "text",
+            "sources"
+          ]
+        }
+      ],
       "sources": [
         "Athenagoras, Om de dødes oppstandelse (omkring 180)",
-        "Augustin, Guds stat, bok 22"
+        "Augustin, Guds stat, bok 22",
+        "Spalding, Bhardwaj, Buchholz, Druid og Frisén, Retrospective Birth Dating of Cells in Humans, Cell 122(1) (2005)",
+        "Toyama, Savas, Park mfl., Identification of Long-Lived Proteins Reveals Exceptional Stability of Essential Cellular Structures, Cell 154(5) (2013)"
       ],
       "qualifies": [
         "n:thoughts-on-series-and-ship"
@@ -13237,6 +14338,7 @@
         "n:pause-or-copy"
       ],
       "qualifiesDerived": [
+        "n:death-not-necessarily-final",
         "n:resurrection-remains"
       ]
     },
@@ -13622,6 +14724,45 @@
       ]
     },
     {
+      "@id": "n:your-answers-on-the-atoms",
+      "@type": "v:Finding",
+      "label": {
+        "nb": "Hvem er hvem når atomene byttes?"
+      },
+      "text": {
+        "nb": "Dine tanker om de tre spørsmålene i «Atomene og døden». To hunder dør, og hver bygges opp igjen av den andres atomer. Du sa at det kommer an på synet. Først tenkte du at noe ved hund A ble med over til hund B, slik du forstår panpsykismen. Nå som du vet at atomer ikke har egen identitet, ser det annerledes ut: hund A kunne vært hund A uansett hvilke atomer som ble brukt. I idealisme og dualisme kommer det an på hvilken del av bevisstheten eller sjelen som fyller de nye hundene, siden den opprinnelige er gått i oppløsning. Alfred bygges opp igjen med bare halvparten av atomene sine. Det er ham for din del, også i materialisme og i panpsykisme, der litt mindre, men fortsatt ham. I de andre synene er det mer uklart, og der er vi borti teleporteren. Alle atomene hans settes sammen til en annen hund. Det er ham bare i panpsykismen, tror du, men det føles ikke slik for deg. Du la til at du kan ta feil her, fordi det er følelser og ikke logikk. Spurt om hva hund A bygget av hund Bs atomer har, som en hund av nye atomer ikke har, svarte du opphavet, og la til at det er et dårlig svar, fordi vi har vært innom det før og stilt spørsmål ved det. Spurt om hvilke av tre hunder som er Alfred, den frosne, den som er satt sammen av de samme spredte atomene, og den som er bygget av andre atomer etter en skanning, svarte du fortsatt de to første. Men du så at du da gir atomene en egenskap de ikke har. Spurt om det er nok at historien er et faktum, når den bare holder omtrent og ingenting bæres med, svarte du nei. Det blir for enkelt og uten godt nok grunnlag. Tanker underveis, ikke et svar."
+      },
+      "region": "v:self",
+      "strength": "v:supported",
+      "ownConclusion": true,
+      "shortLabel": {
+        "nb": "Svarene om atomene"
+      },
+      "conversation": "v:map",
+      "created": "2026-11-04",
+      "answers": [
+        "n:atoms-and-death"
+      ],
+      "qualifies": [
+        "n:thoughts-on-series-and-ship"
+      ],
+      "leadsTo": [
+        "n:swap-or-copy"
+      ],
+      "relatedTo": [
+        "n:panpsychism",
+        "n:teleporter"
+      ],
+      "notes": [
+        "v:answers n:atoms-and-death: svaret kommer an på synet, og det peker bort fra stoffet",
+        "v:qualifies n:thoughts-on-series-and-ship: ja-et til atomene hviler ikke lenger på atomene"
+      ],
+      "qualifiesDerived": [
+        "n:death-not-necessarily-final",
+        "n:resurrection-remains"
+      ]
+    },
+    {
       "@id": "n:your-half-goes-on",
       "@type": "v:Insight",
       "label": {
@@ -13641,10 +14782,28 @@
       },
       "conversation": "v:deepdive",
       "created": "2026-10-28",
+      "modified": "2026-11-04",
+      "changes": [
+        {
+          "date": "2026-11-04",
+          "text": {
+            "nb": "Skrev ut forutsetningen i en lenke."
+          },
+          "fields": [
+            "links"
+          ]
+        }
+      ],
       "relatedTo": [
         "n:shared-system",
         "n:grief-is-learning",
         "n:pattern-weak"
+      ],
+      "presupposes": [
+        "n:ability-not-archive"
+      ],
+      "notes": [
+        "v:presupposes n:ability-not-archive: stedet bygger på at det dere hadde, var en evne"
       ]
     },
     {
