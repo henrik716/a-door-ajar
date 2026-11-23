@@ -1083,6 +1083,22 @@ n:continue-as-himself a v:Question ;
   v:partOf n:inside ;
   v:usesWord n:word-same, n:word-memory .
 
+n:copy-helps-only-if a v:Insight ;
+  rdfs:label "En kopi hjelper ham bare hvis identitet ikke er det som teller"@nb ;
+  v:shortLabel "Hjelper kopien ham?"@nb ;
+  rdfs:comment "Gravestedet skiller mellom hva en kopi ville vært for deg, og hva den ville vært for ham. For ham avhenger svaret av hva som teller for den som dør. Parfit sa at det som betyr noe, også for den som skal dø, er sammenhengene, ikke identiteten. Å bli ødelagt og laget på nytt er etter ham omtrent like godt som å leve videre. Da ville kopien hjulpet Alfred. Unger svarte at det som betyr noe, er at kjernen i sinnet bæres av noe fysisk som er ubrutt. Animalismen sier at kopien er et annet dyr. Etter dem hjelper kopien ham ikke, uansett hvor lik den er. Standpunktet ditt fra 4. november, ubrutt struktur, står på samme side som Unger. Setningen i gravestedet legger altså grensen mellom Parfit og kritikerne hans mellom deg og ham: for deg teller sammenhengene, for ham den ubrutte veien. Det er ikke en selvmotsigelse. Det som betyr noe for den som blir igjen, kan være forholdet, og det kunne en kopi kanskje gitt tilbake. Men Parfit mente at den som dør, heller ikke har noe annet å bry seg om. Og «Trøsten velger mønsteret, sorgen velger dyret» tyder på at sorgen følger originalen, ikke bare forholdet. Da er det ikke sikkert at kopien ville vært ham på alle måter som teller for deg heller. Hunden flytter også noe. Etter Parfit betyr det å leve videre mindre jo svakere sammenhengene er. Hos Alfred var fortellingen tynn, men vanene, forventningene og tilknytningen var sterke, og alt det ville kopien hatt. Etter Parfit ville kopien altså hjulpet ham like mye som å leve videre, og det var trolig mindre enn for et voksent menneske, slik McMahan sier, men ikke lite. Dette er vår lesning."@nb ;
+  v:region v:self ;
+  v:strength v:position ;
+  v:ownConclusion true ;
+  v:hopeLevel 6 ;
+  v:conversation v:map ;
+  dct:created "2026-11-12"^^xsd:date ;
+  dct:source "Derek Parfit, Reasons and Persons (1984)"@nb ;
+  dct:source "Peter Unger, Identity, Consciousness and Value (1990)"@nb ;
+  v:answers n:would-it-help-him ;
+  v:relatedTo n:relation-r, n:animalism, n:comfort-and-grief-diverge, n:the-swap, n:three-kinds-of-origin, n:mcmahan-time-relative, n:thinner-self-is-narrative .
+
+# note: n:copy-helps-only-if v:answers n:would-it-help-him — etter Parfit ja, etter Unger, animalismen og standpunktet ditt nei
 n:cosmic-copies a v:Position ;
   rdfs:label "Kopier i et uendelig univers"@nb ;
   v:shortLabel "Kosmiske kopier"@nb ;
@@ -2054,12 +2070,15 @@ n:galen-strawson a v:Thinker ;
 n:gaze-and-oxytocin a v:Finding ;
   rdfs:label "Blikket som løfter oksytocin"@nb ;
   v:shortLabel "Blikket og oksytocinet"@nb ;
-  rdfs:comment "Når hund og eier ser hverandre i øynene, stiger oksytocin hos begge, og det forsterker seg i en sløyfe. Ikke på samme måte hos ulver, selv om de er oppvokst med mennesker."@nb ;
+  rdfs:comment "Når hund og eier ser hverandre i øynene, stiger oksytocin hos begge, og det forsterker seg i en sløyfe. I studien var det ikke slik hos ulver, selv om de var oppvokst med mennesker. Den forskjellen står svakt. En ny analyse av de samme dataene fant at den like gjerne kunne komme av at langt flere av hundeeierne var kvinner, og ulvene var få. At blikket løfter oksytocin, er målt. At sløyfen kom med temmingen, er ikke vist."@nb ;
   v:region v:dog ;
-  v:strength v:solid ;
+  v:strength v:supported ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
+  dct:modified "2026-11-12"^^xsd:date ;
+  v:change [ dct:date "2026-11-12"^^xsd:date ; rdfs:comment "Styrken fra solid til støttet. Forskjellen mellom hunder og ulver holder dårlig i en ny analyse av dataene. At blikket løfter oksytocin, står."@nb ; v:changedField "strength", "text", "sources" ] ;
   dct:source "Nagasawa mfl. (2015), Science"@nb ;
+  dct:source <https://doi.org/10.3389/fnins.2016.00155> ;
   v:supports n:thin-wall .
 
 n:gazzaniga a v:Thinker ;
@@ -2270,13 +2289,16 @@ n:grief-and-self-concept a v:Finding ;
 n:grief-for-an-animal a v:Finding ;
   rdfs:label "Sorg over et dyr er ekte sorg"@nb ;
   v:shortLabel "Sorg over et dyr"@nb ;
-  rdfs:comment "Studier finner at sorgen etter et dyr kan være like sterk som etter et menneske. Den blir likevel ofte mindre anerkjent av omgivelsene, det som kalles uanerkjent sorg. Dybden du kjenner, er ikke en overreaksjon."@nb ;
+  rdfs:comment "Studier finner at sorgen etter et dyr kan være like sterk som etter et menneske. Den blir likevel ofte mindre anerkjent av omgivelsene, det som kalles uanerkjent sorg. En britisk studie fra 2026 fant forlenget sorglidelse hos 7,5 prosent av dem som hadde mistet et dyr, omtrent som etter mange tap av mennesker, og symptomene var de samme. Likevel kan diagnosen i dag bare stilles når det er et menneske som er dødd. Dybden du kjenner, er ikke en overreaksjon."@nb ;
   v:region v:grief ;
   v:strength v:supported ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
+  dct:modified "2026-11-12"^^xsd:date ;
+  v:change [ dct:date "2026-11-12"^^xsd:date ; rdfs:comment "La til studien fra 2026 om forlenget sorglidelse etter tap av et dyr."@nb ; v:changedField "text", "sources" ] ;
   dct:source "Doka (1989), Disenfranchised Grief"@nb ;
   dct:source "Packman mfl. (2011), Journal of Loss and Trauma"@nb ;
+  dct:source <https://doi.org/10.1371/journal.pone.0339213> ;
   v:supports n:pain-is-a-sign .
 
 n:grief-is-learning a v:Position ;
@@ -2584,19 +2606,21 @@ n:identical-atoms a v:Finding ;
 # note: n:identical-atoms v:qualifies n:pause-or-copy — «de samme atomene» er ikke et fysisk faktum
 n:iit a v:Position ;
   rdfs:label "Integrert informasjon"@nb ;
-  rdfs:comment "Tononi mener at bevisstheten finnes der informasjonen i et system er mest samlet, og at veggen går der samlingen faller av. Bare det mest samlede systemet er bevisst. Delene inni det er ikke bevisste hver for seg samtidig, og et større system rundt det er det heller ikke. Det kalles utelukkelse. Dristig forutsigelse: to hjerner koblet stadig tettere ville på et bestemt punkt bli én bevissthet, og de to ville slutte å være to. Lillehjernen viser hva teorien mener med samlet. Den har rundt fire ganger så mange nerveceller som hjernebarken, men de er koblet i parallelle baner som virker lite på hverandre, og en kvinne født helt uten lillehjerne var våken og bevisst og levde et ganske vanlig liv. Det er hvordan delene virker på hverandre som teller, ikke hvor mange de er. Teorien er sterkt omstridt. I 2023 kalte 124 forskere den pseudovitenskap, blant annet fordi den gir bevissthet til mye vi ikke regner som bevisst, og fordi den som helhet kanskje ikke kan testes. Andre mente at anklagen gikk for langt."@nb ;
+  rdfs:comment "Tononi mener at bevisstheten finnes der informasjonen i et system er mest samlet, og at veggen går der samlingen faller av. Bare det mest samlede systemet er bevisst. Delene inni det er ikke bevisste hver for seg samtidig, og et større system rundt det er det heller ikke. Det kalles utelukkelse. Dristig forutsigelse: to hjerner koblet stadig tettere ville på et bestemt punkt bli én bevissthet, og de to ville slutte å være to. Lillehjernen viser hva teorien mener med samlet. Den har rundt fire ganger så mange nerveceller som hjernebarken, men de er koblet i parallelle baner som virker lite på hverandre, og en kvinne født helt uten lillehjerne var våken og bevisst og levde et ganske vanlig liv. Det er hvordan delene virker på hverandre som teller, ikke hvor mange de er. Teorien er sterkt omstridt. I 2023 kalte 124 forskere den pseudovitenskap, blant annet fordi den gir bevissthet til mye vi ikke regner som bevisst, og fordi den som helhet kanskje ikke kan testes. I 2025 la en gruppe av dem fram argumentet i Nature Neuroscience: kjernen i teorien kan ikke testes, selv i prinsippet. Andre mente at anklagen gikk for langt."@nb ;
   v:region v:limits ;
   v:strength v:position ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
-  dct:modified "2026-11-03"^^xsd:date ;
+  dct:modified "2026-11-12"^^xsd:date ;
   v:change [ dct:date "2026-11-02"^^xsd:date ; rdfs:comment "La til utelukkelsen, lillehjernen og kritikken fra 2023, og kildene som manglet."@nb ; v:changedField "text", "sources", "links" ] ;
   v:change [ dct:date "2026-11-03"^^xsd:date ; rdfs:comment "Merknaden om dråpen og havet presisert, og lenke til at utelukkelsen bare rammer et hav som deler opplevelsen."@nb ; v:changedField "links" ] ;
+  v:change [ dct:date "2026-11-12"^^xsd:date ; rdfs:comment "Anklagen om pseudovitenskap fra 2023 kom i Nature Neuroscience i 2025. La til den."@nb ; v:changedField "text", "sources" ] ;
   dct:source "Tononi, Boly, Massimini og Koch, Integrated information theory: from consciousness to its physical substrate, Nature Reviews Neuroscience (2016)"@nb ;
   dct:source "Albantakis mfl., Integrated information theory (IIT) 4.0, PLoS Computational Biology (2023)"@nb ;
   dct:source "Herculano-Houzel, The human brain in numbers, Frontiers in Human Neuroscience (2009)"@nb ;
   dct:source "Yu mfl., A new case of complete primary cerebellar agenesis, Brain (2015)"@nb ;
   dct:source "Fleming mfl., The Integrated Information Theory of Consciousness as Pseudoscience, PsyArXiv (2023)"@nb ;
+  dct:source <https://doi.org/10.1038/s41593-025-01881-x> ;
   v:answers n:boundary-problem ;
   v:qualifies n:claude-angle ;
   v:relatedTo n:one-ocean-or-dust, n:cosmopsychism, n:exclusion-hits-shared-ocean .
@@ -3437,13 +3461,17 @@ n:nagel a v:Thinker ;
 
 n:near-death-experiences a v:Finding ;
   rdfs:label "Nærdødsopplevelser"@nb ;
-  rdfs:comment "Mellom en av ti og en av fem som overlever hjertestans, forteller om opplevelser som fred, lys, en tunnel, møter med døde eller et tilbakeblikk på livet. Mange beskriver det som mer virkelig enn vanlig virkelighet. At slike opplevelser forekommer, er godt dokumentert. Hva de er, er omstridt: et glimt av noe utenfor, eller en hjerne i krise."@nb ;
+  rdfs:comment "Mellom en av ti og en av fem som overlever hjertestans, forteller om opplevelser som fred, lys, en tunnel, møter med døde eller et tilbakeblikk på livet. Mange beskriver det som mer virkelig enn vanlig virkelighet. At slike opplevelser forekommer, er godt dokumentert. Hva de er, er omstridt: et glimt av noe utenfor, eller en hjerne i krise. I 2025 la en forskergruppe fram en samlet modell: en akutt krise, med fall i blodtilførsel og oksygen og endrede signalstoffer i hjernen, setter i gang opplevelsen, og den ses i lys av hvordan dyr reagerer på livsfare. Kritikere svarte at modellen ikke forklarer alt, blant annet at opplevelsene bruker flere sanser på en gang og huskes klart i tiår, og at den utelukker andre forklaringer på forhånd. Modellen er et forslag som skal testes, ikke et svar. Striden står der den sto."@nb ;
   v:region v:borderland ;
   v:strength v:supported ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
+  dct:modified "2026-11-12"^^xsd:date ;
+  v:change [ dct:date "2026-11-12"^^xsd:date ; rdfs:comment "La til den nevrovitenskapelige modellen fra 2025 og kritikken av den. Den gir hjernesiden en samlet modell, men avgjør ikke hva opplevelsene er."@nb ; v:changedField "text", "sources" ] ;
   dct:source "van Lommel mfl. (2001), The Lancet"@nb ;
   dct:source "Greyson (2021), After"@nb ;
+  dct:source <https://doi.org/10.1038/s41582-025-01072-z> ;
+  dct:source <https://doi.org/10.1037/cns0000448> ;
   v:relatedTo n:dying-brain-gamma, n:aware, n:filter-theory, n:pure-awareness, n:luminous-mind .
 
 # note: n:near-death-experiences v:relatedTo n:dying-brain-gamma — en mulig forklaring
@@ -4235,6 +4263,20 @@ n:relation-r-in-notes a v:Insight ;
   v:exampleOf n:relation-r, n:empty-questions ;
   v:presupposes n:reductionism, n:relation-r .
 
+n:replaceability a v:Position ;
+  rdfs:label "Erstattbarhet: et nytt liv kan veie opp, men ikke for ham"@nb ;
+  v:shortLabel "Erstattbarhet"@nb ;
+  rdfs:comment "Singer mener at et dyr som bare er bevisst, uten ønsker som peker framover, kan erstattes. Dør det, og et annet dyr får et like godt liv, går regnestykket opp. Et dyr med et selv som strekker seg framover, kan ikke erstattes slik, for døden tar noe fra det som et nytt liv ikke gir tilbake. Synet er sterkt omstridt. Kagan godtar det for dyr som bare er bevisst. Višak avviser det med et syn der bare det som er godt eller vondt for noen, teller. For gravestedet er poenget et skille. Erstattbarheten sier ikke at det nye livet er godt for den som døde. Den sier at verden er like god. Det er et tredje spørsmål ved siden av hva en kopi er for deg og for ham: om tapet veies opp. Også der en kopi veier opp, hjelper den ikke ham. Hvor Alfred faller i Singers skille, er åpent. Han hadde trolig det minimale selvet, men sporene etter at hunder ser for seg en fjern framtid, er svake."@nb ;
+  v:region v:grief ;
+  v:strength v:contested ;
+  v:conversation v:map ;
+  dct:created "2026-11-12"^^xsd:date ;
+  dct:source "Peter Singer, Practical Ethics, 3. utgave (2011)"@nb ;
+  dct:source "Tatjana Višak og Robert Garner (red.), The Ethics of Killing Animals (2015)"@nb ;
+  v:answers n:would-it-help-him ;
+  v:relatedTo n:deprivation, n:mcmahan-time-relative, n:mental-time-travel, n:thinner-self-is-narrative, n:whose-loss .
+
+# note: n:replaceability v:answers n:would-it-help-him — skiller om tapet veies opp fra om det hjelper ham
 n:resurrection-remains a v:Insight ;
   rdfs:label "Hvis følelsen holder, står kroppens oppstandelse igjen"@nb ;
   v:shortLabel "Oppstandelsen står igjen"@nb ;
@@ -4647,15 +4689,17 @@ n:spinoza-modes a v:Position ;
 
 n:split-brains a v:Finding ;
   rdfs:label "Splittede hjerner"@nb ;
-  rdfs:comment "Når forbindelsen mellom hjernehalvdelene kuttes, kan én hjerne oppføre seg som om den har to perspektiver. Omstridt: en studie fra 2017 fant delte sanser, men samlet bevissthet. En felles gjennomgang fra 2020, med forskere fra flere leirer, konkluderte med at bevisene ikke avgjør om det blir én eller to, og at svaret kanskje ligger imellom. Selv inne i én skalle er det ikke opplagt hvor veggen går."@nb ;
+  rdfs:comment "Når forbindelsen mellom hjernehalvdelene kuttes, kan én hjerne oppføre seg som om den har to perspektiver. Omstridt: en studie fra 2017 fant delte sanser, men samlet bevissthet. En felles gjennomgang fra 2020, med forskere fra flere leirer, konkluderte med at bevisene ikke avgjør om det blir én eller to, og at svaret kanskje ligger imellom. En studie fra 2025 fant at når rundt en centimeter av forbindelsen bak i hjernen sto igjen, samarbeidet halvdelene som i en vanlig hjerne. Bare når alt var kuttet, skilte de lag. Utvalget var lite, og det som ble målt, var samarbeid, ikke opplevelse. Selv inne i én skalle er det ikke opplagt hvor veggen går."@nb ;
   v:region v:limits ;
   v:strength v:supported ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
-  dct:modified "2026-11-03"^^xsd:date ;
+  dct:modified "2026-11-12"^^xsd:date ;
   v:change [ dct:date "2026-11-03"^^xsd:date ; rdfs:comment "La til den felles gjennomgangen fra 2020: bevisene avgjør ikke om det blir én eller to."@nb ; v:changedField "text", "sources" ] ;
+  v:change [ dct:date "2026-11-12"^^xsd:date ; rdfs:comment "La til studien fra 2025: en smal bro bak i hjernen er nok til at halvdelene samarbeider fullt."@nb ; v:changedField "text", "sources" ] ;
   dct:source "Pinto mfl. (2017), Brain"@nb ;
   dct:source <https://doi.org/10.1007/s11065-020-09439-3> ;
+  dct:source <https://doi.org/10.1073/pnas.2520190122> ;
   v:contradicts n:t-sealed-minds ;
   v:answers n:boundary-problem .
 
@@ -5473,12 +5517,15 @@ n:true-track-or-blindspot a v:Question ;
 n:tukdam a v:Finding ;
   rdfs:label "Ingen hjerneaktivitet i tukdam"@nb ;
   v:shortLabel "Tukdam"@nb ;
-  rdfs:comment "I tibetansk buddhisme sies øvede mediterende å kunne bli værende i en subtil bevissthet etter at de er klinisk døde, tukdam, mens kroppen holder seg uten tegn på forråtnelse. Forskere målte hjerneaktivitet hos 13 slike og fant ingen. Den første målingen ble tatt 26 timer etter døden, og utstyret var kanskje ikke følsomt nok, så det avgjør ikke saken. Men det er en av få steder der læren om en strøm som fortsetter, er prøvd med målinger."@nb ;
+  rdfs:comment "I tibetansk buddhisme sies øvede mediterende å kunne bli værende i en subtil bevissthet etter at de er klinisk døde, tukdam, mens kroppen holder seg uten tegn på forråtnelse. Forskere målte hjerneaktivitet hos 13 slike og fant ingen. Den første målingen ble tatt 26 timer etter døden, og utstyret var kanskje ikke følsomt nok, så det avgjør ikke saken. En studie fra 2024 fulgte to slike kropper i 19 og 31 dager. Forråtnelsen kom dager til uker senere enn ventet, og gikk så raskt. Det er to tilfeller, og det sier noe om kroppen, ikke om noen er der. Men det er en av få steder der læren om en strøm som fortsetter, er prøvd med målinger."@nb ;
   v:region v:limits ;
   v:strength v:supported ;
   v:conversation v:deepdive ;
   dct:created "2026-10-30"^^xsd:date ;
+  dct:modified "2026-11-12"^^xsd:date ;
+  v:change [ dct:date "2026-11-12"^^xsd:date ; rdfs:comment "La til studien fra 2024 av forråtnelsen hos to i tukdam. Kroppen holdt seg lenger enn ventet, men det sier ikke noe om bevissthet."@nb ; v:changedField "text", "sources" ] ;
   dct:source "Center for Healthy Minds, University of Wisconsin–Madison, tukdam-prosjektet (2021)"@nb ;
+  dct:source <https://doi.org/10.1016/j.fsir.2024.100370> ;
   v:relatedTo n:what-level-5-requires, n:rebirth-without-self, n:aware, n:dying-brain-gamma .
 
 n:tulving a v:Thinker ;
@@ -5868,6 +5915,26 @@ n:who-owns-the-atoms a v:Position ;
   v:qualifies n:thoughts-on-series-and-ship ;
   v:relatedTo n:bodily-resurrection, n:identical-atoms, n:pause-or-copy .
 
+n:who-the-levels-help a v:Insight ;
+  rdfs:label "Hvem håpsnivåene er gode for"@nb ;
+  v:shortLabel "Gode for hvem?"@nb ;
+  rdfs:comment "Håpsnivåene er ordnet etter hva som fortsetter, ikke etter hvem det er godt for. Spør man hva som kunne vært godt for Alfred selv, blir bildet et annet. Nivå 1 hjelper ham ikke etterpå, men tar heller ingenting fra ham. Dagene hans var gode for ham, og det er både Epikur og Nagel enige om. Nivå 2 er godt for deg. For ham er det trolig ingenting. Vanene i deg er ikke hans sammenhenger, og det er lite som tyder på at en hund har ønsker som rekker forbi hans egen død, slik Feinberg mener mennesker kan ha. Nivå 3 er ikke godt for ham etter nesten alle syn, for det er verken hans perspektiv eller hans innhold. Unntaket er åpen individualisme, der grensen mellom ham og resten bare er en telling. Da får spørsmålet ikke et ja, men det mister mening. Nivå 4 er mer interessant. Etter animalismen og Unger hjelper det ham ikke. Etter Parfit kan det hjelpe litt. Han brukte sammensmelting for å vise at det som betyr noe, kommer i grader: når to blir én, beholdes noe av det som betyr noe for hver av dem. Går det Alfred bar, inn i en helhet, kan det være noe av det samme. Ingen har skrevet dette om havet, så det er vår lesning. Nivå 5 er hans etter bærersynene, men framtiden er hans på en tynn måte når innholdet mangler, slik McMahan sier. Nivå 6 hjelper ham. Nivå 3 til 6 hjelper ham bare hvis det som kommer, er godt. Det skiller dem fra at han ikke lider: det står trygt fordi det gjelder også når ingen er der, mens noe godt for ham krever at han er der. Og etter Epikur trenger han ingen hjelp, for der han ikke er, mangler han ingenting. Belshaw sier noe beslektet om dyr: et dyr uten ønsker om mer liv skades ikke av døden på en måte som teller. Bradley svarer at slike ønsker ikke trengs, og at døden kan være et tap også for dyr. Mønsteret ligner det i «Det som står best, bærer minst av ham», men det er ikke det samme. Nivå 1 bærer ingenting av ham, men det var godt for ham. Nivå 4 bærer innholdet hans, men er godt for ham bare under Parfit. Det sier at «hvor er Alfred nå?» og «hva ville vært godt for ham?» er to spørsmål, og at kartet mest har gravd i det første."@nb ;
+  v:region v:core ;
+  v:strength v:position ;
+  v:ownConclusion true ;
+  v:hopeLevel 1, 2, 3, 4, 5, 6 ;
+  v:conversation v:map ;
+  dct:created "2026-11-12"^^xsd:date ;
+  dct:source "Derek Parfit, Personal Identity, The Philosophical Review 80(1) (1971)"@nb ;
+  dct:source "Joel Feinberg, Harm to Others (1984)"@nb ;
+  dct:source "Christopher Belshaw, Death, Pain, and Animal Life, i Višak og Garner (red.), The Ethics of Killing Animals (2015)"@nb ;
+  dct:source <https://philarchive.org/archive/BRAIDB> ;
+  v:answers n:would-it-help-him ;
+  v:qualifies n:less-of-him ;
+  v:relatedTo n:cannot-be-undone, n:pattern-weak, n:open-individualism, n:is-there-a-whole, n:capacity-not-content, n:safety-across-views, n:t-good-afterwards, n:epicurus-position, n:deprivation .
+
+# note: n:who-the-levels-help v:answers n:would-it-help-him — mest nivå 5 og 6, og 4 bare under Parfit
+# note: n:who-the-levels-help v:qualifies n:less-of-him — målt i hvem det er godt for, ikke i hvor mye av ham det bærer
 n:whole-him-or-the-river a v:Finding ;
   rdfs:label "Hele ham, eller elva"@nb ;
   v:shortLabel "Hele ham, eller elva"@nb ;
@@ -6012,13 +6079,15 @@ n:words-are-layers a v:Insight ;
 
 n:would-it-help-him a v:Question ;
   rdfs:label "Ville det hjulpet ham?"@nb ;
-  rdfs:comment "Fra kopiforsøket: for deg ville en kopi kanskje vært ham på alle måter som teller, men for hunden som opplevde alt minnene handler om, ville det ikke hjulpet. Det er to spørsmål: hva som betyr noe for den som blir igjen, og hva som betyr noe for den som dør. Parfit mente at svaret er det samme for begge. Animalismen mener det ikke."@nb ;
+  rdfs:comment "Fra kopiforsøket: for deg ville en kopi kanskje vært ham på alle måter som teller, men for hunden som opplevde alt minnene handler om, ville det ikke hjulpet. Det er to spørsmål: hva som betyr noe for den som blir igjen, og hva som betyr noe for den som dør. Parfit mente at svaret er det samme for begge. Animalismen mener det ikke. Gravd første gang 12. november. Tre ting er funnet. En kopi hjelper ham bare hvis identitet ikke er det som teller for den som dør, slik Parfit mener. Etter Unger, animalismen og standpunktet ditt om ubrutt struktur hjelper den ham ikke. Setningen over legger dermed grensen mellom Parfit og kritikerne hans mellom deg og ham, og det er ikke sikkert at sorgen din står på Parfits side heller. Erstattbarheten viser et tredje spørsmål: om tapet veies opp i verden, uten at det er godt for ham. Og håpsnivåene er ordnet etter hva som fortsetter, ikke etter hvem det er godt for. Nivå 1 var godt for ham, 2 er godt for deg, 3 er det knapt for ham, 4 er det for ham bare under Parfit, og 5 og 6 er det for ham hvis det som kommer, er godt. Åpent, og to spørsmål bare du kan svare på: Ville en kopi vært ham på alle måter som teller for deg, eller ville du sørget over originalen hvis du fikk vite om et bytte? Og når du spør hvor han er, spør du da også om han har det godt, eller er det to spørsmål for deg?"@nb ;
   v:region v:self ;
   v:ownConclusion true ;
   v:status v:frontier ;
-  v:answer "Åpent"@nb ;
+  v:answer "Etter Parfit ja, etter animalismen, Unger og standpunktet ditt nei. Av håpsnivåene er det mest 5 og 6 som kunne vært gode for ham"@nb ;
   v:conversation v:deepdive ;
   dct:created "2026-10-29"^^xsd:date ;
+  dct:modified "2026-11-12"^^xsd:date ;
+  v:change [ dct:date "2026-11-12"^^xsd:date ; rdfs:comment "Gravd første gang: en kopi hjelper ham bare under Parfit, erstattbarhet er et tredje spørsmål, og håpsnivåene er ordnet etter hva som fortsetter, ikke etter hvem det er godt for. Svar og tekst er oppdatert, og to spørsmål til deg står åpne."@nb ; v:changedField "answer", "text" ] ;
   v:relatedTo n:relation-r, n:animalism, n:whose-loss, n:reassembly .
 
 n:you-carry-what-he-dropped a v:Insight ;
