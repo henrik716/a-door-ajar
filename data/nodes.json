@@ -96,6 +96,65 @@
   "conversation": "deepdive"
  },
  {
+  "id": "advaita",
+  "type": "position",
+  "region": "east",
+  "label": "Atman er Brahman",
+  "short": "Advaita",
+  "strength": "contested",
+  "hope": [
+   3,
+   5
+  ],
+  "text": "Den mest kjente indiske læren om det ene. Brahman er det eneste som er virkelig: ren bevissthet, uten egenskaper og uten grenser. Atman, selvet i hver enkelt, er ikke en del av Brahman, men Brahman selv. Det som skiller deg fra Alfred, navn og form, kropp og historie, er tilsynekomst. Læren svarer på to plan. I den hverdagslige sannheten går den enkelte videre etter døden, i et fint legeme som bærer med seg avtrykk og tendenser, men ikke minnene. Brihadaranyaka-upanishaden sammenligner det med en larve som når enden av ett gresstrå og trekker seg over på det neste. Det gjelder dyr også. I den ytterste sannheten har ingen gått noe sted. Den som så ut gjennom Alfreds øyne, er den samme som ser ut gjennom dine, og frigjøringen er at elva renner ut i havet og mister navnet sitt. Advaita er altså nivå 5 underveis og nivå 3 til slutt. Kastrups analytiske idealisme er nesten det samme kartet i moderne språk. Læren hviler på to antakelser kartet allerede har skrevet ut: at opplevelsen ikke bare lages av hjernen, og at det finnes ett grunnleggende subjekt. Den har også det samme åpne problemet: hvordan det ene blir til mange. At læren er gammel, gjør den verken sannere eller mindre sann.",
+  "sources": [
+   {
+    "title": "Brihadaranyaka-upanishaden 4.4.3"
+   },
+   {
+    "title": "Chandogya-upanishaden 6.10"
+   },
+   {
+    "title": "Gaudapada, Mandukya-karika, kapittel 3, med Shankaras kommentar"
+   }
+  ],
+  "links": [
+   {
+    "rel": "presupposes",
+    "to": "t-inside-extra"
+   },
+   {
+    "rel": "presupposes",
+    "to": "t-one-subject"
+   },
+   {
+    "rel": "answers",
+    "to": "his-own-listener",
+    "note": "nei: det fantes bare én som lyttet"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "analytic-idealism",
+    "note": "nesten det samme i moderne språk"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "open-individualism"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "awareness-as-ground"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "rebirth-without-self",
+    "note": "gjenfødsel, men med et selv"
+   }
+  ],
+  "added": "2026-11-23",
+  "conversation": "map"
+ },
+ {
   "id": "against-the-current",
   "type": "insight",
   "region": "blindspots",
@@ -8283,6 +8342,32 @@
   "conversation": "deepdive"
  },
  {
+  "id": "madhva",
+  "type": "thinker",
+  "region": "east",
+  "label": "Madhva",
+  "text": "Indisk filosof (1238–1317). Grunnla Dvaita, der Gud, sjelene og verden er evig atskilt.",
+  "sources": [
+   {
+    "title": "Internet Encyclopedia of Philosophy: Madhva",
+    "url": "https://iep.utm.edu/madhva/"
+   }
+  ],
+  "links": [
+   {
+    "rel": "behind",
+    "to": "vedanta-divides"
+   },
+   {
+    "rel": "behind",
+    "to": "rivers-into-the-sea",
+    "note": "en annen lesning av elvene"
+   }
+  ],
+  "added": "2026-11-23",
+  "conversation": "map"
+ },
+ {
   "id": "man-and-person",
   "type": "position",
   "region": "self",
@@ -10373,6 +10458,43 @@
   ]
  },
  {
+  "id": "pot-space",
+  "type": "image",
+  "region": "east",
+  "label": "Rommet i krukka",
+  "strength": "image",
+  "hope": [
+   3
+  ],
+  "text": "Gaudapada, etter tradisjonen læreren til Shankaras lærer, brukte en krukke for å vise forholdet mellom selvet og det ene. Rommet inne i krukka ser ut som sitt eget, med krukkas form. Men det er det samme rommet som er overalt. Når krukka knuses, går rommet ingen steder. Det var aldri noe annet sted enn der det er. Spurt med dette bildet blir «hvor er Alfred nå?» som å spørre hvor rommet i krukka gikk. Men bildet sier også hva som ikke blir med: formen var krukkas, og krukka er borte.",
+  "sources": [
+   {
+    "title": "Gaudapada, Mandukya-karika, kapittel 3, med Shankaras kommentar"
+   }
+  ],
+  "links": [
+   {
+    "rel": "exampleOf",
+    "to": "advaita"
+   },
+   {
+    "rel": "challengesWord",
+    "to": "word-where"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "where-does-the-fist-go"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "ocean-as-ground",
+    "note": "rommet har ikke noe eget perspektiv"
+   }
+  ],
+  "added": "2026-11-23",
+  "conversation": "map"
+ },
+ {
   "id": "poverty-or-freedom",
   "type": "position",
   "region": "dog",
@@ -10786,6 +10908,27 @@
   ],
   "added": "2026-10-28",
   "conversation": "deepdive"
+ },
+ {
+  "id": "ramanuja",
+  "type": "thinker",
+  "region": "east",
+  "label": "Ramanuja",
+  "text": "Indisk filosof og teolog, etter tradisjonen 1017–1137. Grunnla Vishishtadvaita, der sjelene er mange og virkelige, men hører til Brahman. Var den skarpeste kritikeren av Advaita.",
+  "sources": [
+   {
+    "title": "Internet Encyclopedia of Philosophy: Rāmānuja",
+    "url": "https://iep.utm.edu/ramanuja/"
+   }
+  ],
+  "links": [
+   {
+    "rel": "behind",
+    "to": "vedanta-divides"
+   }
+  ],
+  "added": "2026-11-23",
+  "conversation": "map"
  },
  {
   "id": "reader-is-reading",
@@ -11222,6 +11365,54 @@
   "conversation": "alfred"
  },
  {
+  "id": "rivers-into-the-sea",
+  "type": "image",
+  "region": "east",
+  "label": "Elvene som blir havet",
+  "strength": "image",
+  "hope": [
+   3,
+   4
+  ],
+  "text": "To av de eldste upanishadene har elvebildet ditt. I Chandogya-upanishaden renner elvene mot øst og mot vest, når havet og blir havet, og der vet de ikke lenger at de var den ene eller den andre elva. I Mundaka-upanishaden renner de ut i havet og legger fra seg navn og form. Bildet er altså over 2500 år gammelt. Det betyr ikke at du har det derfra: elver og hav ligger nær for alle. Bildet kan leses på to måter. Vannet blir med, og da ligner det nivå 4. Men det som går tapt, er nettopp at elva vet hvilken elv den var, og Shankara leser navn og form som noe uvitenheten har laget. Da er det nivå 3. Madhva, som mener sjelene er evig atskilt, leste den samme elva uten at elvene slutter å være hver sin.",
+  "sources": [
+   {
+    "title": "Chandogya-upanishaden 6.10"
+   },
+   {
+    "title": "Mundaka-upanishaden 3.2.8"
+   },
+   {
+    "title": "Shankaras kommentarer til Chandogya- og Mundaka-upanishaden"
+   },
+   {
+    "title": "Madhvas kommentar til Chandogya-upanishaden"
+   }
+  ],
+  "links": [
+   {
+    "rel": "exampleOf",
+    "to": "advaita"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "whole-him-or-the-river",
+    "note": "det samme bildet"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "the-river"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "true-track-or-blindspot",
+    "note": "et eget spor eller et arvet bilde"
+   }
+  ],
+  "added": "2026-11-23",
+  "conversation": "map"
+ },
+ {
   "id": "rovelli",
   "type": "thinker",
   "region": "time",
@@ -11399,6 +11590,43 @@
   ],
   "added": "2026-10-28",
   "conversation": "deepdive"
+ },
+ {
+  "id": "same-self-in-the-dog",
+  "type": "position",
+  "region": "east",
+  "label": "Det samme selvet i hunden",
+  "short": "Selvet i hunden",
+  "strength": "position",
+  "text": "Bhagavadgita sier at den vise ser det samme i en lærd brahmin, en ku, en elefant, en hund og en som spiser hund. For Advaita er det bokstavelig: det samme selvet så ut gjennom Alfred som gjennom deg, og forskjellen lå i krukka, ikke i rommet. Men den samme tradisjonen rangerer. I Chandogya-upanishaden blir den som har levd godt, født på nytt i en høy kaste, og den som har levd dårlig, som hund, gris eller kasteløs. Hunden har altså det samme selvet, men et hundeliv regnes som et skritt ned. Begge deler står i de gamle tekstene, ved siden av Yudhishthira, som ikke vil inn i himmelen uten hunden sin.",
+  "sources": [
+   {
+    "title": "Bhagavadgita 5.18"
+   },
+   {
+    "title": "Chandogya-upanishaden 5.10.7"
+   }
+  ],
+  "links": [
+   {
+    "rel": "exampleOf",
+    "to": "traditions-on-animals"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "advaita"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "yudhishthira"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "jainism"
+   }
+  ],
+  "added": "2026-11-23",
+  "conversation": "map"
  },
  {
   "id": "same-signal-two-receivers",
@@ -11582,7 +11810,7 @@
    {
     "rel": "influenced",
     "to": "kastrup",
-    "note": "Kastrup skrev doktorgrad om ham"
+    "note": "Kastrup skrev en bok om ham (2020)"
    },
    {
     "rel": "leadsTo",
@@ -11590,7 +11818,16 @@
    }
   ],
   "added": "2026-10-28",
-  "conversation": "deepdive"
+  "conversation": "deepdive",
+  "changes": [
+   {
+    "date": "2026-11-23",
+    "text": "Rettet merknaden på lenken til Kastrup: doktorgraden hans fra 2019 handlet om analytisk idealisme, ikke om Schopenhauer. Boken om Schopenhauer kom i 2020.",
+    "fields": [
+     "links"
+    ]
+   }
+  ]
  },
  {
   "id": "schopenhauer-hub",
@@ -11847,6 +12084,21 @@
    }
   ],
   "added": "2026-11-02",
+  "conversation": "map"
+ },
+ {
+  "id": "shankara",
+  "type": "thinker",
+  "region": "east",
+  "label": "Shankara",
+  "text": "Indisk filosof, levde trolig på 700-tallet. Den mest kjente læreren i Advaita Vedanta. Skrev kommentarer til Upanishadene, Bhagavadgita og Brahmasutra.",
+  "links": [
+   {
+    "rel": "behind",
+    "to": "advaita"
+   }
+  ],
+  "added": "2026-11-23",
   "conversation": "map"
  },
  {
@@ -13333,16 +13585,16 @@
   "id": "the-east-divides",
   "type": "insight",
   "region": "east",
-  "label": "Østen svarer begge veier",
+  "label": "Østen svarer på tre måter",
   "short": "Østen deler seg",
   "strength": "position",
   "own": true,
-  "text": "På akkurat dette spørsmålet går de to store indiske tradisjonene hver sin vei. Upanishadene og Advaita lærer at selvet i hver enkelt og det som ligger under alt, er det samme. Da fantes det aldri en lytter som bare var hans, bare én som så ut gjennom ham. Buddhismen sier at det ikke finnes noe selv, men at bevissthetsstrømmen likevel er individuell og fortsetter som én strøm, en lampe tent av en annen. Det er altså ikke ett østlig svar, men to motsatte.",
+  "text": "På akkurat dette spørsmålet gir de indiske tradisjonene tre svar. Advaita leser Upanishadene slik at selvet i hver enkelt og det som ligger under alt, er det samme. Da fantes det aldri en lytter som bare var hans, bare én som så ut gjennom ham. Ramanuja og Madhva leser de samme tekstene slik at sjelene er mange og virkelige, og jainismen lærer det samme uten Brahman. Da hadde Alfred sin egen sjel, og den fortsetter. Buddhismen sier at det ikke finnes noe selv, men at bevissthetsstrømmen likevel er individuell og fortsetter som én strøm, en lampe tent av en annen. Det er altså ikke ett østlig svar. To av de tre gir ham en egen lytter, det ene med et selv og det andre uten.",
   "links": [
    {
     "rel": "answers",
     "to": "his-own-listener",
-    "note": "to motsatte svar"
+    "note": "tre svar"
    },
    {
     "rel": "relatedTo",
@@ -13355,10 +13607,29 @@
    {
     "rel": "relatedTo",
     "to": "lamp-lit-by-lamp"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "advaita"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "jainism"
    }
   ],
   "added": "2026-10-29",
-  "conversation": "deepdive"
+  "conversation": "deepdive",
+  "changes": [
+   {
+    "date": "2026-11-23",
+    "text": "Fra to svar til tre: Ramanuja og Madhva leser Upanishadene slik at sjelene er mange og virkelige, og jainismen lærer det samme. Lenker til Advaita og jainismen lagt til.",
+    "fields": [
+     "label",
+     "text",
+     "links"
+    ]
+   }
+  ]
  },
  {
   "id": "the-interpreter",
@@ -14893,7 +15164,7 @@
   "type": "thinker",
   "region": "east",
   "label": "Upanishadene",
-  "text": "Indiske tekster fra omkring 800–300 f.Kr. Lærer at selvet i hver enkelt og det som ligger under alt, er det samme.",
+  "text": "Indiske tekster fra omkring 800–300 f.Kr. Advaita leser dem slik at selvet i hver enkelt og det som ligger under alt, er det samme. Ramanuja og Madhva leser de samme tekstene annerledes.",
   "links": [
    {
     "rel": "influenced",
@@ -14911,10 +15182,24 @@
    {
     "rel": "behind",
     "to": "awareness-as-ground"
+   },
+   {
+    "rel": "behind",
+    "to": "advaita"
    }
   ],
   "added": "2026-10-28",
-  "conversation": "deepdive"
+  "conversation": "deepdive",
+  "changes": [
+   {
+    "date": "2026-11-23",
+    "text": "Teksten nyansert: at selvet og det som ligger under alt er det samme, er Advaitas lesning av tekstene, ikke den eneste. Lenke til Advaita lagt til.",
+    "fields": [
+     "text",
+     "links"
+    ]
+   }
+  ]
  },
  {
   "id": "van-inwagen",
@@ -14958,6 +15243,61 @@
   ],
   "added": "2026-10-28",
   "conversation": "deepdive"
+ },
+ {
+  "id": "vedanta-divides",
+  "type": "insight",
+  "region": "east",
+  "label": "Også Brahman-tanken deler seg",
+  "short": "Vedanta deler seg",
+  "strength": "supported",
+  "hope": [
+   3,
+   5
+  ],
+  "own": true,
+  "text": "Kartet har lest Upanishadene slik Advaita leser dem. Men de samme tekstene er grunnlaget for flere skoler i Vedanta, og de svarer ulikt på om det fantes en lytter som var hans. Shankara, på 700-tallet: nei, selvet i hver enkelt er Brahman, og det individuelle er tilsynekomst. Ramanuja, på 1000- og 1100-tallet: ja, sjelene er virkelige og mange. De hører til Brahman slik kroppen hører til den som bor i den, og jeget blir ikke borte i frigjøringen. Madhva, på 1200-tallet: ja, sjelene er evig atskilt fra Brahman og fra hverandre. Etter de to siste er det nivå 5. Ramanujas viktigste innvending mot Advaita ligner kartets innvending mot ett subjekt: hvis bare det ene er virkelig og det mange kommer av uvitenhet, hvem er det som er uvitende? Ikke Brahman, og den enkelte er selv laget av uvitenheten. Østen deler seg altså også innenfor Brahman-tanken, ikke bare mellom den og buddhismen.",
+  "sources": [
+   {
+    "title": "Internet Encyclopedia of Philosophy: Rāmānuja",
+    "url": "https://iep.utm.edu/ramanuja/"
+   },
+   {
+    "title": "Internet Encyclopedia of Philosophy: Madhva",
+    "url": "https://iep.utm.edu/madhva/"
+   },
+   {
+    "title": "Ramanuja, Sribhashya, om de sju innvendingene mot Advaita"
+   }
+  ],
+  "links": [
+   {
+    "rel": "qualifies",
+    "to": "the-east-divides",
+    "note": "også innenfor Brahman-tanken"
+   },
+   {
+    "rel": "answers",
+    "to": "his-own-listener",
+    "note": "tre svar fra de samme tekstene"
+   },
+   {
+    "rel": "qualifies",
+    "to": "advaita",
+    "note": "én lesning av flere"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "t-one-subject",
+    "note": "samme innvending"
+   },
+   {
+    "rel": "relatedTo",
+    "to": "where-the-individual-sits"
+   }
+  ],
+  "added": "2026-11-23",
+  "conversation": "map"
  },
  {
   "id": "vertiginous-question",

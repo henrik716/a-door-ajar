@@ -71,6 +71,25 @@ n:adrienne-martin a v:Thinker ;
   dct:source "How We Hope (2014)"@nb ;
   v:behind n:what-hope-requires .
 
+n:advaita a v:Position ;
+  rdfs:label "Atman er Brahman"@nb ;
+  v:shortLabel "Advaita"@nb ;
+  rdfs:comment "Den mest kjente indiske læren om det ene. Brahman er det eneste som er virkelig: ren bevissthet, uten egenskaper og uten grenser. Atman, selvet i hver enkelt, er ikke en del av Brahman, men Brahman selv. Det som skiller deg fra Alfred, navn og form, kropp og historie, er tilsynekomst. Læren svarer på to plan. I den hverdagslige sannheten går den enkelte videre etter døden, i et fint legeme som bærer med seg avtrykk og tendenser, men ikke minnene. Brihadaranyaka-upanishaden sammenligner det med en larve som når enden av ett gresstrå og trekker seg over på det neste. Det gjelder dyr også. I den ytterste sannheten har ingen gått noe sted. Den som så ut gjennom Alfreds øyne, er den samme som ser ut gjennom dine, og frigjøringen er at elva renner ut i havet og mister navnet sitt. Advaita er altså nivå 5 underveis og nivå 3 til slutt. Kastrups analytiske idealisme er nesten det samme kartet i moderne språk. Læren hviler på to antakelser kartet allerede har skrevet ut: at opplevelsen ikke bare lages av hjernen, og at det finnes ett grunnleggende subjekt. Den har også det samme åpne problemet: hvordan det ene blir til mange. At læren er gammel, gjør den verken sannere eller mindre sann."@nb ;
+  v:region v:east ;
+  v:strength v:contested ;
+  v:hopeLevel 3, 5 ;
+  v:conversation v:map ;
+  dct:created "2026-11-23"^^xsd:date ;
+  dct:source "Brihadaranyaka-upanishaden 4.4.3"@nb ;
+  dct:source "Chandogya-upanishaden 6.10"@nb ;
+  dct:source "Gaudapada, Mandukya-karika, kapittel 3, med Shankaras kommentar"@nb ;
+  v:presupposes n:t-inside-extra, n:t-one-subject ;
+  v:answers n:his-own-listener ;
+  v:relatedTo n:analytic-idealism, n:open-individualism, n:awareness-as-ground, n:rebirth-without-self .
+
+# note: n:advaita v:answers n:his-own-listener — nei: det fantes bare én som lyttet
+# note: n:advaita v:relatedTo n:analytic-idealism — nesten det samme i moderne språk
+# note: n:advaita v:relatedTo n:rebirth-without-self — gjenfødsel, men med et selv
 n:against-the-current a v:Insight ;
   rdfs:label "Enighet mot strømmen teller mer"@nb ;
   v:shortLabel "Mot strømmen"@nb ;
@@ -3166,6 +3185,16 @@ n:luminous-mind a v:Image ;
   dct:source "Anguttara Nikaya 1.49–52"@nb ;
   v:exampleOf n:awareness-as-ground .
 
+n:madhva a v:Thinker ;
+  rdfs:label "Madhva"@nb ;
+  rdfs:comment "Indisk filosof (1238–1317). Grunnla Dvaita, der Gud, sjelene og verden er evig atskilt."@nb ;
+  v:region v:east ;
+  v:conversation v:map ;
+  dct:created "2026-11-23"^^xsd:date ;
+  dct:source <https://iep.utm.edu/madhva/> ;
+  v:behind n:vedanta-divides, n:rivers-into-the-sea .
+
+# note: n:madhva v:behind n:rivers-into-the-sea — en annen lesning av elvene
 n:man-and-person a v:Position ;
   rdfs:label "Samme menneske, men ikke samme person"@nb ;
   v:shortLabel "Mann og person"@nb ;
@@ -3986,6 +4015,20 @@ n:points-to-the-ocean a v:Insight ;
   v:presupposes n:t-inside-extra ;
   v:relatedTo n:three-receptions, n:his-only-in-history, n:what-level-5-requires, n:one-ocean-or-dust .
 
+n:pot-space a v:Image ;
+  rdfs:label "Rommet i krukka"@nb ;
+  rdfs:comment "Gaudapada, etter tradisjonen læreren til Shankaras lærer, brukte en krukke for å vise forholdet mellom selvet og det ene. Rommet inne i krukka ser ut som sitt eget, med krukkas form. Men det er det samme rommet som er overalt. Når krukka knuses, går rommet ingen steder. Det var aldri noe annet sted enn der det er. Spurt med dette bildet blir «hvor er Alfred nå?» som å spørre hvor rommet i krukka gikk. Men bildet sier også hva som ikke blir med: formen var krukkas, og krukka er borte."@nb ;
+  v:region v:east ;
+  v:strength v:image ;
+  v:hopeLevel 3 ;
+  v:conversation v:map ;
+  dct:created "2026-11-23"^^xsd:date ;
+  dct:source "Gaudapada, Mandukya-karika, kapittel 3, med Shankaras kommentar"@nb ;
+  v:exampleOf n:advaita ;
+  v:challengesWord n:word-where ;
+  v:relatedTo n:where-does-the-fist-go, n:ocean-as-ground .
+
+# note: n:pot-space v:relatedTo n:ocean-as-ground — rommet har ikke noe eget perspektiv
 n:poverty-or-freedom a v:Position ;
   rdfs:label "Dyr dør ikke, de opphører"@nb ;
   v:shortLabel "Fattigdom eller frihet"@nb ;
@@ -4138,6 +4181,15 @@ n:rainbow-bridge a v:Image ;
   dct:created "2026-10-28"^^xsd:date ;
   v:exampleOf n:simulation-limit ;
   v:relatedTo n:alfred-at-the-door, n:bering-mouse, n:love-goes-last .
+
+n:ramanuja a v:Thinker ;
+  rdfs:label "Ramanuja"@nb ;
+  rdfs:comment "Indisk filosof og teolog, etter tradisjonen 1017–1137. Grunnla Vishishtadvaita, der sjelene er mange og virkelige, men hører til Brahman. Var den skarpeste kritikeren av Advaita."@nb ;
+  v:region v:east ;
+  v:conversation v:map ;
+  dct:created "2026-11-23"^^xsd:date ;
+  dct:source <https://iep.utm.edu/ramanuja/> ;
+  v:behind n:vedanta-divides .
 
 n:reader-is-reading a v:Insight ;
   rdfs:label "Kanskje er leseren lesingen"@nb ;
@@ -4309,6 +4361,23 @@ n:river-eddies a v:Image ;
   dct:created "2026-10-28"^^xsd:date ;
   v:exampleOf n:panpsychism, n:open-individualism .
 
+n:rivers-into-the-sea a v:Image ;
+  rdfs:label "Elvene som blir havet"@nb ;
+  rdfs:comment "To av de eldste upanishadene har elvebildet ditt. I Chandogya-upanishaden renner elvene mot øst og mot vest, når havet og blir havet, og der vet de ikke lenger at de var den ene eller den andre elva. I Mundaka-upanishaden renner de ut i havet og legger fra seg navn og form. Bildet er altså over 2500 år gammelt. Det betyr ikke at du har det derfra: elver og hav ligger nær for alle. Bildet kan leses på to måter. Vannet blir med, og da ligner det nivå 4. Men det som går tapt, er nettopp at elva vet hvilken elv den var, og Shankara leser navn og form som noe uvitenheten har laget. Da er det nivå 3. Madhva, som mener sjelene er evig atskilt, leste den samme elva uten at elvene slutter å være hver sin."@nb ;
+  v:region v:east ;
+  v:strength v:image ;
+  v:hopeLevel 3, 4 ;
+  v:conversation v:map ;
+  dct:created "2026-11-23"^^xsd:date ;
+  dct:source "Chandogya-upanishaden 6.10"@nb ;
+  dct:source "Mundaka-upanishaden 3.2.8"@nb ;
+  dct:source "Shankaras kommentarer til Chandogya- og Mundaka-upanishaden"@nb ;
+  dct:source "Madhvas kommentar til Chandogya-upanishaden"@nb ;
+  v:exampleOf n:advaita ;
+  v:relatedTo n:whole-him-or-the-river, n:the-river, n:true-track-or-blindspot .
+
+# note: n:rivers-into-the-sea v:relatedTo n:whole-him-or-the-river — det samme bildet
+# note: n:rivers-into-the-sea v:relatedTo n:true-track-or-blindspot — et eget spor eller et arvet bilde
 n:rovelli a v:Thinker ;
   rdfs:label "Carlo Rovelli"@nb ;
   rdfs:comment "Italiensk fysiker."@nb ;
@@ -4385,6 +4454,19 @@ n:same-mind-two-rooms a v:Insight ;
   v:relatedTo n:coexistence ;
   v:leadsTo n:the-switch .
 
+n:same-self-in-the-dog a v:Position ;
+  rdfs:label "Det samme selvet i hunden"@nb ;
+  v:shortLabel "Selvet i hunden"@nb ;
+  rdfs:comment "Bhagavadgita sier at den vise ser det samme i en lærd brahmin, en ku, en elefant, en hund og en som spiser hund. For Advaita er det bokstavelig: det samme selvet så ut gjennom Alfred som gjennom deg, og forskjellen lå i krukka, ikke i rommet. Men den samme tradisjonen rangerer. I Chandogya-upanishaden blir den som har levd godt, født på nytt i en høy kaste, og den som har levd dårlig, som hund, gris eller kasteløs. Hunden har altså det samme selvet, men et hundeliv regnes som et skritt ned. Begge deler står i de gamle tekstene, ved siden av Yudhishthira, som ikke vil inn i himmelen uten hunden sin."@nb ;
+  v:region v:east ;
+  v:strength v:position ;
+  v:conversation v:map ;
+  dct:created "2026-11-23"^^xsd:date ;
+  dct:source "Bhagavadgita 5.18"@nb ;
+  dct:source "Chandogya-upanishaden 5.10.7"@nb ;
+  v:exampleOf n:traditions-on-animals ;
+  v:relatedTo n:advaita, n:yudhishthira, n:jainism .
+
 n:same-signal-two-receivers a v:Finding ;
   rdfs:label "Samme signal, to mottakere"@nb ;
   v:shortLabel "Samme signal, to mottakere"@nb ;
@@ -4450,10 +4532,12 @@ n:schopenhauer a v:Thinker ;
   v:region v:east ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
+  dct:modified "2026-11-23"^^xsd:date ;
+  v:change [ dct:date "2026-11-23"^^xsd:date ; rdfs:comment "Rettet merknaden på lenken til Kastrup: doktorgraden hans fra 2019 handlet om analytisk idealisme, ikke om Schopenhauer. Boken om Schopenhauer kom i 2020."@nb ; v:changedField "links" ] ;
   v:influenced n:wittgenstein, n:schrodinger, n:kastrup ;
   v:leadsTo n:schopenhauer-hub .
 
-# note: n:schopenhauer v:influenced n:kastrup — Kastrup skrev doktorgrad om ham
+# note: n:schopenhauer v:influenced n:kastrup — Kastrup skrev en bok om ham (2020)
 n:schopenhauer-hub a v:Insight ;
   rdfs:label "Mye av likheten går gjennom ett knutepunkt"@nb ;
   v:shortLabel "Schopenhauer som knutepunkt"@nb ;
@@ -4551,6 +4635,14 @@ n:seth a v:Thinker ;
   v:conversation v:map ;
   dct:created "2026-11-02"^^xsd:date ;
   v:behind n:beast-machine .
+
+n:shankara a v:Thinker ;
+  rdfs:label "Shankara"@nb ;
+  rdfs:comment "Indisk filosof, levde trolig på 700-tallet. Den mest kjente læreren i Advaita Vedanta. Skrev kommentarer til Upanishadene, Bhagavadgita og Brahmasutra."@nb ;
+  v:region v:east ;
+  v:conversation v:map ;
+  dct:created "2026-11-23"^^xsd:date ;
+  v:behind n:advaita .
 
 n:shared-border a v:Image ;
   rdfs:label "Felles grense mellom to flater"@nb ;
@@ -5139,18 +5231,20 @@ n:the-container a v:Image ;
 
 # note: n:the-container v:qualifies n:lit-by-him — for ting uten innside godtar vi det som er laget etter en beskrivelse
 n:the-east-divides a v:Insight ;
-  rdfs:label "Østen svarer begge veier"@nb ;
+  rdfs:label "Østen svarer på tre måter"@nb ;
   v:shortLabel "Østen deler seg"@nb ;
-  rdfs:comment "På akkurat dette spørsmålet går de to store indiske tradisjonene hver sin vei. Upanishadene og Advaita lærer at selvet i hver enkelt og det som ligger under alt, er det samme. Da fantes det aldri en lytter som bare var hans, bare én som så ut gjennom ham. Buddhismen sier at det ikke finnes noe selv, men at bevissthetsstrømmen likevel er individuell og fortsetter som én strøm, en lampe tent av en annen. Det er altså ikke ett østlig svar, men to motsatte."@nb ;
+  rdfs:comment "På akkurat dette spørsmålet gir de indiske tradisjonene tre svar. Advaita leser Upanishadene slik at selvet i hver enkelt og det som ligger under alt, er det samme. Da fantes det aldri en lytter som bare var hans, bare én som så ut gjennom ham. Ramanuja og Madhva leser de samme tekstene slik at sjelene er mange og virkelige, og jainismen lærer det samme uten Brahman. Da hadde Alfred sin egen sjel, og den fortsetter. Buddhismen sier at det ikke finnes noe selv, men at bevissthetsstrømmen likevel er individuell og fortsetter som én strøm, en lampe tent av en annen. Det er altså ikke ett østlig svar. To av de tre gir ham en egen lytter, det ene med et selv og det andre uten."@nb ;
   v:region v:east ;
   v:strength v:position ;
   v:ownConclusion true ;
   v:conversation v:deepdive ;
   dct:created "2026-10-29"^^xsd:date ;
+  dct:modified "2026-11-23"^^xsd:date ;
+  v:change [ dct:date "2026-11-23"^^xsd:date ; rdfs:comment "Fra to svar til tre: Ramanuja og Madhva leser Upanishadene slik at sjelene er mange og virkelige, og jainismen lærer det samme. Lenker til Advaita og jainismen lagt til."@nb ; v:changedField "label", "text", "links" ] ;
   v:answers n:his-own-listener ;
-  v:relatedTo n:santana, n:upanishads, n:lamp-lit-by-lamp .
+  v:relatedTo n:santana, n:upanishads, n:lamp-lit-by-lamp, n:advaita, n:jainism .
 
-# note: n:the-east-divides v:answers n:his-own-listener — to motsatte svar
+# note: n:the-east-divides v:answers n:his-own-listener — tre svar
 n:the-interpreter a v:Finding ;
   rdfs:label "Tolkeren som forklarer etterpå"@nb ;
   v:shortLabel "Tolkeren"@nb ;
@@ -5714,12 +5808,14 @@ n:unpaintable a v:Insight ;
 
 n:upanishads a v:Thinker ;
   rdfs:label "Upanishadene"@nb ;
-  rdfs:comment "Indiske tekster fra omkring 800–300 f.Kr. Lærer at selvet i hver enkelt og det som ligger under alt, er det samme."@nb ;
+  rdfs:comment "Indiske tekster fra omkring 800–300 f.Kr. Advaita leser dem slik at selvet i hver enkelt og det som ligger under alt, er det samme. Ramanuja og Madhva leser de samme tekstene annerledes."@nb ;
   v:region v:east ;
   v:conversation v:deepdive ;
   dct:created "2026-10-28"^^xsd:date ;
+  dct:modified "2026-11-23"^^xsd:date ;
+  v:change [ dct:date "2026-11-23"^^xsd:date ; rdfs:comment "Teksten nyansert: at selvet og det som ligger under alt er det samme, er Advaitas lesning av tekstene, ikke den eneste. Lenke til Advaita lagt til."@nb ; v:changedField "text", "links" ] ;
   v:influenced n:schopenhauer, n:schrodinger ;
-  v:behind n:open-individualism, n:awareness-as-ground .
+  v:behind n:open-individualism, n:awareness-as-ground, n:advaita .
 
 # note: n:upanishads v:behind n:open-individualism — den eldste versjonen
 n:van-inwagen a v:Thinker ;
@@ -5740,6 +5836,27 @@ n:varela a v:Thinker ;
   dct:created "2026-10-28"^^xsd:date ;
   v:behind n:neurophenomenology .
 
+n:vedanta-divides a v:Insight ;
+  rdfs:label "Også Brahman-tanken deler seg"@nb ;
+  v:shortLabel "Vedanta deler seg"@nb ;
+  rdfs:comment "Kartet har lest Upanishadene slik Advaita leser dem. Men de samme tekstene er grunnlaget for flere skoler i Vedanta, og de svarer ulikt på om det fantes en lytter som var hans. Shankara, på 700-tallet: nei, selvet i hver enkelt er Brahman, og det individuelle er tilsynekomst. Ramanuja, på 1000- og 1100-tallet: ja, sjelene er virkelige og mange. De hører til Brahman slik kroppen hører til den som bor i den, og jeget blir ikke borte i frigjøringen. Madhva, på 1200-tallet: ja, sjelene er evig atskilt fra Brahman og fra hverandre. Etter de to siste er det nivå 5. Ramanujas viktigste innvending mot Advaita ligner kartets innvending mot ett subjekt: hvis bare det ene er virkelig og det mange kommer av uvitenhet, hvem er det som er uvitende? Ikke Brahman, og den enkelte er selv laget av uvitenheten. Østen deler seg altså også innenfor Brahman-tanken, ikke bare mellom den og buddhismen."@nb ;
+  v:region v:east ;
+  v:strength v:supported ;
+  v:ownConclusion true ;
+  v:hopeLevel 3, 5 ;
+  v:conversation v:map ;
+  dct:created "2026-11-23"^^xsd:date ;
+  dct:source <https://iep.utm.edu/ramanuja/> ;
+  dct:source <https://iep.utm.edu/madhva/> ;
+  dct:source "Ramanuja, Sribhashya, om de sju innvendingene mot Advaita"@nb ;
+  v:qualifies n:the-east-divides, n:advaita ;
+  v:answers n:his-own-listener ;
+  v:relatedTo n:t-one-subject, n:where-the-individual-sits .
+
+# note: n:vedanta-divides v:qualifies n:the-east-divides — også innenfor Brahman-tanken
+# note: n:vedanta-divides v:answers n:his-own-listener — tre svar fra de samme tekstene
+# note: n:vedanta-divides v:qualifies n:advaita — én lesning av flere
+# note: n:vedanta-divides v:relatedTo n:t-one-subject — samme innvending
 n:vertiginous-question a v:Question ;
   rdfs:label "Det svimlende spørsmålet"@nb ;
   rdfs:comment "Det finnes milliarder av perspektiver, og alle beskrivelser av verden er like gyldige for dem alle. Likevel er ett av dem tent for deg. Hvorfor er jeg denne, her, nå? Den som finner svaret, har trolig løst det harde problemet samtidig."@nb ;
@@ -6214,6 +6331,28 @@ n:zuboff-probability a v:Position ;
 
 # note: n:zuboff-probability v:relatedTo n:type-token — argumentet hviler på hva man teller
 # Derived by the rules (see SPARQL)
+n:illusionism v:challengesDerived n:advaita .
+n:advaita v:sharesPremiseWith n:analytic-idealism .
+n:advaita v:sharesPremiseWith n:awareness-as-ground .
+n:advaita v:sharesPremiseWith n:cosmopsychism .
+n:advaita v:sharesPremiseWith n:filter-theory .
+n:advaita v:sharesPremiseWith n:hard-problem .
+n:advaita v:sharesPremiseWith n:listener-without-archive .
+n:advaita v:sharesPremiseWith n:panpsychism .
+n:advaita v:sharesPremiseWith n:points-to-the-ocean .
+n:advaita v:sharesPremiseWith n:process-philosophy .
+n:advaita v:sharesPremiseWith n:rebirth-without-self .
+n:advaita v:sharesPremiseWith n:russellian-monism .
+n:advaita v:sharesPremiseWith n:same-signal-two-receivers .
+n:advaita v:sharesPremiseWith n:spinoza-modes .
+n:advaita v:sharesPremiseWith n:three-extremes .
+n:advaita v:sharesPremiseWith n:what-level-5-requires .
+n:intuitive-dualism v:qualifiesDerived n:advaita .
+n:materialism v:challengesDerived n:advaita .
+n:advaita v:sharesPremiseWith n:objective-immortality .
+n:advaita v:sharesPremiseWith n:open-individualism .
+n:advaita v:sharesPremiseWith n:two-thin-walls .
+n:type-token v:qualifiesDerived n:advaita .
 n:materialism v:challengesDerived n:analytic-idealism .
 n:analytic-idealism v:sharesPremiseWith n:cosmopsychism .
 n:analytic-idealism v:sharesPremiseWith n:objective-immortality .
@@ -6524,6 +6663,7 @@ n:self-as-agent v:qualifiesDerived n:you-loved-the-connections .
 n:comfort-and-grief-diverge v:challengesDerived n:you-loved-the-connections .
 n:carrier-view v:qualifiesDerived n:you-loved-the-connections .
 n:dog-episodic-memory v:qualifiesDerived n:your-half-goes-on .
+n:philpapers-2020 v:strengthensDerived n:advaita .
 n:philpapers-2020 v:strengthensDerived n:analytic-idealism .
 n:comfort-and-grief-diverge v:strengthensDerived n:animalism-polarizes .
 n:exp-copy v:strengthensDerived n:animalism-polarizes .
@@ -6595,6 +6735,7 @@ n:category-mistake v:mayDissolveDerived n:alfred-now .
 n:dying-fire v:mayDissolveDerived n:alfred-now .
 n:inside-complicates-types v:mayDissolveDerived n:alfred-now .
 n:kant-forms-of-mind v:mayDissolveDerived n:alfred-now .
+n:pot-space v:mayDissolveDerived n:alfred-now .
 n:pure-awareness v:mayDissolveDerived n:alfred-now .
 n:a-b-series v:mayDissolveDerived n:alfred-now .
 n:block-universe v:mayDissolveDerived n:alfred-now .
@@ -6627,6 +6768,7 @@ n:category-mistake v:mayDissolveDerived n:other-side-of-the-wall .
 n:dying-fire v:mayDissolveDerived n:other-side-of-the-wall .
 n:inside-complicates-types v:mayDissolveDerived n:other-side-of-the-wall .
 n:kant-forms-of-mind v:mayDissolveDerived n:other-side-of-the-wall .
+n:pot-space v:mayDissolveDerived n:other-side-of-the-wall .
 n:pure-awareness v:mayDissolveDerived n:other-side-of-the-wall .
 n:ability-not-archive v:mayDissolveDerived n:place .
 n:buddhism-three-words v:mayDissolveDerived n:place .
@@ -6634,6 +6776,7 @@ n:category-mistake v:mayDissolveDerived n:place .
 n:dying-fire v:mayDissolveDerived n:place .
 n:inside-complicates-types v:mayDissolveDerived n:place .
 n:kant-forms-of-mind v:mayDissolveDerived n:place .
+n:pot-space v:mayDissolveDerived n:place .
 n:pure-awareness v:mayDissolveDerived n:place .
 n:anatta v:mayDissolveDerived n:vertiginous-question .
 n:anuradha v:mayDissolveDerived n:vertiginous-question .
@@ -6647,6 +6790,7 @@ n:category-mistake v:mayDissolveDerived n:vertiginous-question .
 n:dying-fire v:mayDissolveDerived n:vertiginous-question .
 n:inside-complicates-types v:mayDissolveDerived n:vertiginous-question .
 n:kant-forms-of-mind v:mayDissolveDerived n:vertiginous-question .
+n:pot-space v:mayDissolveDerived n:vertiginous-question .
 n:a-b-series v:mayDissolveDerived n:vertiginous-question .
 n:block-universe v:mayDissolveDerived n:vertiginous-question .
 n:comfort-in-tense v:mayDissolveDerived n:vertiginous-question .
